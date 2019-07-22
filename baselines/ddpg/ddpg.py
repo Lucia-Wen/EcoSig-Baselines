@@ -50,7 +50,7 @@ def learn(network, env,
         assert nb_epochs is None
         nb_epochs = int(total_timesteps) // (nb_epoch_cycles * nb_rollout_steps)
     else:
-        nb_epochs = 500
+        nb_epochs = 800
 
     if MPI is not None:
         rank = MPI.COMM_WORLD.Get_rank()
@@ -142,6 +142,9 @@ def learn(network, env,
                 # max_action is of dimension A, whereas action is dimension (nenvs, A) - the multiplication gets broadcasted to the batch
                 new_obs, r, done, info = env.step(max_action * action)  # scale for execution in env (as far as DDPG is concerned, every action is in [-1, 1])
                 # note these outputs are batched from vecenv
+                # if info[0]['action_real']!=max_action*action:
+                #     print("action clip")
+
 
                 t += 1
                 if rank == 0 and render:
@@ -150,9 +153,9 @@ def learn(network, env,
                 episode_step += 1
 
                 # Book-keeping.
-                epoch_actions.append(action)
+                epoch_actions.append(info[0]['action_real'])
                 epoch_qs.append(q)
-                agent.store_transition(obs, action, r, new_obs, done) #the batched data will be unrolled in memory.py's append.
+                agent.store_transition(obs, info[0]['action_real'], r, new_obs, done) #the batched data will be unrolled in memory.py's append.
 
                 obs = new_obs
 
@@ -168,8 +171,6 @@ def learn(network, env,
                         episodes += 1
                         if nenvs == 1:
                             agent.reset()
-
-
 
             # Train.
             epoch_actor_losses = []
@@ -194,7 +195,7 @@ def learn(network, env,
                 eval_episode_reward = np.zeros(nenvs_eval, dtype = np.float32)
                 for t_rollout in range(nb_eval_steps):
                     eval_action, eval_q, _, _ = agent.step(eval_obs, apply_noise=False, compute_Q=True)
-                    eval_obs, eval_r, eval_done, eval_info = eval_env.step(max_action * eval_action)  # scale for execution in env (as far as DDPG is concerned, every action is in [-1, 1])
+                    eval_obs, eval_r, eval_done, eval_action_real = eval_env.step(max_action * eval_action)  # scale for execution in env (as far as DDPG is concerned, every action is in [-1, 1])
                     if render_eval:
                         eval_env.render()
                     eval_episode_reward += eval_r
@@ -218,23 +219,23 @@ def learn(network, env,
         combined_stats = stats.copy()
         combined_stats['rollout/return'] = np.mean(epoch_episode_rewards)
         combined_stats['rollout/return_std'] = np.std(epoch_episode_rewards)
-        combined_stats['rollout/return_history'] = np.mean(episode_rewards_history)
-        combined_stats['rollout/return_history_std'] = np.std(episode_rewards_history)
+        # combined_stats['rollout/return_history'] = np.mean(episode_rewards_history)
+        # combined_stats['rollout/return_history_std'] = np.std(episode_rewards_history)
         combined_stats['rollout/episode_steps'] = np.mean(epoch_episode_steps)
-        combined_stats['rollout/actions_mean'] = np.mean(epoch_actions)
-        combined_stats['rollout/Q_mean'] = np.mean(epoch_qs)
+        # combined_stats['rollout/actions_mean'] = np.mean(epoch_actions)
+        # combined_stats['rollout/Q_mean'] = np.mean(epoch_qs)
         combined_stats['train/loss_actor'] = np.mean(epoch_actor_losses)
         combined_stats['train/loss_critic'] = np.mean(epoch_critic_losses)
-        combined_stats['train/param_noise_distance'] = np.mean(epoch_adaptive_distances)
-        combined_stats['total/duration'] = duration
-        combined_stats['total/steps_per_second'] = float(t) / float(duration)
+        # combined_stats['train/param_noise_distance'] = np.mean(epoch_adaptive_distances)
+        # combined_stats['total/duration'] = duration
+        # combined_stats['total/steps_per_second'] = float(t) / float(duration)
         combined_stats['total/episodes'] = episodes
         combined_stats['rollout/episodes'] = epoch_episodes
-        combined_stats['rollout/actions_std'] = np.std(epoch_actions)
+        # combined_stats['rollout/actions_std'] = np.std(epoch_actions)
         # Evaluation statistics.
         if eval_env is not None:
             combined_stats['eval/return'] = eval_episode_rewards
-            combined_stats['eval/return_history'] = np.mean(eval_episode_rewards_history)
+            # combined_stats['eval/return_history'] = np.mean(eval_episode_rewards_history)
             combined_stats['eval/Q'] = eval_qs
             combined_stats['eval/episodes'] = len(eval_episode_rewards)
         def as_scalar(x):
