@@ -1,0 +1,3308 @@
+Logging to ./save/722/trpo/2-1/logs
+load_state method is deprecated, please use load_variables instead
+********** Iteration 0 ************
+Expected: 0.005 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 5        |
+| EpLenMean       | 196      |
+| EpRewMean       | -184     |
+| EpThisIter      | 5        |
+| ev_tdlam_before | 0.643    |
+| meankl          | 0.000966 |
+| optimgain       | 0.00473  |
+| surrgain        | 0.00473  |
+| TimeElapsed     | 12.3     |
+| TimestepsSoFar  | 979      |
+------------------------------
+********** Iteration 1 ************
+Expected: 0.006 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 7        |
+| EpLenMean       | 186      |
+| EpRewMean       | -201     |
+| EpThisIter      | 2        |
+| ev_tdlam_before | 0.439    |
+| meankl          | 0.00103  |
+| optimgain       | 0.000287 |
+| surrgain        | 0.000287 |
+| TimeElapsed     | 12.9     |
+| TimestepsSoFar  | 1.3e+03  |
+------------------------------
+********** Iteration 2 ************
+Expected: 0.001 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 7        |
+| EpLenMean       | 186      |
+| EpRewMean       | -201     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.000283 |
+| meankl          | 0.000967 |
+| optimgain       | 0.0016   |
+| surrgain        | 0.0016   |
+| TimeElapsed     | 13.5     |
+| TimestepsSoFar  | 1.3e+03  |
+------------------------------
+********** Iteration 3 ************
+Expected: 0.004 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 12       |
+| EpLenMean       | 336      |
+| EpRewMean       | -193     |
+| EpThisIter      | 5        |
+| ev_tdlam_before | 0.541    |
+| meankl          | 0.00138  |
+| optimgain       | 0.00349  |
+| surrgain        | 0.00349  |
+| TimeElapsed     | 14.1     |
+| TimestepsSoFar  | 4.04e+03 |
+------------------------------
+********** Iteration 4 ************
+Expected: 0.007 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 18       |
+| EpLenMean       | 280      |
+| EpRewMean       | -225     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.564    |
+| meankl          | 0.000621 |
+| optimgain       | 0.00238  |
+| surrgain        | 0.00238  |
+| TimeElapsed     | 14.7     |
+| TimestepsSoFar  | 5.04e+03 |
+------------------------------
+********** Iteration 5 ************
+Expected: 0.004 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 24       |
+| EpLenMean       | 252      |
+| EpRewMean       | -231     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.457    |
+| meankl          | 0.00104  |
+| optimgain       | 0.00326  |
+| surrgain        | 0.00326  |
+| TimeElapsed     | 15.3     |
+| TimestepsSoFar  | 6.05e+03 |
+------------------------------
+********** Iteration 6 ************
+Expected: 0.003 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 30       |
+| EpLenMean       | 235      |
+| EpRewMean       | -243     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.626    |
+| meankl          | 0.000474 |
+| optimgain       | 0.00146  |
+| surrgain        | 0.00146  |
+| TimeElapsed     | 15.8     |
+| TimestepsSoFar  | 7.04e+03 |
+------------------------------
+********** Iteration 7 ************
+Expected: 0.004 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 36       |
+| EpLenMean       | 224      |
+| EpRewMean       | -236     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.386    |
+| meankl          | 0.0014   |
+| optimgain       | 0.00331  |
+| surrgain        | 0.00331  |
+| TimeElapsed     | 16.4     |
+| TimestepsSoFar  | 8.08e+03 |
+------------------------------
+********** Iteration 8 ************
+Expected: 0.006 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 43       |
+| EpLenMean       | 215      |
+| EpRewMean       | -265     |
+| EpThisIter      | 7        |
+| ev_tdlam_before | 0.511    |
+| meankl          | 0.00123  |
+| optimgain       | 0.00531  |
+| surrgain        | 0.00531  |
+| TimeElapsed     | 17.1     |
+| TimestepsSoFar  | 9.2e+03  |
+------------------------------
+********** Iteration 9 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 48       |
+| EpLenMean       | 171      |
+| EpRewMean       | -259     |
+| EpThisIter      | 5        |
+| ev_tdlam_before | 0.509    |
+| meankl          | 0.00129  |
+| optimgain       | 0.00217  |
+| surrgain        | 0.00217  |
+| TimeElapsed     | 17.7     |
+| TimestepsSoFar  | 1.01e+04 |
+------------------------------
+********** Iteration 10 ************
+Expected: 0.003 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 54       |
+| EpLenMean       | 171      |
+| EpRewMean       | -272     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.643    |
+| meankl          | 0.000511 |
+| optimgain       | 0.00157  |
+| surrgain        | 0.00157  |
+| TimeElapsed     | 18.2     |
+| TimestepsSoFar  | 1.12e+04 |
+------------------------------
+********** Iteration 11 ************
+Expected: 0.005 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 60       |
+| EpLenMean       | 171      |
+| EpRewMean       | -271     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.595    |
+| meankl          | 0.000768 |
+| optimgain       | 0.00188  |
+| surrgain        | 0.00188  |
+| TimeElapsed     | 18.8     |
+| TimestepsSoFar  | 1.22e+04 |
+------------------------------
+********** Iteration 12 ************
+Expected: 0.003 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 65       |
+| EpLenMean       | 173      |
+| EpRewMean       | -271     |
+| EpThisIter      | 5        |
+| ev_tdlam_before | 0.327    |
+| meankl          | 0.00135  |
+| optimgain       | 0.00393  |
+| surrgain        | 0.00393  |
+| TimeElapsed     | 19.4     |
+| TimestepsSoFar  | 1.31e+04 |
+------------------------------
+********** Iteration 13 ************
+Expected: 0.003 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 71       |
+| EpLenMean       | 174      |
+| EpRewMean       | -257     |
+| EpThisIter      | 6        |
+| ev_tdlam_before | 0.62     |
+| meankl          | 0.000401 |
+| optimgain       | 0.00139  |
+| surrgain        | 0.00139  |
+| TimeElapsed     | 20       |
+| TimestepsSoFar  | 1.42e+04 |
+------------------------------
+********** Iteration 14 ************
+Expected: 0.001 Actual: -0.093
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 71       |
+| EpLenMean       | 174      |
+| EpRewMean       | -257     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -0.0215  |
+| meankl          | 2.29e-05 |
+| optimgain       | 0.000123 |
+| surrgain        | 0.000123 |
+| TimeElapsed     | 20.6     |
+| TimestepsSoFar  | 1.42e+04 |
+------------------------------
+********** Iteration 15 ************
+Expected: 0.010 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.010 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 72       |
+| EpLenMean       | 221      |
+| EpRewMean       | -256     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -225     |
+| meankl          | 0.000503 |
+| optimgain       | 0.00337  |
+| surrgain        | 0.00337  |
+| TimeElapsed     | 21.1     |
+| TimestepsSoFar  | 1.62e+04 |
+------------------------------
+********** Iteration 16 ************
+Expected: 0.003 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 72       |
+| EpLenMean       | 221      |
+| EpRewMean       | -256     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.00506  |
+| meankl          | 2.77e-05 |
+| optimgain       | 2.73e-05 |
+| surrgain        | 2.73e-05 |
+| TimeElapsed     | 21.7     |
+| TimestepsSoFar  | 1.62e+04 |
+------------------------------
+********** Iteration 17 ************
+Expected: 0.015 Actual: 0.008
+violated KL constraint. shrinking step.
+Expected: 0.015 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.015 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 73       |
+| EpLenMean       | 265      |
+| EpRewMean       | -261     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -62.6    |
+| meankl          | 0.000265 |
+| optimgain       | 0.00325  |
+| surrgain        | 0.00325  |
+| TimeElapsed     | 22.3     |
+| TimestepsSoFar  | 1.82e+04 |
+------------------------------
+********** Iteration 18 ************
+Expected: 0.001 Actual: 0.120
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.108
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.102
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.098
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.046
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 73       |
+| EpLenMean       | 265      |
+| EpRewMean       | -261     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.058    |
+| meankl          | 0.000142 |
+| optimgain       | 0.000306 |
+| surrgain        | 0.000306 |
+| TimeElapsed     | 22.9     |
+| TimestepsSoFar  | 1.82e+04 |
+------------------------------
+********** Iteration 19 ************
+Expected: 0.014 Actual: 0.012
+violated KL constraint. shrinking step.
+Expected: 0.014 Actual: 0.007
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 74       |
+| EpLenMean       | 312      |
+| EpRewMean       | -260     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -10.1    |
+| meankl          | 0.00033  |
+| optimgain       | 0.00687  |
+| surrgain        | 0.00687  |
+| TimeElapsed     | 23.5     |
+| TimestepsSoFar  | 2.02e+04 |
+------------------------------
+********** Iteration 20 ************
+Expected: 0.002 Actual: -0.017
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.007
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.003
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+couldn't compute a good step
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 74        |
+| EpLenMean       | 312       |
+| EpRewMean       | -260      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.131     |
+| meankl          | 0         |
+| optimgain       | -1.95e-06 |
+| surrgain        | -1.95e-06 |
+| TimeElapsed     | 24        |
+| TimestepsSoFar  | 2.02e+04  |
+-------------------------------
+********** Iteration 21 ************
+Expected: 0.008 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.008 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 75       |
+| EpLenMean       | 356      |
+| EpRewMean       | -266     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -4.9     |
+| meankl          | 0.000376 |
+| optimgain       | 0.00263  |
+| surrgain        | 0.00263  |
+| TimeElapsed     | 24.6     |
+| TimestepsSoFar  | 2.22e+04 |
+------------------------------
+********** Iteration 22 ************
+Expected: 0.001 Actual: 0.011
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+couldn't compute a good step
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 75        |
+| EpLenMean       | 356       |
+| EpRewMean       | -266      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.0861    |
+| meankl          | 9.57e-08  |
+| optimgain       | -2.29e-06 |
+| surrgain        | -2.29e-06 |
+| TimeElapsed     | 25.2      |
+| TimestepsSoFar  | 2.22e+04  |
+-------------------------------
+********** Iteration 23 ************
+Expected: 0.004 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 78       |
+| EpLenMean       | 405      |
+| EpRewMean       | -243     |
+| EpThisIter      | 3        |
+| ev_tdlam_before | 0.125    |
+| meankl          | 0.00144  |
+| optimgain       | 0.00269  |
+| surrgain        | 0.00269  |
+| TimeElapsed     | 25.8     |
+| TimestepsSoFar  | 2.46e+04 |
+------------------------------
+********** Iteration 24 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 79       |
+| EpLenMean       | 405      |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.793    |
+| meankl          | 0.00111  |
+| optimgain       | 0.00421  |
+| surrgain        | 0.00421  |
+| TimeElapsed     | 26.5     |
+| TimestepsSoFar  | 2.48e+04 |
+------------------------------
+********** Iteration 25 ************
+Expected: 0.002 Actual: 0.000
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.010
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 79       |
+| EpLenMean       | 405      |
+| EpRewMean       | -243     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 6.03e-05 |
+| meankl          | 1.19e-07 |
+| optimgain       | 3.65e-07 |
+| surrgain        | 3.65e-07 |
+| TimeElapsed     | 27       |
+| TimestepsSoFar  | 2.48e+04 |
+------------------------------
+********** Iteration 26 ************
+Expected: 0.006 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 82       |
+| EpLenMean       | 455      |
+| EpRewMean       | -241     |
+| EpThisIter      | 3        |
+| ev_tdlam_before | 0.513    |
+| meankl          | 0.000739 |
+| optimgain       | 0.00438  |
+| surrgain        | 0.00438  |
+| TimeElapsed     | 27.6     |
+| TimestepsSoFar  | 2.72e+04 |
+------------------------------
+********** Iteration 27 ************
+Expected: 0.001 Actual: -0.013
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.003
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 82       |
+| EpLenMean       | 455      |
+| EpRewMean       | -241     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -0.00019 |
+| meankl          | 5.96e-08 |
+| optimgain       | 6.34e-07 |
+| surrgain        | 6.34e-07 |
+| TimeElapsed     | 28.2     |
+| TimestepsSoFar  | 2.72e+04 |
+------------------------------
+********** Iteration 28 ************
+Expected: 0.005 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 84       |
+| EpLenMean       | 500      |
+| EpRewMean       | -246     |
+| EpThisIter      | 2        |
+| ev_tdlam_before | 0.726    |
+| meankl          | 0.000186 |
+| optimgain       | 0.00101  |
+| surrgain        | 0.00101  |
+| TimeElapsed     | 28.8     |
+| TimestepsSoFar  | 2.94e+04 |
+------------------------------
+********** Iteration 29 ************
+Expected: 0.005 Actual: 0.061
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.148
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.175
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.104
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.017
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 84       |
+| EpLenMean       | 500      |
+| EpRewMean       | -246     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.00327  |
+| meankl          | 0.000701 |
+| optimgain       | 0.00313  |
+| surrgain        | 0.00313  |
+| TimeElapsed     | 29.4     |
+| TimestepsSoFar  | 2.94e+04 |
+------------------------------
+********** Iteration 30 ************
+Expected: 0.018 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.018 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 85       |
+| EpLenMean       | 546      |
+| EpRewMean       | -251     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -443     |
+| meankl          | 0.000742 |
+| optimgain       | 0.00181  |
+| surrgain        | 0.00181  |
+| TimeElapsed     | 30       |
+| TimestepsSoFar  | 3.14e+04 |
+------------------------------
+********** Iteration 31 ************
+Expected: 0.002 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 85       |
+| EpLenMean       | 546      |
+| EpRewMean       | -251     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.00742  |
+| meankl          | 0.000129 |
+| optimgain       | 0.000132 |
+| surrgain        | 0.000132 |
+| TimeElapsed     | 30.6     |
+| TimestepsSoFar  | 3.14e+04 |
+------------------------------
+********** Iteration 32 ************
+Expected: 0.016 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.016 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 86       |
+| EpLenMean       | 592      |
+| EpRewMean       | -250     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -128     |
+| meankl          | 0.00104  |
+| optimgain       | 0.00269  |
+| surrgain        | 0.00269  |
+| TimeElapsed     | 31.2     |
+| TimestepsSoFar  | 3.34e+04 |
+------------------------------
+********** Iteration 33 ************
+Expected: 0.003 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.000
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 86       |
+| EpLenMean       | 592      |
+| EpRewMean       | -250     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.00691  |
+| meankl          | 2.64e-06 |
+| optimgain       | 1.52e-06 |
+| surrgain        | 1.52e-06 |
+| TimeElapsed     | 31.8     |
+| TimestepsSoFar  | 3.34e+04 |
+------------------------------
+********** Iteration 34 ************
+Expected: 0.010 Actual: 0.008
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 87       |
+| EpLenMean       | 637      |
+| EpRewMean       | -249     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -45.6    |
+| meankl          | 0.0011   |
+| optimgain       | 0.00843  |
+| surrgain        | 0.00843  |
+| TimeElapsed     | 32.4     |
+| TimestepsSoFar  | 3.54e+04 |
+------------------------------
+********** Iteration 35 ************
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 87       |
+| EpLenMean       | 637      |
+| EpRewMean       | -249     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0234   |
+| meankl          | 0.000787 |
+| optimgain       | 0.00103  |
+| surrgain        | 0.00103  |
+| TimeElapsed     | 33       |
+| TimestepsSoFar  | 3.54e+04 |
+------------------------------
+********** Iteration 36 ************
+Expected: 0.007 Actual: 0.006
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 88       |
+| EpLenMean       | 682      |
+| EpRewMean       | -248     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -11.2    |
+| meankl          | 0.00136  |
+| optimgain       | 0.00552  |
+| surrgain        | 0.00552  |
+| TimeElapsed     | 33.5     |
+| TimestepsSoFar  | 3.74e+04 |
+------------------------------
+********** Iteration 37 ************
+Expected: 0.006 Actual: -0.158
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: -0.061
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: -0.022
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: -0.008
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: -0.003
+surrogate didn't improve. shrinking step.
+Expected: 0.006 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.006 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.006 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.006 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.006 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 88       |
+| EpLenMean       | 682      |
+| EpRewMean       | -248     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.116    |
+| meankl          | 6.02e-08 |
+| optimgain       | 4.95e-06 |
+| surrgain        | 4.95e-06 |
+| TimeElapsed     | 34.2     |
+| TimestepsSoFar  | 3.74e+04 |
+------------------------------
+********** Iteration 38 ************
+Expected: 0.006 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 89       |
+| EpLenMean       | 728      |
+| EpRewMean       | -247     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -3.33    |
+| meankl          | 0.00044  |
+| optimgain       | 0.00265  |
+| surrgain        | 0.00265  |
+| TimeElapsed     | 34.8     |
+| TimestepsSoFar  | 3.94e+04 |
+------------------------------
+********** Iteration 39 ************
+Expected: 0.003 Actual: 0.456
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.845
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.447
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.273
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.011
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 89       |
+| EpLenMean       | 728      |
+| EpRewMean       | -247     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0382   |
+| meankl          | 0.000607 |
+| optimgain       | 0.000746 |
+| surrgain        | 0.000746 |
+| TimeElapsed     | 35.5     |
+| TimestepsSoFar  | 3.94e+04 |
+------------------------------
+********** Iteration 40 ************
+Expected: 0.006 Actual: 0.006
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 90       |
+| EpLenMean       | 772      |
+| EpRewMean       | -247     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.899   |
+| meankl          | 0.0013   |
+| optimgain       | 0.00645  |
+| surrgain        | 0.00645  |
+| TimeElapsed     | 36.1     |
+| TimestepsSoFar  | 4.14e+04 |
+------------------------------
+********** Iteration 41 ************
+Expected: 0.002 Actual: 0.116
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.096
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.021
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 90       |
+| EpLenMean       | 772      |
+| EpRewMean       | -247     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0521   |
+| meankl          | 1.61e-07 |
+| optimgain       | 1.58e-06 |
+| surrgain        | 1.58e-06 |
+| TimeElapsed     | 36.7     |
+| TimestepsSoFar  | 4.14e+04 |
+------------------------------
+********** Iteration 42 ************
+Expected: 0.007 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 91       |
+| EpLenMean       | 819      |
+| EpRewMean       | -238     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.506   |
+| meankl          | 0.00098  |
+| optimgain       | 0.00258  |
+| surrgain        | 0.00258  |
+| TimeElapsed     | 37.3     |
+| TimestepsSoFar  | 4.34e+04 |
+------------------------------
+********** Iteration 43 ************
+Expected: 0.004 Actual: 0.071
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.068
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.057
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.016
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 91       |
+| EpLenMean       | 819      |
+| EpRewMean       | -238     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0689   |
+| meankl          | 0.000142 |
+| optimgain       | 0.000843 |
+| surrgain        | 0.000843 |
+| TimeElapsed     | 37.9     |
+| TimestepsSoFar  | 4.34e+04 |
+------------------------------
+********** Iteration 44 ************
+Expected: 0.013 Actual: 0.000
+violated KL constraint. shrinking step.
+Expected: 0.013 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.013 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.013 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 92       |
+| EpLenMean       | 864      |
+| EpRewMean       | -237     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.577   |
+| meankl          | 0.000149 |
+| optimgain       | 0.0001   |
+| surrgain        | 0.0001   |
+| TimeElapsed     | 38.6     |
+| TimestepsSoFar  | 4.54e+04 |
+------------------------------
+********** Iteration 45 ************
+Expected: 0.001 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.013
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.010
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 92       |
+| EpLenMean       | 864      |
+| EpRewMean       | -237     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.037    |
+| meankl          | 8.36e-08 |
+| optimgain       | 4.08e-07 |
+| surrgain        | 4.08e-07 |
+| TimeElapsed     | 39.2     |
+| TimestepsSoFar  | 4.54e+04 |
+------------------------------
+********** Iteration 46 ************
+Expected: 0.016 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.016 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 93       |
+| EpLenMean       | 910      |
+| EpRewMean       | -236     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.418   |
+| meankl          | 0.00129  |
+| optimgain       | 0.00279  |
+| surrgain        | 0.00279  |
+| TimeElapsed     | 39.7     |
+| TimestepsSoFar  | 4.74e+04 |
+------------------------------
+********** Iteration 47 ************
+Expected: 0.001 Actual: 0.019
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.012
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 93       |
+| EpLenMean       | 910      |
+| EpRewMean       | -236     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0177   |
+| meankl          | 0.000428 |
+| optimgain       | 0.000639 |
+| surrgain        | 0.000639 |
+| TimeElapsed     | 40.4     |
+| TimestepsSoFar  | 4.74e+04 |
+------------------------------
+********** Iteration 48 ************
+Expected: 0.011 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 94       |
+| EpLenMean       | 955      |
+| EpRewMean       | -236     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.276   |
+| meankl          | 0.000456 |
+| optimgain       | 0.00471  |
+| surrgain        | 0.00471  |
+| TimeElapsed     | 41       |
+| TimestepsSoFar  | 4.94e+04 |
+------------------------------
+********** Iteration 49 ************
+Expected: 0.002 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 94       |
+| EpLenMean       | 955      |
+| EpRewMean       | -236     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0125   |
+| meankl          | 0.000135 |
+| optimgain       | 0.000469 |
+| surrgain        | 0.000469 |
+| TimeElapsed     | 41.6     |
+| TimestepsSoFar  | 4.94e+04 |
+------------------------------
+********** Iteration 50 ************
+Expected: 0.012 Actual: 0.011
+violated KL constraint. shrinking step.
+Expected: 0.012 Actual: 0.006
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 94        |
+| EpLenMean       | 955       |
+| EpRewMean       | -236      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | -7.63e+04 |
+| meankl          | 0.000483  |
+| optimgain       | 0.00567   |
+| surrgain        | 0.00567   |
+| TimeElapsed     | 162       |
+| TimestepsSoFar  | 4.94e+04  |
+-------------------------------
+********** Iteration 51 ************
+Expected: 0.007 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 95       |
+| EpLenMean       | 1.05e+03 |
+| EpRewMean       | -232     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0761  |
+| meankl          | 0.000575 |
+| optimgain       | 0.0032   |
+| surrgain        | 0.0032   |
+| TimeElapsed     | 162      |
+| TimestepsSoFar  | 5.32e+04 |
+------------------------------
+********** Iteration 52 ************
+Expected: 0.003 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 95       |
+| EpLenMean       | 1.05e+03 |
+| EpRewMean       | -232     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -44.5    |
+| meankl          | 0.000279 |
+| optimgain       | 0.000805 |
+| surrgain        | 0.000805 |
+| TimeElapsed     | 163      |
+| TimestepsSoFar  | 5.32e+04 |
+------------------------------
+********** Iteration 53 ************
+Expected: 0.007 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 96       |
+| EpLenMean       | 1.09e+03 |
+| EpRewMean       | -231     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.156   |
+| meankl          | 0.000403 |
+| optimgain       | 0.00274  |
+| surrgain        | 0.00274  |
+| TimeElapsed     | 163      |
+| TimestepsSoFar  | 5.52e+04 |
+------------------------------
+********** Iteration 54 ************
+Expected: 0.006 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 96       |
+| EpLenMean       | 1.09e+03 |
+| EpRewMean       | -231     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -2.08    |
+| meankl          | 0.000733 |
+| optimgain       | 0.00526  |
+| surrgain        | 0.00526  |
+| TimeElapsed     | 164      |
+| TimestepsSoFar  | 5.52e+04 |
+------------------------------
+********** Iteration 55 ************
+Expected: 0.004 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 97       |
+| EpLenMean       | 1.14e+03 |
+| EpRewMean       | -230     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.196   |
+| meankl          | 0.000923 |
+| optimgain       | 0.0034   |
+| surrgain        | 0.0034   |
+| TimeElapsed     | 165      |
+| TimestepsSoFar  | 5.72e+04 |
+------------------------------
+********** Iteration 56 ************
+Expected: 0.003 Actual: -0.075
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.038
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.018
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.002
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 97       |
+| EpLenMean       | 1.14e+03 |
+| EpRewMean       | -230     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 1.8e-05  |
+| meankl          | 0        |
+| optimgain       | 3.91e-06 |
+| surrgain        | 3.91e-06 |
+| TimeElapsed     | 165      |
+| TimestepsSoFar  | 5.72e+04 |
+------------------------------
+********** Iteration 57 ************
+Expected: 0.006 Actual: 0.009
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 98       |
+| EpLenMean       | 1.18e+03 |
+| EpRewMean       | -222     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.155   |
+| meankl          | 0.000597 |
+| optimgain       | 0.00375  |
+| surrgain        | 0.00375  |
+| TimeElapsed     | 166      |
+| TimestepsSoFar  | 5.92e+04 |
+------------------------------
+********** Iteration 58 ************
+Expected: 0.003 Actual: 0.014
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.023
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.014
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.002
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 98        |
+| EpLenMean       | 1.18e+03  |
+| EpRewMean       | -222      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.00158   |
+| meankl          | -2.98e-08 |
+| optimgain       | 2.32e-06  |
+| surrgain        | 2.32e-06  |
+| TimeElapsed     | 167       |
+| TimestepsSoFar  | 5.92e+04  |
+-------------------------------
+********** Iteration 59 ************
+Expected: 0.012 Actual: 0.007
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 99       |
+| EpLenMean       | 1.23e+03 |
+| EpRewMean       | -221     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.0294   |
+| meankl          | 0.00149  |
+| optimgain       | 0.00728  |
+| surrgain        | 0.00728  |
+| TimeElapsed     | 167      |
+| TimestepsSoFar  | 6.12e+04 |
+------------------------------
+********** Iteration 60 ************
+Expected: 0.005 Actual: -0.092
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: -0.039
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: -0.016
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: -0.007
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: -0.003
+surrogate didn't improve. shrinking step.
+Expected: 0.005 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.005 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.005 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.005 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.005 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 99       |
+| EpLenMean       | 1.23e+03 |
+| EpRewMean       | -221     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.000767 |
+| meankl          | 5.96e-08 |
+| optimgain       | 1.95e-06 |
+| surrgain        | 1.95e-06 |
+| TimeElapsed     | 168      |
+| TimestepsSoFar  | 6.12e+04 |
+------------------------------
+********** Iteration 61 ************
+Expected: 0.008 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.008 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 100      |
+| EpLenMean       | 1.27e+03 |
+| EpRewMean       | -226     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.828    |
+| meankl          | 0.000442 |
+| optimgain       | 0.00375  |
+| surrgain        | 0.00375  |
+| TimeElapsed     | 168      |
+| TimestepsSoFar  | 6.32e+04 |
+------------------------------
+********** Iteration 62 ************
+Expected: 0.002 Actual: -0.030
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.005
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+couldn't compute a good step
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 100       |
+| EpLenMean       | 1.27e+03  |
+| EpRewMean       | -226      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.0026    |
+| meankl          | 7.22e-08  |
+| optimgain       | -1.32e-06 |
+| surrgain        | -1.32e-06 |
+| TimeElapsed     | 169       |
+| TimestepsSoFar  | 6.32e+04  |
+-------------------------------
+********** Iteration 63 ************
+Expected: 0.006 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 102      |
+| EpLenMean       | 1.32e+03 |
+| EpRewMean       | -231     |
+| EpThisIter      | 2        |
+| ev_tdlam_before | 0.805    |
+| meankl          | 0.000293 |
+| optimgain       | 0.00264  |
+| surrgain        | 0.00264  |
+| TimeElapsed     | 170      |
+| TimestepsSoFar  | 6.54e+04 |
+------------------------------
+********** Iteration 64 ************
+Expected: 0.015 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.015 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.34     |
+| EpisodesSoFar   | 103      |
+| EpLenMean       | 1.32e+03 |
+| EpRewMean       | -231     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -15.7    |
+| meankl          | 0.0011   |
+| optimgain       | 0.00368  |
+| surrgain        | 0.00368  |
+| TimeElapsed     | 170      |
+| TimestepsSoFar  | 6.56e+04 |
+------------------------------
+********** Iteration 65 ************
+Expected: 0.001 Actual: -0.084
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.34     |
+| EpisodesSoFar   | 103      |
+| EpLenMean       | 1.32e+03 |
+| EpRewMean       | -231     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.00304  |
+| meankl          | 0.000136 |
+| optimgain       | 1.18e-05 |
+| surrgain        | 1.18e-05 |
+| TimeElapsed     | 171      |
+| TimestepsSoFar  | 6.56e+04 |
+------------------------------
+********** Iteration 66 ************
+Expected: 0.011 Actual: 0.026
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.34     |
+| EpisodesSoFar   | 104      |
+| EpLenMean       | 1.37e+03 |
+| EpRewMean       | -230     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -208     |
+| meankl          | 0.000173 |
+| optimgain       | 0.0035   |
+| surrgain        | 0.0035   |
+| TimeElapsed     | 172      |
+| TimestepsSoFar  | 6.76e+04 |
+------------------------------
+********** Iteration 67 ************
+Expected: 0.011 Actual: 0.049
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.056
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.014
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.34     |
+| EpisodesSoFar   | 105      |
+| EpLenMean       | 1.41e+03 |
+| EpRewMean       | -236     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.774    |
+| meankl          | 0.000117 |
+| optimgain       | 0.000987 |
+| surrgain        | 0.000987 |
+| TimeElapsed     | 172      |
+| TimestepsSoFar  | 6.96e+04 |
+------------------------------
+********** Iteration 68 ************
+Expected: 0.006 Actual: 0.009
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 105       |
+| EpLenMean       | 1.41e+03  |
+| EpRewMean       | -236      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | -4.69e+03 |
+| meankl          | 0.00144   |
+| optimgain       | 0.00366   |
+| surrgain        | 0.00366   |
+| TimeElapsed     | 173       |
+| TimestepsSoFar  | 6.96e+04  |
+-------------------------------
+********** Iteration 69 ************
+Expected: 0.009 Actual: 0.012
+violated KL constraint. shrinking step.
+Expected: 0.009 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.009 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.34     |
+| EpisodesSoFar   | 106      |
+| EpLenMean       | 1.46e+03 |
+| EpRewMean       | -241     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.902    |
+| meankl          | 0.000268 |
+| optimgain       | 0.00247  |
+| surrgain        | 0.00247  |
+| TimeElapsed     | 174      |
+| TimestepsSoFar  | 7.16e+04 |
+------------------------------
+********** Iteration 70 ************
+Expected: 0.004 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.32     |
+| EpisodesSoFar   | 106      |
+| EpLenMean       | 1.46e+03 |
+| EpRewMean       | -241     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.00583  |
+| meankl          | 0.00108  |
+| optimgain       | 0.00209  |
+| surrgain        | 0.00209  |
+| TimeElapsed     | 174      |
+| TimestepsSoFar  | 7.16e+04 |
+------------------------------
+********** Iteration 71 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 107      |
+| EpLenMean       | 1.5e+03  |
+| EpRewMean       | -247     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -139     |
+| meankl          | 0.00115  |
+| optimgain       | 0.00246  |
+| surrgain        | 0.00246  |
+| TimeElapsed     | 175      |
+| TimestepsSoFar  | 7.36e+04 |
+------------------------------
+********** Iteration 72 ************
+Expected: 0.001 Actual: -0.022
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 107      |
+| EpLenMean       | 1.5e+03  |
+| EpRewMean       | -247     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -0.31    |
+| meankl          | 0.000192 |
+| optimgain       | 0.000311 |
+| surrgain        | 0.000311 |
+| TimeElapsed     | 176      |
+| TimestepsSoFar  | 7.36e+04 |
+------------------------------
+********** Iteration 73 ************
+Expected: 0.011 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 108      |
+| EpLenMean       | 1.55e+03 |
+| EpRewMean       | -246     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -8.9     |
+| meankl          | 0.00125  |
+| optimgain       | 0.00291  |
+| surrgain        | 0.00291  |
+| TimeElapsed     | 176      |
+| TimestepsSoFar  | 7.56e+04 |
+------------------------------
+********** Iteration 74 ************
+Expected: 0.002 Actual: -0.010
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 108      |
+| EpLenMean       | 1.55e+03 |
+| EpRewMean       | -246     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0237   |
+| meankl          | 3.01e-05 |
+| optimgain       | 3.48e-05 |
+| surrgain        | 3.48e-05 |
+| TimeElapsed     | 177      |
+| TimestepsSoFar  | 7.56e+04 |
+------------------------------
+********** Iteration 75 ************
+Expected: 0.009 Actual: 0.008
+violated KL constraint. shrinking step.
+Expected: 0.009 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 109      |
+| EpLenMean       | 1.59e+03 |
+| EpRewMean       | -245     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.84    |
+| meankl          | 0.00079  |
+| optimgain       | 0.00484  |
+| surrgain        | 0.00484  |
+| TimeElapsed     | 177      |
+| TimestepsSoFar  | 7.76e+04 |
+------------------------------
+********** Iteration 76 ************
+Expected: 0.003 Actual: 0.112
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.113
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.113
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.035
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 109      |
+| EpLenMean       | 1.59e+03 |
+| EpRewMean       | -245     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0139   |
+| meankl          | 0.0015   |
+| optimgain       | 0.00203  |
+| surrgain        | 0.00203  |
+| TimeElapsed     | 178      |
+| TimestepsSoFar  | 7.76e+04 |
+------------------------------
+********** Iteration 77 ************
+Expected: 0.010 Actual: 0.010
+violated KL constraint. shrinking step.
+Expected: 0.010 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 110      |
+| EpLenMean       | 1.64e+03 |
+| EpRewMean       | -244     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.317   |
+| meankl          | 0.000995 |
+| optimgain       | 0.00425  |
+| surrgain        | 0.00425  |
+| TimeElapsed     | 179      |
+| TimestepsSoFar  | 7.96e+04 |
+------------------------------
+********** Iteration 78 ************
+Expected: 0.004 Actual: -0.034
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: -0.029
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: -0.013
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: -0.005
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.004 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.004 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.004 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.004 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 110       |
+| EpLenMean       | 1.64e+03  |
+| EpRewMean       | -244      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.0239    |
+| meankl          | -5.55e-08 |
+| optimgain       | 6.41e-06  |
+| surrgain        | 6.41e-06  |
+| TimeElapsed     | 179       |
+| TimestepsSoFar  | 7.96e+04  |
+-------------------------------
+********** Iteration 79 ************
+Expected: 0.009 Actual: 0.007
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 111      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.172   |
+| meankl          | 0.00115  |
+| optimgain       | 0.00694  |
+| surrgain        | 0.00694  |
+| TimeElapsed     | 180      |
+| TimestepsSoFar  | 8.16e+04 |
+------------------------------
+********** Iteration 80 ************
+Expected: 0.002 Actual: -0.032
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.011
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 111       |
+| EpLenMean       | 1.69e+03  |
+| EpRewMean       | -243      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.0253    |
+| meankl          | -1.63e-09 |
+| optimgain       | 1.26e-06  |
+| surrgain        | 1.26e-06  |
+| TimeElapsed     | 181       |
+| TimestepsSoFar  | 8.16e+04  |
+-------------------------------
+********** Iteration 81 ************
+Expected: 0.007 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 112      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -1.88    |
+| meankl          | 0.00116  |
+| optimgain       | 0.00538  |
+| surrgain        | 0.00538  |
+| TimeElapsed     | 181      |
+| TimestepsSoFar  | 8.36e+04 |
+------------------------------
+********** Iteration 82 ************
+Expected: 0.002 Actual: -0.023
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.013
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.005
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 112      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.106    |
+| meankl          | 6.94e-07 |
+| optimgain       | 1.86e-08 |
+| surrgain        | 1.86e-08 |
+| TimeElapsed     | 182      |
+| TimestepsSoFar  | 8.36e+04 |
+------------------------------
+********** Iteration 83 ************
+Expected: 0.005 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 113      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -2.44    |
+| meankl          | 0.000325 |
+| optimgain       | 0.00143  |
+| surrgain        | 0.00143  |
+| TimeElapsed     | 183      |
+| TimestepsSoFar  | 8.56e+04 |
+------------------------------
+********** Iteration 84 ************
+Expected: 0.001 Actual: 0.105
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.116
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.119
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.116
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.034
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 113      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0256   |
+| meankl          | 5.34e-05 |
+| optimgain       | 0.000113 |
+| surrgain        | 0.000113 |
+| TimeElapsed     | 183      |
+| TimestepsSoFar  | 8.56e+04 |
+------------------------------
+********** Iteration 85 ************
+Expected: 0.009 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.009 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 114      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0489  |
+| meankl          | 0.000945 |
+| optimgain       | 0.00328  |
+| surrgain        | 0.00328  |
+| TimeElapsed     | 184      |
+| TimestepsSoFar  | 8.76e+04 |
+------------------------------
+********** Iteration 86 ************
+Expected: 0.002 Actual: 0.020
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.019
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.020
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.011
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 114      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0344   |
+| meankl          | 0.00011  |
+| optimgain       | 0.000389 |
+| surrgain        | 0.000389 |
+| TimeElapsed     | 184      |
+| TimestepsSoFar  | 8.76e+04 |
+------------------------------
+********** Iteration 87 ************
+Expected: 0.007 Actual: -0.023
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: -0.007
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.007 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 115      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -1.4     |
+| meankl          | 2.94e-05 |
+| optimgain       | 0.000228 |
+| surrgain        | 0.000228 |
+| TimeElapsed     | 185      |
+| TimestepsSoFar  | 8.96e+04 |
+------------------------------
+********** Iteration 88 ************
+Expected: 0.002 Actual: -0.003
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 115      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.14     |
+| meankl          | 1.15e-07 |
+| optimgain       | 5.08e-07 |
+| surrgain        | 5.08e-07 |
+| TimeElapsed     | 186      |
+| TimestepsSoFar  | 8.96e+04 |
+------------------------------
+********** Iteration 89 ************
+Expected: 0.003 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 116      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0136  |
+| meankl          | 0.00106  |
+| optimgain       | 0.00119  |
+| surrgain        | 0.00119  |
+| TimeElapsed     | 186      |
+| TimestepsSoFar  | 9.16e+04 |
+------------------------------
+********** Iteration 90 ************
+Expected: 0.004 Actual: -0.038
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 116      |
+| EpLenMean       | 1.69e+03 |
+| EpRewMean       | -243     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.155    |
+| meankl          | 0.00098  |
+| optimgain       | 0.000793 |
+| surrgain        | 0.000793 |
+| TimeElapsed     | 187      |
+| TimestepsSoFar  | 9.16e+04 |
+------------------------------
+********** Iteration 91 ************
+Expected: 0.007 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.007 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 117      |
+| EpLenMean       | 1.73e+03 |
+| EpRewMean       | -242     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0843  |
+| meankl          | 0.000486 |
+| optimgain       | 0.00015  |
+| surrgain        | 0.00015  |
+| TimeElapsed     | 188      |
+| TimestepsSoFar  | 9.36e+04 |
+------------------------------
+********** Iteration 92 ************
+Expected: 0.002 Actual: -0.025
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.018
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.007
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 117      |
+| EpLenMean       | 1.73e+03 |
+| EpRewMean       | -242     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.15     |
+| meankl          | 1.21e-07 |
+| optimgain       | 4.18e-06 |
+| surrgain        | 4.18e-06 |
+| TimeElapsed     | 188      |
+| TimestepsSoFar  | 9.36e+04 |
+------------------------------
+********** Iteration 93 ************
+Expected: 0.006 Actual: 0.006
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 118      |
+| EpLenMean       | 1.78e+03 |
+| EpRewMean       | -241     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.775   |
+| meankl          | 0.00131  |
+| optimgain       | 0.0056   |
+| surrgain        | 0.0056   |
+| TimeElapsed     | 189      |
+| TimestepsSoFar  | 9.56e+04 |
+------------------------------
+********** Iteration 94 ************
+Expected: 0.002 Actual: 0.017
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.032
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.017
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 118      |
+| EpLenMean       | 1.78e+03 |
+| EpRewMean       | -241     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0686   |
+| meankl          | 0.000313 |
+| optimgain       | 0.00108  |
+| surrgain        | 0.00108  |
+| TimeElapsed     | 190      |
+| TimestepsSoFar  | 9.56e+04 |
+------------------------------
+********** Iteration 95 ************
+Expected: 0.005 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 119      |
+| EpLenMean       | 1.82e+03 |
+| EpRewMean       | -240     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0383  |
+| meankl          | 0.000727 |
+| optimgain       | 0.000408 |
+| surrgain        | 0.000408 |
+| TimeElapsed     | 190      |
+| TimestepsSoFar  | 9.76e+04 |
+------------------------------
+********** Iteration 96 ************
+Expected: 0.003 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 119       |
+| EpLenMean       | 1.82e+03  |
+| EpRewMean       | -240      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.0775    |
+| meankl          | -1.68e-08 |
+| optimgain       | 2.57e-06  |
+| surrgain        | 2.57e-06  |
+| TimeElapsed     | 191       |
+| TimestepsSoFar  | 9.76e+04  |
+-------------------------------
+********** Iteration 97 ************
+Expected: 0.006 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 120      |
+| EpLenMean       | 1.82e+03 |
+| EpRewMean       | -234     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -2.42    |
+| meankl          | 0.000976 |
+| optimgain       | 0.00493  |
+| surrgain        | 0.00493  |
+| TimeElapsed     | 192      |
+| TimestepsSoFar  | 9.96e+04 |
+------------------------------
+********** Iteration 98 ************
+Expected: 0.001 Actual: 0.028
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.020
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.015
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 120      |
+| EpLenMean       | 1.82e+03 |
+| EpRewMean       | -234     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.249    |
+| meankl          | 0.00103  |
+| optimgain       | 0.000545 |
+| surrgain        | 0.000545 |
+| TimeElapsed     | 192      |
+| TimestepsSoFar  | 9.96e+04 |
+------------------------------
+********** Iteration 99 ************
+Expected: 0.004 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 121      |
+| EpLenMean       | 1.87e+03 |
+| EpRewMean       | -233     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -1.01    |
+| meankl          | 0.000599 |
+| optimgain       | 0.00148  |
+| surrgain        | 0.00148  |
+| TimeElapsed     | 193      |
+| TimestepsSoFar  | 1.02e+05 |
+------------------------------
+********** Iteration 100 ************
+Expected: 0.008 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.008 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.008 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 121      |
+| EpLenMean       | 1.87e+03 |
+| EpRewMean       | -233     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -3.72    |
+| meankl          | 0.000277 |
+| optimgain       | 0.00186  |
+| surrgain        | 0.00186  |
+| TimeElapsed     | 314      |
+| TimestepsSoFar  | 1.02e+05 |
+------------------------------
+********** Iteration 101 ************
+Expected: 0.022 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.022 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.022 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 122      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -235     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.0206   |
+| meankl          | 0.00104  |
+| optimgain       | 0.00186  |
+| surrgain        | 0.00186  |
+| TimeElapsed     | 315      |
+| TimestepsSoFar  | 1.04e+05 |
+------------------------------
+********** Iteration 102 ************
+Expected: 0.011 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.011 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 122      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -235     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -6.36    |
+| meankl          | 0.000278 |
+| optimgain       | 0.00452  |
+| surrgain        | 0.00452  |
+| TimeElapsed     | 316      |
+| TimestepsSoFar  | 1.04e+05 |
+------------------------------
+********** Iteration 103 ************
+Expected: 0.004 Actual: 0.009
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 123      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -235     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.00273 |
+| meankl          | 0.00122  |
+| optimgain       | 6.36e-05 |
+| surrgain        | 6.36e-05 |
+| TimeElapsed     | 316      |
+| TimestepsSoFar  | 1.06e+05 |
+------------------------------
+********** Iteration 104 ************
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 123      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -235     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0664   |
+| meankl          | 0.000687 |
+| optimgain       | 0.000719 |
+| surrgain        | 0.000719 |
+| TimeElapsed     | 317      |
+| TimestepsSoFar  | 1.06e+05 |
+------------------------------
+********** Iteration 105 ************
+Expected: 0.004 Actual: 0.021
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.010
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 124      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -234     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.158   |
+| meankl          | 0.000136 |
+| optimgain       | 0.000978 |
+| surrgain        | 0.000978 |
+| TimeElapsed     | 318      |
+| TimestepsSoFar  | 1.08e+05 |
+------------------------------
+********** Iteration 106 ************
+Expected: 0.004 Actual: 0.013
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.016
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.009
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.3      |
+| EpisodesSoFar   | 124      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -234     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.131    |
+| meankl          | 0.000166 |
+| optimgain       | 0.000745 |
+| surrgain        | 0.000745 |
+| TimeElapsed     | 318      |
+| TimestepsSoFar  | 1.08e+05 |
+------------------------------
+********** Iteration 107 ************
+Expected: 0.005 Actual: 0.005
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 125      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.681   |
+| meankl          | 0.00109  |
+| optimgain       | 0.00544  |
+| surrgain        | 0.00544  |
+| TimeElapsed     | 319      |
+| TimestepsSoFar  | 1.1e+05  |
+------------------------------
+********** Iteration 108 ************
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 125      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0837   |
+| meankl          | 0.000317 |
+| optimgain       | 0.00116  |
+| surrgain        | 0.00116  |
+| TimeElapsed     | 320      |
+| TimestepsSoFar  | 1.1e+05  |
+------------------------------
+********** Iteration 109 ************
+Expected: 0.004 Actual: 0.014
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 126      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0058  |
+| meankl          | 0.00136  |
+| optimgain       | 0.00224  |
+| surrgain        | 0.00224  |
+| TimeElapsed     | 320      |
+| TimestepsSoFar  | 1.12e+05 |
+------------------------------
+********** Iteration 110 ************
+Expected: 0.003 Actual: -0.010
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.011
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 126      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0979   |
+| meankl          | 5.12e-09 |
+| optimgain       | 2.92e-06 |
+| surrgain        | 2.92e-06 |
+| TimeElapsed     | 321      |
+| TimestepsSoFar  | 1.12e+05 |
+------------------------------
+********** Iteration 111 ************
+Expected: 0.003 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 127      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.115   |
+| meankl          | 0.000607 |
+| optimgain       | 0.00149  |
+| surrgain        | 0.00149  |
+| TimeElapsed     | 322      |
+| TimestepsSoFar  | 1.14e+05 |
+------------------------------
+********** Iteration 112 ************
+Expected: 0.002 Actual: 0.160
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.038
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 127      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.096    |
+| meankl          | 9.09e-07 |
+| optimgain       | 1.6e-05  |
+| surrgain        | 1.6e-05  |
+| TimeElapsed     | 322      |
+| TimestepsSoFar  | 1.14e+05 |
+------------------------------
+********** Iteration 113 ************
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.28     |
+| EpisodesSoFar   | 128      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0973  |
+| meankl          | 0.000744 |
+| optimgain       | 0.00123  |
+| surrgain        | 0.00123  |
+| TimeElapsed     | 323      |
+| TimestepsSoFar  | 1.16e+05 |
+------------------------------
+********** Iteration 114 ************
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.27     |
+| EpisodesSoFar   | 128      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.127    |
+| meankl          | 0.000508 |
+| optimgain       | 0.000921 |
+| surrgain        | 0.000921 |
+| TimeElapsed     | 323      |
+| TimestepsSoFar  | 1.16e+05 |
+------------------------------
+********** Iteration 115 ************
+Expected: 0.003 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.26     |
+| EpisodesSoFar   | 129      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0731  |
+| meankl          | 0.000338 |
+| optimgain       | 0.000186 |
+| surrgain        | 0.000186 |
+| TimeElapsed     | 324      |
+| TimestepsSoFar  | 1.18e+05 |
+------------------------------
+********** Iteration 116 ************
+Expected: 0.005 Actual: 0.063
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.043
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.023
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.007
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.26     |
+| EpisodesSoFar   | 129      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.167    |
+| meankl          | 0.000191 |
+| optimgain       | 0.00136  |
+| surrgain        | 0.00136  |
+| TimeElapsed     | 325      |
+| TimestepsSoFar  | 1.18e+05 |
+------------------------------
+********** Iteration 117 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.25     |
+| EpisodesSoFar   | 130      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.466   |
+| meankl          | 0.000918 |
+| optimgain       | 0.00233  |
+| surrgain        | 0.00233  |
+| TimeElapsed     | 325      |
+| TimestepsSoFar  | 1.2e+05  |
+------------------------------
+********** Iteration 118 ************
+Expected: 0.004 Actual: 0.008
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.24     |
+| EpisodesSoFar   | 130      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.131    |
+| meankl          | 0.000628 |
+| optimgain       | 0.000528 |
+| surrgain        | 0.000528 |
+| TimeElapsed     | 326      |
+| TimestepsSoFar  | 1.2e+05  |
+------------------------------
+********** Iteration 119 ************
+Expected: 0.003 Actual: 0.015
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.24     |
+| EpisodesSoFar   | 131      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.542   |
+| meankl          | 0.000156 |
+| optimgain       | 0.00114  |
+| surrgain        | 0.00114  |
+| TimeElapsed     | 326      |
+| TimestepsSoFar  | 1.22e+05 |
+------------------------------
+********** Iteration 120 ************
+Expected: 0.001 Actual: -0.078
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.097
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.101
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.008
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.24     |
+| EpisodesSoFar   | 131      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0789   |
+| meankl          | 8.81e-07 |
+| optimgain       | 2.76e-06 |
+| surrgain        | 2.76e-06 |
+| TimeElapsed     | 327      |
+| TimestepsSoFar  | 1.22e+05 |
+------------------------------
+********** Iteration 121 ************
+Expected: 0.005 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.005 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.25     |
+| EpisodesSoFar   | 132      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.31    |
+| meankl          | 0.000708 |
+| optimgain       | 0.0026   |
+| surrgain        | 0.0026   |
+| TimeElapsed     | 328      |
+| TimestepsSoFar  | 1.24e+05 |
+------------------------------
+********** Iteration 122 ************
+Expected: 0.000 Actual: -0.044
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: -0.046
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: -0.039
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.25     |
+| EpisodesSoFar   | 132      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0906   |
+| meankl          | 5.1e-05  |
+| optimgain       | 9.86e-06 |
+| surrgain        | 9.86e-06 |
+| TimeElapsed     | 328      |
+| TimestepsSoFar  | 1.24e+05 |
+------------------------------
+********** Iteration 123 ************
+Expected: 0.003 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.25     |
+| EpisodesSoFar   | 133      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.207   |
+| meankl          | 0.000607 |
+| optimgain       | 0.00174  |
+| surrgain        | 0.00174  |
+| TimeElapsed     | 329      |
+| TimestepsSoFar  | 1.26e+05 |
+------------------------------
+********** Iteration 124 ************
+Expected: 0.002 Actual: -0.084
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.072
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.24     |
+| EpisodesSoFar   | 133      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0603   |
+| meankl          | 3.91e-05 |
+| optimgain       | 5.13e-05 |
+| surrgain        | 5.13e-05 |
+| TimeElapsed     | 330      |
+| TimestepsSoFar  | 1.26e+05 |
+------------------------------
+********** Iteration 125 ************
+Expected: 0.003 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.24     |
+| EpisodesSoFar   | 134      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -1.65    |
+| meankl          | 0.000275 |
+| optimgain       | 0.00059  |
+| surrgain        | 0.00059  |
+| TimeElapsed     | 330      |
+| TimestepsSoFar  | 1.28e+05 |
+------------------------------
+********** Iteration 126 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.21     |
+| EpisodesSoFar   | 134      |
+| EpLenMean       | 1.97e+03 |
+| EpRewMean       | -227     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.14     |
+| meankl          | 0.00102  |
+| optimgain       | 0.00286  |
+| surrgain        | 0.00286  |
+| TimeElapsed     | 331      |
+| TimestepsSoFar  | 1.28e+05 |
+------------------------------
+********** Iteration 127 ************
+Expected: 0.003 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.2      |
+| EpisodesSoFar   | 135      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.719   |
+| meankl          | 0.00102  |
+| optimgain       | 2e-05    |
+| surrgain        | 2e-05    |
+| TimeElapsed     | 332      |
+| TimestepsSoFar  | 1.3e+05  |
+------------------------------
+********** Iteration 128 ************
+Expected: 0.002 Actual: -0.005
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.2      |
+| EpisodesSoFar   | 135      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0953   |
+| meankl          | 1.58e-07 |
+| optimgain       | 1.04e-05 |
+| surrgain        | 1.04e-05 |
+| TimeElapsed     | 332      |
+| TimestepsSoFar  | 1.3e+05  |
+------------------------------
+********** Iteration 129 ************
+Expected: 0.004 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.21     |
+| EpisodesSoFar   | 136      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.019    |
+| meankl          | 0.000642 |
+| optimgain       | 0.0016   |
+| surrgain        | 0.0016   |
+| TimeElapsed     | 333      |
+| TimestepsSoFar  | 1.32e+05 |
+------------------------------
+********** Iteration 130 ************
+Expected: 0.000 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: -0.000
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.21     |
+| EpisodesSoFar   | 136      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0861   |
+| meankl          | 7.86e-06 |
+| optimgain       | 3.06e-05 |
+| surrgain        | 3.06e-05 |
+| TimeElapsed     | 333      |
+| TimestepsSoFar  | 1.32e+05 |
+------------------------------
+********** Iteration 131 ************
+Expected: 0.006 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.006 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.22     |
+| EpisodesSoFar   | 137      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.488   |
+| meankl          | 0.00125  |
+| optimgain       | 0.00233  |
+| surrgain        | 0.00233  |
+| TimeElapsed     | 334      |
+| TimestepsSoFar  | 1.34e+05 |
+------------------------------
+********** Iteration 132 ************
+Expected: 0.002 Actual: -0.018
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.009
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.004
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.22     |
+| EpisodesSoFar   | 137      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0612   |
+| meankl          | 1.8e-09  |
+| optimgain       | 7.73e-07 |
+| surrgain        | 7.73e-07 |
+| TimeElapsed     | 335      |
+| TimestepsSoFar  | 1.34e+05 |
+------------------------------
+********** Iteration 133 ************
+Expected: 0.003 Actual: 0.006
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.21     |
+| EpisodesSoFar   | 138      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0123  |
+| meankl          | 0.000324 |
+| optimgain       | 0.00103  |
+| surrgain        | 0.00103  |
+| TimeElapsed     | 335      |
+| TimestepsSoFar  | 1.36e+05 |
+------------------------------
+********** Iteration 134 ************
+Expected: 0.001 Actual: -0.022
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.012
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.005
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.002
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.001 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.21      |
+| EpisodesSoFar   | 138       |
+| EpLenMean       | 1.93e+03  |
+| EpRewMean       | -223      |
+| EpThisIter      | 0         |
+| ev_tdlam_before | 0.0723    |
+| meankl          | -2.98e-08 |
+| optimgain       | 1.63e-06  |
+| surrgain        | 1.63e-06  |
+| TimeElapsed     | 336       |
+| TimestepsSoFar  | 1.36e+05  |
+-------------------------------
+********** Iteration 135 ************
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.21     |
+| EpisodesSoFar   | 139      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0279  |
+| meankl          | 0.000814 |
+| optimgain       | 0.00119  |
+| surrgain        | 0.00119  |
+| TimeElapsed     | 337      |
+| TimestepsSoFar  | 1.38e+05 |
+------------------------------
+********** Iteration 136 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.18     |
+| EpisodesSoFar   | 139      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -223     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0793   |
+| meankl          | 0.00109  |
+| optimgain       | 0.000716 |
+| surrgain        | 0.000716 |
+| TimeElapsed     | 337      |
+| TimestepsSoFar  | 1.38e+05 |
+------------------------------
+********** Iteration 137 ************
+Expected: 0.004 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.19     |
+| EpisodesSoFar   | 140      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -217     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0433  |
+| meankl          | 0.000827 |
+| optimgain       | 0.00124  |
+| surrgain        | 0.00124  |
+| TimeElapsed     | 338      |
+| TimestepsSoFar  | 1.4e+05  |
+------------------------------
+********** Iteration 138 ************
+Expected: 0.002 Actual: -0.003
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.001
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: -0.000
+surrogate didn't improve. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.18     |
+| EpisodesSoFar   | 140      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -217     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.103    |
+| meankl          | 6.01e-08 |
+| optimgain       | 1.68e-06 |
+| surrgain        | 1.68e-06 |
+| TimeElapsed     | 338      |
+| TimestepsSoFar  | 1.4e+05  |
+------------------------------
+********** Iteration 139 ************
+Expected: 0.002 Actual: -0.006
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: -0.003
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.000
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.19     |
+| EpisodesSoFar   | 141      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -210     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0033  |
+| meankl          | 8.93e-05 |
+| optimgain       | 9.58e-05 |
+| surrgain        | 9.58e-05 |
+| TimeElapsed     | 339      |
+| TimestepsSoFar  | 1.42e+05 |
+------------------------------
+********** Iteration 140 ************
+Expected: 0.001 Actual: 0.003
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.18     |
+| EpisodesSoFar   | 141      |
+| EpLenMean       | 1.93e+03 |
+| EpRewMean       | -210     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.161    |
+| meankl          | 0.000428 |
+| optimgain       | 0.000515 |
+| surrgain        | 0.000515 |
+| TimeElapsed     | 340      |
+| TimestepsSoFar  | 1.42e+05 |
+------------------------------
+********** Iteration 141 ************
+Expected: 0.003 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.17     |
+| EpisodesSoFar   | 142      |
+| EpLenMean       | 1.98e+03 |
+| EpRewMean       | -209     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.677   |
+| meankl          | 0.000426 |
+| optimgain       | 0.00121  |
+| surrgain        | 0.00121  |
+| TimeElapsed     | 340      |
+| TimestepsSoFar  | 1.44e+05 |
+------------------------------
+********** Iteration 142 ************
+Expected: 0.003 Actual: 0.000
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.17     |
+| EpisodesSoFar   | 143      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.0063   |
+| meankl          | 0.00069  |
+| optimgain       | 0.00083  |
+| surrgain        | 0.00083  |
+| TimeElapsed     | 341      |
+| TimestepsSoFar  | 1.46e+05 |
+------------------------------
+********** Iteration 143 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.15     |
+| EpisodesSoFar   | 143      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -35.9    |
+| meankl          | 0.00103  |
+| optimgain       | 0.00262  |
+| surrgain        | 0.00262  |
+| TimeElapsed     | 341      |
+| TimestepsSoFar  | 1.46e+05 |
+------------------------------
+********** Iteration 144 ************
+Expected: 0.015 Actual: 0.005
+violated KL constraint. shrinking step.
+Expected: 0.015 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.15     |
+| EpisodesSoFar   | 144      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | 0.0452   |
+| meankl          | 0.000449 |
+| optimgain       | 0.00235  |
+| surrgain        | 0.00235  |
+| TimeElapsed     | 342      |
+| TimestepsSoFar  | 1.48e+05 |
+------------------------------
+********** Iteration 145 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.16     |
+| EpisodesSoFar   | 144      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | -3.64    |
+| meankl          | 0.000993 |
+| optimgain       | 0.000787 |
+| surrgain        | 0.000787 |
+| TimeElapsed     | 343      |
+| TimestepsSoFar  | 1.48e+05 |
+------------------------------
+********** Iteration 146 ************
+Expected: 0.002 Actual: 0.002
+violated KL constraint. shrinking step.
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.17     |
+| EpisodesSoFar   | 145      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.00431 |
+| meankl          | 0.000428 |
+| optimgain       | 0.000769 |
+| surrgain        | 0.000769 |
+| TimeElapsed     | 343      |
+| TimestepsSoFar  | 1.5e+05  |
+------------------------------
+********** Iteration 147 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.14     |
+| EpisodesSoFar   | 145      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0626   |
+| meankl          | 0.00102  |
+| optimgain       | 0.002    |
+| surrgain        | 0.002    |
+| TimeElapsed     | 344      |
+| TimestepsSoFar  | 1.5e+05  |
+------------------------------
+********** Iteration 148 ************
+Expected: 0.003 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.003 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.14     |
+| EpisodesSoFar   | 146      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 1        |
+| ev_tdlam_before | -0.0867  |
+| meankl          | 0.00124  |
+| optimgain       | 0.00103  |
+| surrgain        | 0.00103  |
+| TimeElapsed     | 344      |
+| TimestepsSoFar  | 1.52e+05 |
+------------------------------
+********** Iteration 149 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.16     |
+| EpisodesSoFar   | 146      |
+| EpLenMean       | 2.02e+03 |
+| EpRewMean       | -208     |
+| EpThisIter      | 0        |
+| ev_tdlam_before | 0.0851   |
+| meankl          | 0.000971 |
+| optimgain       | 0.00218  |
+| surrgain        | 0.00218  |
+| TimeElapsed     | 345      |
+| TimestepsSoFar  | 1.52e+05 |
+------------------------------
+********** Iteration 150 ************
