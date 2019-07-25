@@ -296,19 +296,18 @@ def learn(*,
 
         # ***********************  Visualization  ***************************
         if iters_so_far%50==0 and iters_so_far!=0:
-            print("CHECK")
-            # done = False
-            # obs = env.reset()
-            # state = pi.initial_state if hasattr(pi, 'initial_state') else None
-            # dones = np.zeros((1,))
-            # while not done:
-            #     if state is not None:
-            #         actions, _, state, _ = pi.step(obs,S=state, M=dones)
-            #     else:
-            #         actions, _, _, _ = pi.step(obs)
-            #     obs, rew, done, _ = env.step(actions)
-            #     env.render()
-            #     done = done.any() if isinstance(done, np.ndarray) else done
+            done = False
+            obs = env.reset()
+            state = pi.initial_state if hasattr(pi, 'initial_state') else None
+            dones = np.zeros((1,))
+            while not done:
+                if state is not None:
+                    actions, _, state, _ = pi.step(obs,S=state, M=dones)
+                else:
+                    actions, _, _, _ = pi.step(obs)
+                obs, rew, done, _ = env.step(actions)
+                env.render()
+                done = done.any() if isinstance(done, np.ndarray) else done
         # *******************************************************************
 
 
