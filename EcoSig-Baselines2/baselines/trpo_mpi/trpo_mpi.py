@@ -57,10 +57,10 @@ def traj_segment_generator(pi, env, horizon, stochastic):
         obs[i] = ob
         vpreds[i] = vpred
         news[i] = new
-        acs[i] = ac
         prevacs[i] = prevac
 
-        ob, rew, new, _ = env.step(ac)
+        ob, rew, new, info = env.step(ac)
+        acs[i] = info[0]['action_real']
         rews[i] = rew
 
         cur_ep_ret += rew
@@ -295,7 +295,7 @@ def learn(*,
 
 
         # ***********************  Visualization  ***************************
-        if iters_so_far%50==0 and iters_so_far!=0:
+        if iters_so_far%30==0:# and iters_so_far!=0:
             done = False
             obs = env.reset()
             state = pi.initial_state if hasattr(pi, 'initial_state') else None
@@ -395,6 +395,7 @@ def learn(*,
 
         logger.record_tabular("EpLenMean", np.mean(lenbuffer))
         logger.record_tabular("EpRewMean", np.mean(rewbuffer))
+        logger.record_tabular("ERewMean", np.mean([rewbuffer[i]/lenbuffer[i] for i in range(len(lenbuffer))]))
         logger.record_tabular("EpThisIter", len(lens))
         episodes_so_far += len(lens)
         timesteps_so_far += sum(lens)

@@ -1,0 +1,3 @@
+Logging to ./save/726/state5/manual1/TL9/1/logs
+load_state method is deprecated, please use load_variables instead
+********** Iteration 0 ************
