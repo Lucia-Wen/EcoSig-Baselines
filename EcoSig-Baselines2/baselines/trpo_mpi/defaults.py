@@ -34,7 +34,7 @@ def lucia_env():
     return dict(
         network = mlp(num_hidden=64, num_layers=5),
         timesteps_per_batch=1024*3,
-        max_kl=0.00005,
+        max_kl=0.001,
         cg_iters=10,
         cg_damping=0.1,
         gamma=0.99,

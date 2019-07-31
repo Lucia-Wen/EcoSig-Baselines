@@ -1,5 +1,5 @@
 import numpy as np
-def cg(f_Ax, b, cg_iters=10, callback=None, verbose=False, residual_tol=1e-10):
+def cg(f_Ax, b, cg_iters=10, callback=None, verbose=False, residual_tol=1e-8):
     """
     Demmel p 312
     """
