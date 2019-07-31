@@ -34,10 +34,10 @@ def lucia_env():
     return dict(
         network = mlp(num_hidden=64, num_layers=5),
         timesteps_per_batch=1024*3,
-        max_kl=0.005,
+        max_kl=0.00005,
         cg_iters=10,
         cg_damping=0.1,
-        gamma=0.995,
+        gamma=0.99,
         lam=0.98,
         vf_iters=5,
         vf_stepsize=1e-3,
