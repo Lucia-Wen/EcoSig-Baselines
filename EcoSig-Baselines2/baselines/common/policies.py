@@ -90,10 +90,10 @@ class PolicyWithValue(object):
         (action, value estimate, next state, negative log likelihood of the action under current policy parameters) tuple
         """
 
-        a, v, state, neglogp = self._evaluate([self.action, self.vf, self.state, self.neglogp], observation, **extra_feed)
+        a, v, state, neglogp, mean, std = self._evaluate([self.action, self.vf, self.state, self.neglogp, self.pd.mean, self.pd.std], observation, **extra_feed)
         if state.size == 0:
             state = None
-        return a, v, state, neglogp
+        return a, v, state, neglogp, mean, std
 
     def value(self, ob, *args, **kwargs):
         """

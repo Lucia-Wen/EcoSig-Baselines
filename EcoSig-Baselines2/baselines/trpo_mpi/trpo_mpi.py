@@ -37,18 +37,19 @@ def traj_segment_generator(pi, env, horizon, stochastic):
     news = np.zeros(horizon, 'int32')
     acs = np.array([ac for _ in range(horizon)])
     prevacs = acs.copy()
+    pd_stds = np.zeros(horizon, 'float32')
 
     while True:
         prevac = ac
-        ac, vpred, _, _ = pi.step(ob, stochastic=stochastic)
+        ac, vpred, _, _, pd_mean, pd_std = pi.step(ob, stochastic=stochastic)
         # Slight weirdness here because we need value function at time T
         # before returning segment [0, T-1] so we get the correct
         # terminal value
         if t > 0 and t % horizon == 0:
             yield {"ob" : obs, "rew" : rews, "vpred" : vpreds, "new" : news,
                     "ac" : acs, "prevac" : prevacs, "nextvpred": vpred * (1 - new),
-                    "ep_rets" : ep_rets, "ep_lens" : ep_lens}
-            _, vpred, _, _ = pi.step(ob, stochastic=stochastic)
+                    "ep_rets" : ep_rets, "ep_lens" : ep_lens, "pd_std" : pd_stds}
+            _, vpred, _, _, _, pd_std = pi.step(ob, stochastic=stochastic)
             # Be careful!!! if you change the downstream algorithm to aggregate
             # several of these batches, then be sure to do a deepcopy
             ep_rets = []
@@ -58,6 +59,7 @@ def traj_segment_generator(pi, env, horizon, stochastic):
         vpreds[i] = vpred
         news[i] = new
         prevacs[i] = prevac
+        pd_stds[i] = pd_std
 
         ob, rew, new, info = env.step(ac)
         acs[i] = info[0]['action_real']
@@ -306,9 +308,9 @@ def learn(*,
             dones = np.zeros((1,))
             while not done:
                 if state is not None:
-                    actions, _, state, _ = pi.step(obs,S=state, M=dones)
+                    actions, _, state, _, pd_mean, pd_std = pi.step(obs,S=state, M=dones)
                 else:
-                    actions, _, _, _ = pi.step(obs)
+                    actions, _v, _state, _neglog, pd_mean, pd_std = pi.step(obs)
                 obs, rew, done, _ = env.step(actions)
                 env.render()
                 done = done.any() if isinstance(done, np.ndarray) else done

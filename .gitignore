@@ -1,0 +1,10 @@
+
+\.idea/
+
+__pycache__/
+
+baselines/
+
+EcoSig-Baselines2/save/
+
+save/
