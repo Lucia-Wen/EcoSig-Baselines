@@ -65,17 +65,18 @@ class EVeh_model():
     Rin_norm = 0.0872279723055434
     VOC_norm = 3.507459685926577e+02
 
-signal_num = 3
-max_step = 1e3  #1000   #5e3    #1e4    | 1e3
-max_dist= 500   #500    #2e3    #5400   | 500
-max_interval=200
 
+signal_num = 3      #6      #3      #4      #9      |   3
+max_step = 2e3      #2e3    #1e3    #5e3    #3e3    | 1e3
+max_dist= 5.4e3      #4e3    #1200   #2e3    #5400   | 500
+max_interval=1500    #1500   #500    #-      #1500   |   -
+reward_step = 0.2
 
-max_vel=50
-dt=0.1
+max_vel=12500*np.pi/30/EVeh_model.M2WRatio*EVeh_model.WheelRadius
+dt=0.5
 SIGNL_DIM=4
 # STATE_DIM=2
-cosd_sign_num=1
+cosd_sign_num=2
 STATE_DIM=cosd_sign_num*SIGNL_DIM+1
 
 
@@ -83,13 +84,16 @@ max_cycle=180
 max_red=1
 
 E_reward=1e-4
-Red_reward=max_step*dt
+Red_reward=max_step*dt  #1000
 End_reward=max_step*dt
+RedFar_reward=max_step*dt
+GStop_reward=max_step*dt/5  #200
 # Red_reward=200
 # End_reward=50
 
 
 memory_capacity=max_step*2
+
 
 
 
@@ -102,17 +106,22 @@ class SigEcoEnv(gym.Env):
         self.EndFlag = False
         self.RedFlag = False
         self.GreenFlag = False
+        self.RedFar = False
+        self.GreenStop = 0
         self.traffic_signals = Traffic_signals()
-        self.traffic_signals.manual_set_2()
+        self.traffic_signals.manual_set()
         self.Agent_EV = Agent_EV()
         self.state_new = [0]*3   #[v, dist, t]
         self.state = [0]*STATE_DIM      #[v, rel_dis, cycle, red, current]
         self.sequence_id = [0]*cosd_sign_num
         self._get_state()
 
-        # self.observation_space = spaces.Box(low=np.array([0,0,0]),high=np.array([max_vel, max_dist,max_step*dt]))
-        self.observation_space = spaces.Box(low=np.array([0,0,0,0,0]),high=np.array([max_vel, max_interval, max_cycle, 0.7, 1]))
-        # self.observation_space = spaces.Box(low=np.array([0,0]),high=np.array([max_vel, max_dist]))
+        if mod == "dim3":
+            self.observation_space = spaces.Box(low=np.array([0,0,0]),high=np.array([max_vel, max_dist, max_step*dt]))
+        elif mod == "dim5":
+            self.observation_space = spaces.Box(low=np.array([0]*STATE_DIM),high=np.array([max_vel, max_interval, max_cycle, 0.7, 1, 2000, max_cycle, 0.7, 1]))
+            # self.observation_space = spaces.Box(low=np.array([0]*STATE_DIM),high=np.array([max_vel]+[max_interval, max_cycle, 0.7, 1]*cosd_sign_num))
+            # self.observation_space = spaces.Box(low=np.array([0,0]),high=np.array([max_vel, max_dist]))
         self.action_space = spaces.Box(low=np.array([-10]), high=np.array([10]))
         self.viewer = None
         self._viewers={}
@@ -123,17 +132,24 @@ class SigEcoEnv(gym.Env):
         self.Agent_EV.update(action)
         self._get_state()
         self._check_end()
+        self._check_green_stop()
+        self._check_red_dist()
         reward = self._get_reward()
-        state = normalize_state(self.state)
+        if mod == "dim5":
+            state = normalize_state(self.state)
+        elif mod == "dim3":
+            state = normalize_state(self.state_new)
         # state = normalize_state(self.state_new)
         # state = self.state
-        done = self.EndFlag
+        done = self.EndFlag or self.RedFlag or bool(self.GreenStop>=10) or self.RedFar
         return state, reward, done, {"action_real": self.Agent_EV.action}
 
     def reset(self):
         self._reset_agent()
-        return normalize_state(self.state)
-        # return normalize_state(self.state_new)
+        if mod == "dim5":
+            return normalize_state(self.state)
+        elif mod == "dim3":
+            return normalize_state(self.state_new)
         # return self.state_new
         # return self.state
 
@@ -147,8 +163,6 @@ class SigEcoEnv(gym.Env):
         #     self.viewer = rendering.Viewer(screen_width, screen_height)
         # self.fig_env = plt.figure("env_fig", figsize = (100, 30))
         # plt.axes(xlim=(-10, 500), ylim=(- 150, 150))
-
-
 
         plt.figure("env_fig")
         plt.title("Demo")
@@ -170,9 +184,9 @@ class SigEcoEnv(gym.Env):
                 plt.plot(self.traffic_signals.pos[i], 0, "go")
 
         plt.pause(0.001)
-        print("vel = ", self.state_new[0], "    act = ", self.Agent_EV.action)
-        if self.state_new[0]==0:
-            print("wierd")
+        print("vel = ", self.state_new[0], "    act = ", self.Agent_EV.action, "    rew = ", self._get_reward())
+        # if self.state_new[0]==0:
+        #     print("wierd")
 
 
 
@@ -190,10 +204,10 @@ class SigEcoEnv(gym.Env):
         for i in range(cosd_sign_num):
             _id = self.sequence_id[i]
             if _id == -1:
-                self.state[1+SIGNL_DIM*i] = float(-max_interval)
-                self.state[2+SIGNL_DIM*i] = int(-max_cycle)
-                self.state[3+SIGNL_DIM*i] = float(-max_red)
-                self.state[4+SIGNL_DIM*i] = -1
+                self.state[1+SIGNL_DIM*i] = float(max_interval)
+                self.state[2+SIGNL_DIM*i] = int(max_cycle)
+                self.state[3+SIGNL_DIM*i] = 0
+                self.state[4+SIGNL_DIM*i] = 0
             else:
                 self.state[1+SIGNL_DIM*i] = float(self.traffic_signals.pos[_id] - self.Agent_EV.veh_state.dist_from_start)
                 self.state[2+SIGNL_DIM*i] = int(self.traffic_signals.phase[_id][0])
@@ -203,6 +217,8 @@ class SigEcoEnv(gym.Env):
         self.state_new[0] = np.float(deepcopy(self.Agent_EV.veh_state.v))
         self.state_new[1] = np.float(deepcopy(self.Agent_EV.veh_state.dist_from_start))
         self.state_new[2] = np.float(deepcopy(self.TIME_STAMP))
+
+
         # if  self.state_new[0]==0:
         #     print("wierd")
 
@@ -210,24 +226,46 @@ class SigEcoEnv(gym.Env):
         if self.sequence_id[0] == -1:
             self.EndFlag = True
 
+    def _check_green_stop(self):
+        if self.state[4]>self.state[3] and self.state[0]<1:
+            self.GreenStop += 1
+        else:
+            self.GreenStop = 0
+
+    def _check_red_dist(self):
+        if self.state[4]<self.state[3] and self.state[0]<0.01:
+            if self.state[1]>5:
+                self.RedFar = True
+            else:
+                self.RedFar = False
+        else:
+            self.RedFar = False
+
     def _get_reward(self):
         # reward(a|self._state, self.state): E_consumption, Time, Red_Flag
-        self.reward_Red, self.reward_Green, self.reward_End, self.reward_Pass, self.reward_Spd = 0, 0, 0, 0, 0
+        self.reward_Red, self.reward_Green, self.reward_Green_Stop, \
+        self.reward_End, self.reward_Pass, self.reward_Spd, self.reward_red_far = 0, 0, 0, 0, 0, 0, 0
         self.reward_E = -E_reward*self.Agent_EV._E_consumption
         if self.RedFlag:
             # self.reward_Red = -Red_reward
-            self.reward_Red = -Red_reward*(1+self.state[0]/max_vel)
-        if self.EndFlag:
+            self.reward_Red = -Red_reward*1#(0.5+self.state[0]/max_vel)
             self.reward_End = End_reward
         if self.TIME_STAMP>max_step*dt and not self.EndFlag:
             self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
             self.EndFlag = True
-        if self.GreenFlag:
-            self.reward_Green = Red_reward/10
-
+        if self.PassFlag:
+            self.reward_Pass = Red_reward/5
+        if bool(self.GreenStop>=10):
+            self.reward_Green_Stop = -GStop_reward
+        if self.RedFar:
+            self.reward_red_far = -RedFar_reward*(0.5+self.state[1]/max_interval)
+            print("red_far:", self.state[1])
         # reward = self.reward_E + self.reward_End + self.reward_Red - 0*T_reward + self.reward_Spd
         # reward = self.reward_E + self.reward_End + self.reward_Red+self.reward_Spd
-        reward = self.reward_Red - 0.1 + self.reward_End
+        if mod =="dim3":
+            reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
+        if mod =="dim5":
+            reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
         return reward
 
     def _reset_agent(self):
@@ -235,6 +273,7 @@ class SigEcoEnv(gym.Env):
         self.EndFlag = False
         self.RedFlag = False
         self.GreenFlag = False
+        self.GreenStop = 0
         self.Agent_EV.reset()
         self.sequence_id = [0] * cosd_sign_num
         self._get_state()
@@ -327,6 +366,7 @@ class Traffic_signals():
             self.pos = [346.260000000000,574.635000000000,1011.05132701422,1746.17000000000,2193.25000000000,3499.95500000000,3843.57500000000,4640.36500000000,5248.54000000000]
             CycleTime = [100]*9
             RedDuration = list(np.array([32,50,42,54,53,62,54,58,54])/100)
+            # StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-100.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-140.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             # StartPhase = list((200+np.array([-20,-32,-72,-87,-102,-132,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             self.phase = [[i,j,k] for i,j,k in zip(CycleTime, RedDuration, StartPhase)]
@@ -353,7 +393,6 @@ class Agent_EV():
             self.acc_bound = self._Tq_to_Acc_bound()
             self.action = np.clip(action, *self.acc_bound)
             v_c = deepcopy(self.veh_state.v)
-            self.veh_state.dist_from_start += self.veh_state.v*dt + 1/2*self.action*dt**2
             self.veh_state.v += self.action*dt
             _vel= np.clip(self.veh_state.v, *[0,max_vel])
             if self.veh_state.v != _vel:
@@ -364,6 +403,7 @@ class Agent_EV():
             else:
                 # print("action a=", self.action)
                 self.NegVFlag = False
+            self.veh_state.dist_from_start += v_c*dt + 1/2*self.action*dt**2
             v_n = deepcopy(self.veh_state.v)
             self._E_consumption = self._get_E_consumption(self.action, v_c, v_n)
             if np.isnan(self.veh_state.dist_from_start) or np.isnan(self.veh_state.v):
@@ -408,13 +448,13 @@ class Agent_EV():
             return E_consumption_J
 
 class veh_state():
-            def __init__(self):
-                self.v = 25 + 5 * np.random.rand()
-                # self.v = max_vel * np.random.rand()
-                # self.dist_from_start = 10 * np.random.rand()
-                # self.v = max_vel*np.random.rand()
-                # self.v = 20
-                self.dist_from_start = 0
+    def __init__(self):
+        # self.v = 25 + 5 * np.random.rand()
+        # self.v = max_vel * np.random.rand()
+        # self.dist_from_start = 10 * np.random.rand()
+        # self.v = max_vel*np.random.rand()
+        self.v = 0
+        self.dist_from_start = 0
 
 
 
@@ -423,17 +463,33 @@ def normalize_state(state):
     if state.ndim==1:
         state = state[np.newaxis,:]
     state[:,0] = state[:,0]/max_vel
+    # state[:,0] = state[:,0]/(max_vel/2)-1
 
     # self.state_new:
-    # state[:,0] = state[:,0]/max_vel
-    # state[:,1] = state[:,1]/max_dist
-    # state[:,2] = state[:,2]/max_step/dt
+    if mod == "dim3":
+        state[:,1] = state[:,1]/max_dist
+        state[:,2] = state[:,2]/max_step/dt
 
     # self.state:
-    for i in range(cosd_sign_num):
-        state[:,1+SIGNL_DIM*i] = state[:,1+SIGNL_DIM*i]/max_interval
-        state[:,2+SIGNL_DIM*i] = state[:,2+SIGNL_DIM*i]/max_cycle
-        state[:,3+SIGNL_DIM*i] = state[:,3+SIGNL_DIM*i]/max_red
+    elif mod == "dim5":
+        # for i in range(cosd_sign_num):
+        state[:,1+SIGNL_DIM*0] = 2*state[:,1+SIGNL_DIM*0]/max_interval
+        state[:,2+SIGNL_DIM*0] = 2*state[:,2+SIGNL_DIM*0]/max_cycle
+        state[:,3+SIGNL_DIM*0] = 2*state[:,3+SIGNL_DIM*0]/max_red
+
+        state[:,1+SIGNL_DIM*1] = 2*state[:,1+SIGNL_DIM*1]/2000
+        state[:,2+SIGNL_DIM*1] = 2*state[:,2+SIGNL_DIM*1]/max_cycle
+        state[:,3+SIGNL_DIM*1] = 2*state[:,3+SIGNL_DIM*1]/max_red
+
+        # state[:,1+SIGNL_DIM*0] = 2*state[:,1+SIGNL_DIM*0]/max_interval-1
+        # state[:,2+SIGNL_DIM*0] = 2*state[:,2+SIGNL_DIM*0]/max_cycle-1
+        # state[:,3+SIGNL_DIM*0] = 2*state[:,3+SIGNL_DIM*0]/max_red-1
+        #
+        # state[:,1+SIGNL_DIM*1] = 2*state[:,1+SIGNL_DIM*1]/2000-1
+        # state[:,2+SIGNL_DIM*1] = 2*state[:,2+SIGNL_DIM*1]/max_cycle-1
+        # state[:,3+SIGNL_DIM*1] = 2*state[:,3+SIGNL_DIM*1]/max_red-1
+
+
     _state = state
     return _state
 
