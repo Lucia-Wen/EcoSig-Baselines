@@ -10,7 +10,38 @@ import matplotlib.pyplot as plt
 
 # args_env = get_arguments()
 # kwargs = get_arguments
-mod = "dim3"
+mod = "dim5"
+
+signal_num = 9      #6      #3      #4      #9      |   3
+max_step = 2e3      #2e3    #1e3    #5e3    #3e3    | 1e3
+max_dist= 5.4e3      #4e3    #1200   #2e3    #5400   | 500
+max_interval=1500    #1500   #500    #-      #1500   |   -
+
+
+max_vel=50
+dt=0.5
+SIGNL_DIM=4
+# STATE_DIM=2
+cosd_sign_num=2
+STATE_DIM=cosd_sign_num*SIGNL_DIM+1
+
+
+max_cycle=180
+max_red=1
+
+E_reward=1e-4
+Red_reward=max_step*dt
+End_reward=max_step*dt
+GStop_reward=max_step*dt/5
+RedFar_reward=max_step*dt
+# Red_reward=200
+# End_reward=50
+
+
+memory_capacity=max_step*2
+
+
+
 class EVeh_model():
     Mass = 2.2135e+3
     Fterms = np.array([162.4046, 4.8429, 0.4936])
@@ -64,39 +95,6 @@ class EVeh_model():
     Aux_load = 2000
     Rin_norm = 0.0872279723055434
     VOC_norm = 3.507459685926577e+02
-
-
-signal_num = 3      #6      #3      #4      #9      |   3
-max_step = 2e3      #2e3    #1e3    #5e3    #3e3    | 1e3
-max_dist= 5.4e3      #4e3    #1200   #2e3    #5400   | 500
-max_interval=1500    #1500   #500    #-      #1500   |   -
-reward_step = 0.2
-
-max_vel=12500*np.pi/30/EVeh_model.M2WRatio*EVeh_model.WheelRadius
-dt=0.5
-SIGNL_DIM=4
-# STATE_DIM=2
-cosd_sign_num=2
-STATE_DIM=cosd_sign_num*SIGNL_DIM+1
-
-
-max_cycle=180
-max_red=1
-
-E_reward=1e-4
-Red_reward=max_step*dt  #1000
-End_reward=max_step*dt
-RedFar_reward=max_step*dt
-GStop_reward=max_step*dt/5  #200
-# Red_reward=200
-# End_reward=50
-
-
-memory_capacity=max_step*2
-
-
-
-
 
 
 class SigEcoEnv(gym.Env):
@@ -263,9 +261,9 @@ class SigEcoEnv(gym.Env):
         # reward = self.reward_E + self.reward_End + self.reward_Red - 0*T_reward + self.reward_Spd
         # reward = self.reward_E + self.reward_End + self.reward_Red+self.reward_Spd
         if mod =="dim3":
-            reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
+            reward = self.reward_Red - 0.1 + self.reward_End + self.reward_Green_Stop + self.reward_red_far
         if mod =="dim5":
-            reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
+            reward = self.reward_Red - 0.1 + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
         return reward
 
     def _reset_agent(self):
@@ -393,6 +391,7 @@ class Agent_EV():
             self.acc_bound = self._Tq_to_Acc_bound()
             self.action = np.clip(action, *self.acc_bound)
             v_c = deepcopy(self.veh_state.v)
+            self.veh_state.dist_from_start += self.veh_state.v*dt + 1/2*self.action*dt**2
             self.veh_state.v += self.action*dt
             _vel= np.clip(self.veh_state.v, *[0,max_vel])
             if self.veh_state.v != _vel:
@@ -403,7 +402,6 @@ class Agent_EV():
             else:
                 # print("action a=", self.action)
                 self.NegVFlag = False
-            self.veh_state.dist_from_start += v_c*dt + 1/2*self.action*dt**2
             v_n = deepcopy(self.veh_state.v)
             self._E_consumption = self._get_E_consumption(self.action, v_c, v_n)
             if np.isnan(self.veh_state.dist_from_start) or np.isnan(self.veh_state.v):
@@ -448,13 +446,13 @@ class Agent_EV():
             return E_consumption_J
 
 class veh_state():
-    def __init__(self):
-        # self.v = 25 + 5 * np.random.rand()
-        # self.v = max_vel * np.random.rand()
-        # self.dist_from_start = 10 * np.random.rand()
-        # self.v = max_vel*np.random.rand()
-        self.v = 0
-        self.dist_from_start = 0
+            def __init__(self):
+                # self.v = 25 + 5 * np.random.rand()
+                # self.v = max_vel * np.random.rand()
+                # self.dist_from_start = 10 * np.random.rand()
+                # self.v = max_vel*np.random.rand()
+                self.v = 0
+                self.dist_from_start = 0
 
 
 
@@ -462,8 +460,7 @@ def normalize_state(state):
     state = np.squeeze(state)
     if state.ndim==1:
         state = state[np.newaxis,:]
-    state[:,0] = state[:,0]/max_vel
-    # state[:,0] = state[:,0]/(max_vel/2)-1
+    state[:,0] = state[:,0]/(max_vel/2)-1
 
     # self.state_new:
     if mod == "dim3":
@@ -473,13 +470,13 @@ def normalize_state(state):
     # self.state:
     elif mod == "dim5":
         # for i in range(cosd_sign_num):
-        state[:,1+SIGNL_DIM*0] = 2*state[:,1+SIGNL_DIM*0]/max_interval
-        state[:,2+SIGNL_DIM*0] = 2*state[:,2+SIGNL_DIM*0]/max_cycle
-        state[:,3+SIGNL_DIM*0] = 2*state[:,3+SIGNL_DIM*0]/max_red
+        state[:,1+SIGNL_DIM*0] = state[:,1+SIGNL_DIM*0]/max_interval
+        state[:,2+SIGNL_DIM*0] = state[:,2+SIGNL_DIM*0]/max_cycle
+        state[:,3+SIGNL_DIM*0] = state[:,3+SIGNL_DIM*0]/max_red
 
-        state[:,1+SIGNL_DIM*1] = 2*state[:,1+SIGNL_DIM*1]/2000
-        state[:,2+SIGNL_DIM*1] = 2*state[:,2+SIGNL_DIM*1]/max_cycle
-        state[:,3+SIGNL_DIM*1] = 2*state[:,3+SIGNL_DIM*1]/max_red
+        state[:,1+SIGNL_DIM*1] = state[:,1+SIGNL_DIM*1]/2000
+        state[:,2+SIGNL_DIM*1] = state[:,2+SIGNL_DIM*1]/max_cycle
+        state[:,3+SIGNL_DIM*1] = state[:,3+SIGNL_DIM*1]/max_red
 
         # state[:,1+SIGNL_DIM*0] = 2*state[:,1+SIGNL_DIM*0]/max_interval-1
         # state[:,2+SIGNL_DIM*0] = 2*state[:,2+SIGNL_DIM*0]/max_cycle-1
@@ -492,4 +489,3 @@ def normalize_state(state):
 
     _state = state
     return _state
-
