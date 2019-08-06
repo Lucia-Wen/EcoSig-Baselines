@@ -141,6 +141,8 @@ def learn(network, env,
 
                 # max_action is of dimension A, whereas action is dimension (nenvs, A) - the multiplication gets broadcasted to the batch
                 new_obs, r, done, info = env.step(max_action * action)  # scale for execution in env (as far as DDPG is concerned, every action is in [-1, 1])
+                action = info[0]['action_real']/max_action
+                assert -1<action<1
                 # note these outputs are batched from vecenv
 
                 t += 1
@@ -210,6 +212,19 @@ def learn(network, env,
             mpi_size = MPI.COMM_WORLD.Get_size()
         else:
             mpi_size = 1
+
+
+        # ***********************  Visualization  ***************************
+        if epoch%25==0:# and iters_so_far!=0:
+            done = False
+            obs = env.reset()
+            while not done:
+                actions, _, _, _ = agent.step(obs)
+                obs, rew, done, _ = env.step(actions*max_action)
+                env.render()
+                done = done.any() if isinstance(done, np.ndarray) else done
+        # *******************************************************************
+
 
         # Log stats.
         # XXX shouldn't call np.mean on variable length lists
