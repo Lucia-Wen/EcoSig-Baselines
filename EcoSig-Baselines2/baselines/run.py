@@ -71,6 +71,10 @@ def train(args, extra_args):
         if alg_kwargs.get('network') is None:
             alg_kwargs['network'] = get_default_network(env_type)
 
+    if env_id == "SignalizedEco-v0":
+        alg_kwargs['activation'] = tf.nn.relu
+        alg_kwargs['num_layers'] = 4
+
     print('Training {} on {}:{} with arguments \n{}'.format(args.alg, env_type, env_id, alg_kwargs))
 
     model = learn(
