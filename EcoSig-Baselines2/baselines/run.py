@@ -32,7 +32,7 @@ except ImportError:
 _game_envs = defaultdict(set)
 for env in gym.envs.registry.all():
     # TODO: solve this with regexes
-    env_type = env._entry_point.split(':')[0].split('.')[-1]
+    env_type = env.entry_point.split(':')[0].split('.')[-1]
     _game_envs[env_type].add(env.id)
 
 # reading benchmark names directly from retro requires
@@ -72,7 +72,7 @@ def train(args, extra_args):
             alg_kwargs['network'] = get_default_network(env_type)
 
     if env_id == "SignalizedEco-v0":
-        alg_kwargs['activation'] = tf.nn.relu
+        # alg_kwargs['activation'] = tf.nn.relu
         alg_kwargs['num_layers'] = 4
 
     print('Training {} on {}:{} with arguments \n{}'.format(args.alg, env_type, env_id, alg_kwargs))
@@ -130,7 +130,7 @@ def get_env_type(args):
 
     # Re-parse the gym registry, since we could have new envs since last time.
     for env in gym.envs.registry.all():
-        env_type = env._entry_point.split(':')[0].split('.')[-1]
+        env_type = env.entry_point.split(':')[0].split('.')[-1]
         _game_envs[env_type].add(env.id)  # This is a set so add is idempotent
 
     if env_id in _game_envs.keys():
