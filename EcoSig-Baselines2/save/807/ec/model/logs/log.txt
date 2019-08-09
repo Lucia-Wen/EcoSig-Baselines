@@ -1,0 +1,3 @@
+Logging to ./save/807/ec/recv3/logs
+load_state method is deprecated, please use load_variables instead
+********** Iteration 0 ************

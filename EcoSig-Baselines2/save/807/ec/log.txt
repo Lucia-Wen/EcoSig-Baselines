@@ -1,0 +1,10 @@
+python -m baselines.run --env=SignalizedEco-v0 --alg=trpo_mpi --save_path=./save/807/ec/r=1/4/models/SigEco --log_path=./save/807/ec/r=1/4/logs
+
+
+r=1(0)/1:	kl=0.0005	gamma=0.95	num=64*5
+r=1(0)/2:	kl=0.0005	gamma=0.95	num=64*5
+r=1(0)/3:	kl=0.0005	gamma=0.995	num=64*5
+r=1(0)/4:	kl=0.0005	gamma=0.995	num=64*5
+
+revc2/2_1:	kl=0.001	gamma=0.995	rew_s=0.1	-> code-archive-0806
+revc3/3_1:	kl=0.001	gamma=0.995	rew_s=1	 	-> code-archive-0806
