@@ -1,0 +1,3 @@
+python -m baselines.run --env=SignalizedEco-v0 --alg=trpo_mpi --save_path=./save/811/1/models/SigEco --log_path=./save/811/1/logs
+
+7:n340
