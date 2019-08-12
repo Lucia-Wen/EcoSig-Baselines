@@ -70,7 +70,7 @@ class EVeh_model():
 
 
 dt=1
-reward_step = 0.1
+reward_step = 2
 SIGNL_DIM=4
 cosd_sign_num=2
 STATE_DIM=cosd_sign_num*SIGNL_DIM+1
@@ -80,11 +80,11 @@ max_cycle=180
 max_red=1
 
 E_reward=1e-4
-Red_reward=max_step*dt
-End_reward=max_step*dt/2
+Red_reward=max_step*dt/10
+End_reward=max_step*dt/5
 Pass_reward=max_step*dt/5
-GStop_reward=max_step*dt/100
-RedFar_reward=max_step*dt/100
+GStop_reward=max_step*dt/50
+RedFar_reward=max_step*dt
 max_vel=12500*np.pi/30/EVeh_model.M2WRatio*EVeh_model.WheelRadius
 
 class SigEcoEnv(gym.Env):
@@ -129,7 +129,7 @@ class SigEcoEnv(gym.Env):
             state = normalize_state(self.state_new)
         # state = normalize_state(self.state_new)
         # state = self.state
-        done = self.EndFlag or self.RedFlag or bool(self.GreenStop>=5) or self.RedFar
+        done = self.EndFlag or self.RedFlag or bool(self.GreenStop>=10) or self.RedFar
         return state, reward, done, {"action_real": self.Agent_EV.action}
 
     def reset(self):
@@ -234,25 +234,27 @@ class SigEcoEnv(gym.Env):
         self.reward_Red, self.reward_Green, self.reward_Green_Stop, \
         self.reward_End, self.reward_Pass, self.reward_Spd, self.reward_red_far = 0, 0, 0, 0, 0, 0, 0
         self.reward_E = -E_reward*self.Agent_EV._E_consumption
+        # print("E_conspt: ", self.Agent_EV._E_consumption)
         if self.EndFlag:
-            self.reward_End = End_reward
+            self.reward_End =0
         if self.RedFlag:
             self.reward_Red = -Red_reward*1#(0.5+self.state[0]/max_vel)
-            # self.reward_End = End_reward
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
         if self.TIME_STAMP>max_step*dt and not self.EndFlag:
-            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
             self.EndFlag = True
         if self.PassFlag:
             self.reward_Pass = Pass_reward
-        # if bool(self.GreenStop>=10):
-        #     self.reward_Green_Stop = -GStop_reward
+        if bool(self.GreenStop>=10):
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
         if self.GreenStop>0:
             self.reward_Green_Stop = -GStop_reward
         if self.RedFar:
-            self.reward_red_far = -RedFar_reward*(0.5+self.state[1]/max_interval)
-            print("red_far:", self.state[1])
+            self.reward_red_far = -RedFar_reward*1#(1.5-self.state[1]/max_interval)
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
+            # print("red_far:", self.state[1])
         if mod =="dim3":
-            reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far + self.reward_End
+            reward = self.reward_End - reward_step
         if mod =="dim5":
             reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
         return reward
@@ -353,9 +355,9 @@ class Traffic_signals():
             self.pos = [346.260000000000,574.635000000000,1011.05132701422,1746.17000000000,2193.25000000000,3499.95500000000,3843.57500000000,4640.36500000000,5248.54000000000]
             CycleTime = [100]*9
             RedDuration = list(np.array([32,50,42,54,53,62,54,58,54])/100)
-            # StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-100.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
+            StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-100.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             # StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-140.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
-            StartPhase = list((200+np.array([-20,-32,-72,-87,-102,-132,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
+            # StartPhase = list((200+np.array([-20,-32,-72,-87,-102,-132,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             self.phase = [[i,j,k] for i,j,k in zip(CycleTime, RedDuration, StartPhase)]
 
         def manual_set_2(self):
@@ -378,10 +380,10 @@ class Agent_EV():
 
         def update(self, action):   # Update one step action
             self.acc_bound = self._Tq_to_Acc_bound()
-            self.action = np.clip(action, *self.acc_bound)
+            self.action = float(np.clip(action, *self.acc_bound))
             v_c = deepcopy(self.veh_state.v)
             self.veh_state.v += self.action*dt
-            _vel= np.clip(self.veh_state.v, *[0,max_vel])
+            _vel= float(np.clip(self.veh_state.v, *[0,max_vel]))
             if self.veh_state.v != _vel:
                 self.NegVFlag = True
                 # print("negative v=",self.veh_state.v, "action a=", self.action)
@@ -417,8 +419,8 @@ class Agent_EV():
             W_n_radps = spd_n/EVeh_model.WheelRadius*EVeh_model.M2WRatio
             MECH_Pwr_c_W = T_Nm*W_c_radps
             MECH_Pwr_n_W = T_Nm*W_n_radps
-            LOSS_Pwr_c_W = EVeh_model.PwLossAtVolt(W_c_radps, T_Nm)
-            LOSS_Pwr_n_W = EVeh_model.PwLossAtVolt(W_n_radps, T_Nm)
+            LOSS_Pwr_c_W = float(EVeh_model.PwLossAtVolt(W_c_radps, T_Nm))
+            LOSS_Pwr_n_W = float(EVeh_model.PwLossAtVolt(W_n_radps, T_Nm))
             Pwr_c_W = MECH_Pwr_c_W + LOSS_Pwr_c_W
             Pwr_n_W = MECH_Pwr_n_W + LOSS_Pwr_n_W
             Pbatt_c_W = Pwr_c_W + EVeh_model.Aux_load
