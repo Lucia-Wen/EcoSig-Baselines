@@ -27,10 +27,12 @@ def traj_segment_generator(pi, env, horizon, stochastic):
 
     cur_ep_ret = 0
     cur_ep_len = 0
-    cur_ep_reto = 0
+    cur_ep_retE = 0
+    cur_ep_retO = 0
     ep_rets = []
     ep_lens = []
-    ep_retso = []
+    ep_retsE = []
+    ep_retsO = []
 
     # Initialize history arrays
     obs = np.array([ob for _ in range(horizon)])
@@ -50,13 +52,14 @@ def traj_segment_generator(pi, env, horizon, stochastic):
         if t > 0 and t % horizon == 0:
             yield {"ob" : obs, "rew" : rews, "vpred" : vpreds, "rew_E": rew_E, "new" : news,
                     "ac" : acs, "prevac" : prevacs, "nextvpred": vpred * (1 - new),
-                    "ep_rets" : ep_rets, "ep_lens" : ep_lens, "ep_retso": ep_retso}
+                    "ep_rets" : ep_rets, "ep_lens" : ep_lens, "ep_retsE": ep_retsE, "ep_retsO": ep_retsO}
             _, vpred, _, _ = pi.step(ob, stochastic=stochastic)
             # Be careful!!! if you change the downstream algorithm to aggregate
             # several of these batches, then be sure to do a deepcopy
             ep_rets = []
             ep_lens = []
-            ep_retso = []
+            ep_retsE = []
+            ep_retsO = []
         i = t % horizon
         obs[i] = ob
         vpreds[i] = vpred
@@ -70,14 +73,17 @@ def traj_segment_generator(pi, env, horizon, stochastic):
 
         cur_ep_ret += rew
         cur_ep_len += 1
-        cur_ep_reto += (rew-info[0]['rew_E'])
+        cur_ep_retE += info[0]['rew_E']
+        cur_ep_retO += (rew-info[0]['rew_E'])
         if new:
             ep_rets.append(cur_ep_ret)
             ep_lens.append(cur_ep_len)
-            ep_retso.append(cur_ep_reto)
+            ep_retsE.append(cur_ep_retE)
+            ep_retsO.append(cur_ep_retO)
             cur_ep_ret = 0
             cur_ep_len = 0
-            cur_ep_reto = 0
+            cur_ep_retE = 0
+            cur_ep_retO = 0
             ob = env.reset()
         t += 1
 
@@ -283,6 +289,7 @@ def learn(*,
     tstart = time.time()
     lenbuffer = deque(maxlen=40) # rolling buffer for episode lengths
     rewbuffer = deque(maxlen=40) # rolling buffer for episode rewards
+    rewEbuffer = deque(maxlen=50)
     rewotherbuffer = deque(maxlen=50)
 
     if sum([max_iters>0, total_timesteps>0, max_episodes>0])==0:
@@ -392,20 +399,22 @@ def learn(*,
 
         logger.record_tabular("ev_tdlam_before", explained_variance(vpredbefore, tdlamret))
 
-        lrlocal = (seg["ep_lens"], seg["ep_rets"], seg["ep_retso"]) # local values
+        lrlocal = (seg["ep_lens"], seg["ep_rets"], seg["ep_retsE"], seg["ep_retsO"]) # local values
         if MPI is not None:
             listoflrpairs = MPI.COMM_WORLD.allgather(lrlocal) # list of tuples
         else:
             listoflrpairs = [lrlocal]
 
-        lens, rews, rewso = map(flatten_lists, zip(*listoflrpairs))
+        lens, rews, rewsE, rewsO = map(flatten_lists, zip(*listoflrpairs))
         lenbuffer.extend(lens)
         rewbuffer.extend(rews)
-        rewotherbuffer.extend(rewso)
+        rewEbuffer.extend(rewsE)
+        rewotherbuffer.extend(rewsO)
 
         logger.record_tabular("EpLenMean", np.mean(lenbuffer))
         logger.record_tabular("EpRewMean", np.mean(rewbuffer))
         logger.record_tabular("ERewMean", np.mean([rewbuffer[i]/lenbuffer[i] for i in range(len(lenbuffer))]))
+        logger.record_tabular("EpRewE", np.mean(rewEbuffer))
         logger.record_tabular("EpRewOther", np.mean(rewotherbuffer))
         logger.record_tabular("EpThisIter", len(lens))
         episodes_so_far += len(lens)

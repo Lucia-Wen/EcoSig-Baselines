@@ -1,0 +1,15 @@
+python -m baselines.run --env=SignalizedEco-v0 --alg=trpo_mpi --save_path=./save/812/6/models/SigEco --log_path=./save/812/6/logs
+
+
+6&7: step_reward=10
+4&5: step_reward=2
+8: step_reward=10; -reward=-250	
+----------------------------------------------------------------------------------	
+9: step_reward=5; -reward=-250						WORK!
+10: step_reward=10; -reward=-500 -> -1000
+11: step_reward=5; -reward=-250; state_manual_baseline
+12: reward_E: 1e-4/5->[0,5]
+13: kl=0.0001, vf_stepsize=1e-3
+14: kl=0.00005,vf_stepsize=5e-4
+15: kl=0.0001, vf_stepsize=5e-4, batch=1024*10, vf_iters=20
+16: kl=0.0001, vf_stepsize=5e-4, batch=1024*5, vf_iters=20, reward_E: 1e-4

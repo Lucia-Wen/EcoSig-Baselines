@@ -70,7 +70,7 @@ class EVeh_model():
 
 
 dt=1
-reward_step = 2
+reward_step = 5
 SIGNL_DIM=4
 cosd_sign_num=2
 STATE_DIM=cosd_sign_num*SIGNL_DIM+1
@@ -79,9 +79,9 @@ STATE_DIM=cosd_sign_num*SIGNL_DIM+1
 max_cycle=180
 max_red=1
 
-E_reward=1e-3
-Red_reward=max_step*dt/10
-End_reward=max_step*dt/5
+E_reward=1e-4
+Red_reward=max_step*dt/5
+End_reward=max_step*dt
 Pass_reward=max_step*dt/5
 GStop_reward=max_step*dt/10
 RedFar_reward=max_step*dt
@@ -129,7 +129,7 @@ class SigEcoEnv(gym.Env):
             state = normalize_state(self.state_new)
         # state = normalize_state(self.state_new)
         # state = self.state
-        done = self.EndFlag or self.RedFlag or bool(self.GreenStop>=5) or self.RedFar
+        done = self.EndFlag #or self.RedFlag or bool(self.GreenStop>=5) or self.RedFar
         return state, reward, done, {"action_real": self.Agent_EV.action, 'rew_E': self.reward_E}
 
     def reset(self):
@@ -233,28 +233,30 @@ class SigEcoEnv(gym.Env):
         # reward(a|self._state, self.state): E_consumption, Time, Red_Flag
         self.reward_Red, self.reward_Green, self.reward_Green_Stop, \
         self.reward_End, self.reward_Pass, self.reward_Spd, self.reward_red_far = 0, 0, 0, 0, 0, 0, 0
-        self.reward_E = -(E_reward*self.Agent_EV._E_consumption/15+28/15)
-        # print("E_conspt: ", self.reward_E)
+        self.reward_E = -E_reward*self.Agent_EV._E_consumption
+        # print("E_conspt: ", self.Agent_EV._E_consumption)
         if self.EndFlag:
-            self.reward_End =-Pass_reward*9
+            self.reward_End = 1000
         if self.RedFlag:
-            self.reward_Red = -Red_reward*1#(0.5+self.state[0]/max_vel)
-            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/6*5-Pass_reward*9
+            self.reward_Red = -250#(0.5+self.state[0]/max_vel)
+            # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
         if self.TIME_STAMP>max_step*dt and not self.EndFlag:
-            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/6*5-Pass_reward*9
+            self.reward_End = -250
+            # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
             self.EndFlag = True
         if self.PassFlag:
-            self.reward_Pass = Pass_reward
+            self.reward_Pass = 100
         if bool(self.GreenStop>=5):
-            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/6*5-Pass_reward*9
+            # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
+            self.reward_End = -250
         if self.GreenStop>0:
-            self.reward_Green_Stop = -GStop_reward
+            self.reward_Green_Stop = -250
         if self.RedFar:
-            self.reward_red_far = -RedFar_reward*1#(1.5-self.state[1]/max_interval)
-            # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/6*5-Pass_reward*9
+            self.reward_red_far = -250#(1.5-self.state[1]/max_interval)
+            # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
             # print("red_far:", self.state[1])
         if mod =="dim3":
-            reward = self.reward_End - reward_step + self.reward_Pass
+            reward = self.reward_Red + self.reward_Green_Stop + self.reward_red_far + self.reward_End + self.reward_E #- reward_step
         if mod =="dim5":
             reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
         return reward, self.reward_E
@@ -355,8 +357,8 @@ class Traffic_signals():
             self.pos = [346.260000000000,574.635000000000,1011.05132701422,1746.17000000000,2193.25000000000,3499.95500000000,3843.57500000000,4640.36500000000,5248.54000000000]
             CycleTime = [100]*9
             RedDuration = list(np.array([32,50,42,54,53,62,54,58,54])/100)
-            StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-100.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
-            # StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-140.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
+            # StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-100.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
+            StartPhase = list((200+np.array([-128.500000000000,-147.500000000000,-140.500000000000,-150.500000000000,-151.500000000000,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             # StartPhase = list((200+np.array([-20,-32,-72,-87,-102,-132,-117.500000000000,-150.500000000000,-156.500000000000,-152.500000000000]))%100/100)
             self.phase = [[i,j,k] for i,j,k in zip(CycleTime, RedDuration, StartPhase)]
 
