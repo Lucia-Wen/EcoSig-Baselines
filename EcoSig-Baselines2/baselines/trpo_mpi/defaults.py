@@ -32,9 +32,9 @@ def mujoco():
 
 def lucia_env():
     return dict(
-        network = mlp(num_hidden=64, num_layers=3),
-        timesteps_per_batch=1024*5,
-        max_kl=0.0001, #0.001
+        network = mlp(num_hidden=64, num_layers=5),
+        timesteps_per_batch=1024*2,
+        max_kl=0.0005,
         cg_iters=10,
         cg_damping=0.1,
         gamma=1,
