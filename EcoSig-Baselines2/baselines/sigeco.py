@@ -129,7 +129,7 @@ class SigEcoEnv(gym.Env):
             state = normalize_state(self.state_new)
         # state = normalize_state(self.state_new)
         # state = self.state
-        done = self.EndFlag or self.RedFlag or bool(self.GreenStop>=5) or self.RedFar
+        done = self.EndFlag or self.RedFlag or bool(self.GreenStop>=10) or self.RedFar
         return state, reward, done, {"action_real": self.Agent_EV.action}
 
     def reset(self):
@@ -234,25 +234,27 @@ class SigEcoEnv(gym.Env):
         self.reward_Red, self.reward_Green, self.reward_Green_Stop, \
         self.reward_End, self.reward_Pass, self.reward_Spd, self.reward_red_far = 0, 0, 0, 0, 0, 0, 0
         self.reward_E = -E_reward*self.Agent_EV._E_consumption
+        # print("E_conspt: ", self.Agent_EV._E_consumption)
         if self.EndFlag:
-            self.reward_End = End_reward
+            self.reward_End =0
         if self.RedFlag:
             self.reward_Red = -Red_reward*1#(0.5+self.state[0]/max_vel)
-            # self.reward_End = End_reward
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
         if self.TIME_STAMP>max_step*dt and not self.EndFlag:
-            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
             self.EndFlag = True
         if self.PassFlag:
             self.reward_Pass = Pass_reward
-        # if bool(self.GreenStop>=10):
-        #     self.reward_Green_Stop = -GStop_reward
+        if bool(self.GreenStop>=10):
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
         if self.GreenStop>0:
             self.reward_Green_Stop = -GStop_reward
         if self.RedFar:
-            self.reward_red_far = -RedFar_reward*(0.5+self.state[1]/max_interval)
-            print("red_far:", self.state[1])
+            self.reward_red_far = -RedFar_reward*1#(1.5-self.state[1]/max_interval)
+            self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)-max_step/3*10
+            # print("red_far:", self.state[1])
         if mod =="dim3":
-            reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far + self.reward_End
+            reward = self.reward_End - reward_step
         if mod =="dim5":
             reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
         return reward, self.reward_E
