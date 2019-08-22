@@ -328,11 +328,11 @@ def learn(*,
                 obs, rew, done, _ = env.step(actions)
                 env.render()
                 done = done.any() if isinstance(done, np.ndarray) else done
-            #     log_vel.append(env.envs[0].env.state_new[0])
-            #     log_dist.append(env.envs[0].env.state_new[1])
-            #     log_act.append(env.envs[0].env.Agent_EV.action)
-            # plot_traf_vs_veh(log_dist[:-1], dt=1)
-            # scio.savemat(network_kwargs['log_path']+"/data.mat", {'vel':log_vel, 'dist':log_dist, 'act':log_act})
+                log_vel.append(env.envs[0].env.state_new[0])
+                log_dist.append(env.envs[0].env.state_new[1])
+                log_act.append(env.envs[0].env.Agent_EV.action)
+            plot_traf_vs_veh(log_dist[:-1], dt=1)
+            scio.savemat("/data.mat", {'vel':log_vel, 'dist':log_dist, 'act':log_act})
 
         # *******************************************************************
 
