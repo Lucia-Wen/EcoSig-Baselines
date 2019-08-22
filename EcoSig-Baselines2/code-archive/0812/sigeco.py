@@ -79,7 +79,7 @@ STATE_DIM=cosd_sign_num*SIGNL_DIM+1
 max_cycle=180
 max_red=1
 
-E_reward=1e-4
+E_reward=1e-4/5
 Red_reward=max_step*dt/5
 End_reward=max_step*dt
 Pass_reward=max_step*dt/5
@@ -185,7 +185,6 @@ class SigEcoEnv(gym.Env):
             self.viewer = None
             self._viewers={}
 
-
     def _get_state(self):           # update env.state, env.sequence_id, env.RedFlag
         self.state[0] = np.float(deepcopy(self.Agent_EV.veh_state.v))
         self.sequence_id =self._get_signal_sequence()
@@ -245,7 +244,7 @@ class SigEcoEnv(gym.Env):
             # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
             self.EndFlag = True
         if self.PassFlag:
-            self.reward_Pass = 100
+            self.reward_Pass = 10
         if bool(self.GreenStop>=5):
             # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
             self.reward_End = -250
@@ -256,7 +255,7 @@ class SigEcoEnv(gym.Env):
             # self.reward_End = -End_reward*(1-self.state_new[1]/max_dist)
             # print("red_far:", self.state[1])
         if mod =="dim3":
-            reward = self.reward_Red + self.reward_Green_Stop + self.reward_red_far + self.reward_End + self.reward_E #- reward_step
+            reward = self.reward_Red  + self.reward_Green_Stop + self.reward_red_far + self.reward_End + self.reward_E #- reward_step
         if mod =="dim5":
             reward = self.reward_Red - reward_step + self.reward_Pass + self.reward_Green_Stop + self.reward_red_far
         return reward, self.reward_E
@@ -416,7 +415,7 @@ class Agent_EV():
             self.F = EVeh_model.Fterms[0] + EVeh_model.Fterms[1]*self.veh_state.v + EVeh_model.Fterms[2]*self.veh_state.v**2
 
         def _get_E_consumption(self, acc, spd_c, spd_n):
-            T_Nm = abs(self.F + EVeh_model.Mass*acc)*EVeh_model.WheelRadius/EVeh_model.M2WRatio
+            T_Nm = (self.F + EVeh_model.Mass*acc)*EVeh_model.WheelRadius/EVeh_model.M2WRatio
             W_c_radps = spd_c/EVeh_model.WheelRadius*EVeh_model.M2WRatio
             W_n_radps = spd_n/EVeh_model.WheelRadius*EVeh_model.M2WRatio
             MECH_Pwr_c_W = T_Nm*W_c_radps
@@ -431,8 +430,8 @@ class Agent_EV():
             I_c = (EVeh_model.VOC_norm-np.sqrt(EVeh_model.VOC_norm**2-4*Pbatt_c_W*EVeh_model.Rin_norm))/(2*EVeh_model.Rin_norm)
             I_n = (EVeh_model.VOC_norm-np.sqrt(EVeh_model.VOC_norm**2-4*Pbatt_n_W*EVeh_model.Rin_norm))/(2*EVeh_model.Rin_norm)
             E_consumption_J = 0.5*EVeh_model.VOC_norm*(I_c+I_n)*dt
-            if E_consumption_J<0 or np.isnan(E_consumption_J):
-                print("aho")
+            # if E_consumption_J<0 or np.isnan(E_consumption_J):
+            #     print("aho")
 
             return E_consumption_J
 

@@ -24,7 +24,7 @@ def retro():
 
 def lucia_env():
     return dict(
-        network = mlp(num_hidden=64, num_layers=6),
+        network = mlp(num_hidden=64, num_layers=3),
         lr=1e-4,
         buffer_size=10000,
         exploration_fraction=0.1,

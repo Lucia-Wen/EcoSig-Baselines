@@ -11,6 +11,9 @@ from baselines.common.cg import cg
 from baselines.common.input import observation_placeholder
 from baselines.common.policies import build_policy
 from contextlib import contextmanager
+import scipy.io as scio
+from eco_plot import plot_traf_vs_veh
+
 
 try:
     from mpi4py import MPI
@@ -311,7 +314,8 @@ def learn(*,
 
 
         # ***********************  Visualization  ***************************
-        if iters_so_far%30==0:# and iters_so_far!=0:
+        if iters_so_far%30==0: # and iters_so_far!=0:
+            log_vel, log_dist, log_act = [], [], []
             done = False
             obs = env.reset()
             state = pi.initial_state if hasattr(pi, 'initial_state') else None
@@ -324,6 +328,12 @@ def learn(*,
                 obs, rew, done, _ = env.step(actions)
                 env.render()
                 done = done.any() if isinstance(done, np.ndarray) else done
+            #     log_vel.append(env.envs[0].env.state_new[0])
+            #     log_dist.append(env.envs[0].env.state_new[1])
+            #     log_act.append(env.envs[0].env.Agent_EV.action)
+            # plot_traf_vs_veh(log_dist[:-1], dt=1)
+            # scio.savemat(network_kwargs['log_path']+"/data.mat", {'vel':log_vel, 'dist':log_dist, 'act':log_act})
+
         # *******************************************************************
 
 

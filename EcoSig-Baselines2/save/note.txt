@@ -1,4 +1,31 @@
-python -m baselines.run --env=SignalizedEco-v0 --alg=trpo_mpi --save_path=./save/812/6/models/SigEco --log_path=./save/812/6/logs
+python -m baselines.run --env=SignalizedEco-v0 --alg=trpo_mpi --save_path=./save/821n/E1-7/models/SigEco --log_path=./save/821n/E1-7/logs
+
+
+
+
+========================================================
+Aug-18-2019:
+\default:
+        network = mlp(num_hidden=64, num_layers=5),
+        timesteps_per_batch=1024*3,
+        max_kl=0.0005,
+        cg_iters=10,
+        cg_damping=0.1,
+        gamma=1,
+        lam=0.98,
+        vf_iters=20,
+        vf_stepsize=1e-3, #1e-3
+        normalize_observations=False
+
+1: max_kl=0.001
+2: default
+
+
+
+
+
+========================================================
+
 
 
 6&7: step_reward=10
@@ -13,3 +40,4 @@ python -m baselines.run --env=SignalizedEco-v0 --alg=trpo_mpi --save_path=./save
 14: kl=0.00005,vf_stepsize=5e-4
 15: kl=0.0001, vf_stepsize=5e-4, batch=1024*10, vf_iters=20
 16: kl=0.0001, vf_stepsize=5e-4, batch=1024*5, vf_iters=20, reward_E: 1e-4
+

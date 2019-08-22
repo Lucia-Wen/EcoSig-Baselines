@@ -1,0 +1,4488 @@
+Logging to ./save/819/7/logs
+********** Iteration 0 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 5         |
+| EpLenMean       | 701       |
+| EpRewE          | -1e+03    |
+| EpRewMean       | -7.15e+03 |
+| EpRewOther      | -6.15e+03 |
+| EpThisIter      | 5         |
+| ERewMean        | -9.52     |
+| ev_tdlam_before | -0.000315 |
+| meankl          | 0.000448  |
+| optimgain       | 0.00286   |
+| surrgain        | 0.00286   |
+| TimeElapsed     | 59.7      |
+| TimestepsSoFar  | 3.5e+03   |
+-------------------------------
+********** Iteration 1 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.45      |
+| EpisodesSoFar   | 14        |
+| EpLenMean       | 568       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -5.41e+03 |
+| EpRewOther      | -4.32e+03 |
+| EpThisIter      | 9         |
+| ERewMean        | -8.31     |
+| ev_tdlam_before | 0.0833    |
+| meankl          | 0.000414  |
+| optimgain       | 0.00243   |
+| surrgain        | 0.00243   |
+| TimeElapsed     | 64.9      |
+| TimestepsSoFar  | 7.95e+03  |
+-------------------------------
+********** Iteration 2 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.45      |
+| EpisodesSoFar   | 24        |
+| EpLenMean       | 510       |
+| EpRewE          | -1.05e+03 |
+| EpRewMean       | -4.11e+03 |
+| EpRewOther      | -3.07e+03 |
+| EpThisIter      | 10        |
+| ERewMean        | -6.91     |
+| ev_tdlam_before | 0.239     |
+| meankl          | 0.000434  |
+| optimgain       | 0.00295   |
+| surrgain        | 0.00295   |
+| TimeElapsed     | 70.1      |
+| TimestepsSoFar  | 1.22e+04  |
+-------------------------------
+********** Iteration 3 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.45      |
+| EpisodesSoFar   | 34        |
+| EpLenMean       | 477       |
+| EpRewE          | -1.04e+03 |
+| EpRewMean       | -3.42e+03 |
+| EpRewOther      | -2.38e+03 |
+| EpThisIter      | 10        |
+| ERewMean        | -6.18     |
+| ev_tdlam_before | 0.429     |
+| meankl          | 0.000394  |
+| optimgain       | 0.00154   |
+| surrgain        | 0.00154   |
+| TimeElapsed     | 75.5      |
+| TimestepsSoFar  | 1.62e+04  |
+-------------------------------
+********** Iteration 4 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.46      |
+| EpisodesSoFar   | 43        |
+| EpLenMean       | 459       |
+| EpRewE          | -1.06e+03 |
+| EpRewMean       | -3.03e+03 |
+| EpRewOther      | -2.2e+03  |
+| EpThisIter      | 9         |
+| ERewMean        | -5.87     |
+| ev_tdlam_before | 0.319     |
+| meankl          | 0.000351  |
+| optimgain       | 0.00144   |
+| surrgain        | 0.00144   |
+| TimeElapsed     | 80.6      |
+| TimestepsSoFar  | 2.03e+04  |
+-------------------------------
+********** Iteration 5 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.47      |
+| EpisodesSoFar   | 51        |
+| EpLenMean       | 433       |
+| EpRewE          | -1.06e+03 |
+| EpRewMean       | -2.27e+03 |
+| EpRewOther      | -2.02e+03 |
+| EpThisIter      | 8         |
+| ERewMean        | -5.07     |
+| ev_tdlam_before | 0.458     |
+| meankl          | 0.000366  |
+| optimgain       | 0.00135   |
+| surrgain        | 0.00135   |
+| TimeElapsed     | 85.7      |
+| TimestepsSoFar  | 2.42e+04  |
+-------------------------------
+********** Iteration 6 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.48      |
+| EpisodesSoFar   | 61        |
+| EpLenMean       | 451       |
+| EpRewE          | -1.06e+03 |
+| EpRewMean       | -2.22e+03 |
+| EpRewOther      | -1.11e+03 |
+| EpThisIter      | 10        |
+| ERewMean        | -4.74     |
+| ev_tdlam_before | 0.694     |
+| meankl          | 0.000316  |
+| optimgain       | 0.00182   |
+| surrgain        | 0.00182   |
+| TimeElapsed     | 90.8      |
+| TimestepsSoFar  | 2.86e+04  |
+-------------------------------
+********** Iteration 7 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.49      |
+| EpisodesSoFar   | 70        |
+| EpLenMean       | 450       |
+| EpRewE          | -1.05e+03 |
+| EpRewMean       | -2.28e+03 |
+| EpRewOther      | -1.28e+03 |
+| EpThisIter      | 9         |
+| ERewMean        | -4.88     |
+| ev_tdlam_before | 0.555     |
+| meankl          | 0.000402  |
+| optimgain       | 0.00204   |
+| surrgain        | 0.00204   |
+| TimeElapsed     | 95.9      |
+| TimestepsSoFar  | 3.25e+04  |
+-------------------------------
+********** Iteration 8 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.49      |
+| EpisodesSoFar   | 81        |
+| EpLenMean       | 434       |
+| EpRewE          | -1.05e+03 |
+| EpRewMean       | -2.23e+03 |
+| EpRewOther      | -1.25e+03 |
+| EpThisIter      | 11        |
+| ERewMean        | -5.06     |
+| ev_tdlam_before | 0.797     |
+| meankl          | 0.000264  |
+| optimgain       | 0.00105   |
+| surrgain        | 0.00105   |
+| TimeElapsed     | 101       |
+| TimestepsSoFar  | 3.67e+04  |
+-------------------------------
+********** Iteration 9 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.5       |
+| EpisodesSoFar   | 91        |
+| EpLenMean       | 419       |
+| EpRewE          | -1.03e+03 |
+| EpRewMean       | -2.03e+03 |
+| EpRewOther      | -1.08e+03 |
+| EpThisIter      | 10        |
+| ERewMean        | -4.89     |
+| ev_tdlam_before | 0.761     |
+| meankl          | 0.000391  |
+| optimgain       | 0.0016    |
+| surrgain        | 0.0016    |
+| TimeElapsed     | 106       |
+| TimestepsSoFar  | 4.09e+04  |
+-------------------------------
+********** Iteration 10 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.5       |
+| EpisodesSoFar   | 101       |
+| EpLenMean       | 403       |
+| EpRewE          | -1.03e+03 |
+| EpRewMean       | -2e+03    |
+| EpRewOther      | -934      |
+| EpThisIter      | 10        |
+| ERewMean        | -5.05     |
+| ev_tdlam_before | 0.728     |
+| meankl          | 0.000372  |
+| optimgain       | 0.00163   |
+| surrgain        | 0.00163   |
+| TimeElapsed     | 111       |
+| TimestepsSoFar  | 4.47e+04  |
+-------------------------------
+********** Iteration 11 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 112       |
+| EpLenMean       | 395       |
+| EpRewE          | -1.03e+03 |
+| EpRewMean       | -1.94e+03 |
+| EpRewOther      | -1.05e+03 |
+| EpThisIter      | 11        |
+| ERewMean        | -5.06     |
+| ev_tdlam_before | 0.805     |
+| meankl          | 0.000243  |
+| optimgain       | 0.000583  |
+| surrgain        | 0.000583  |
+| TimeElapsed     | 116       |
+| TimestepsSoFar  | 4.91e+04  |
+-------------------------------
+********** Iteration 12 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 123       |
+| EpLenMean       | 386       |
+| EpRewE          | -1.05e+03 |
+| EpRewMean       | -1.78e+03 |
+| EpRewOther      | -823      |
+| EpThisIter      | 11        |
+| ERewMean        | -4.64     |
+| ev_tdlam_before | 0.798     |
+| meankl          | 0.00031   |
+| optimgain       | 0.00137   |
+| surrgain        | 0.00137   |
+| TimeElapsed     | 121       |
+| TimestepsSoFar  | 5.3e+04   |
+-------------------------------
+********** Iteration 13 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 134       |
+| EpLenMean       | 375       |
+| EpRewE          | -1.04e+03 |
+| EpRewMean       | -1.86e+03 |
+| EpRewOther      | -752      |
+| EpThisIter      | 11        |
+| ERewMean        | -4.94     |
+| ev_tdlam_before | 0.816     |
+| meankl          | 0.000396  |
+| optimgain       | 0.0012    |
+| surrgain        | 0.0012    |
+| TimeElapsed     | 126       |
+| TimestepsSoFar  | 5.71e+04  |
+-------------------------------
+********** Iteration 14 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 146       |
+| EpLenMean       | 366       |
+| EpRewE          | -1.03e+03 |
+| EpRewMean       | -1.68e+03 |
+| EpRewOther      | -706      |
+| EpThisIter      | 12        |
+| ERewMean        | -4.55     |
+| ev_tdlam_before | 0.89      |
+| meankl          | 0.000383  |
+| optimgain       | 0.00172   |
+| surrgain        | 0.00172   |
+| TimeElapsed     | 132       |
+| TimestepsSoFar  | 6.14e+04  |
+-------------------------------
+********** Iteration 15 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.5       |
+| EpisodesSoFar   | 156       |
+| EpLenMean       | 373       |
+| EpRewE          | -1.02e+03 |
+| EpRewMean       | -1.62e+03 |
+| EpRewOther      | -633      |
+| EpThisIter      | 10        |
+| ERewMean        | -4.36     |
+| ev_tdlam_before | 0.877     |
+| meankl          | 0.000345  |
+| optimgain       | 0.00189   |
+| surrgain        | 0.00189   |
+| TimeElapsed     | 137       |
+| TimestepsSoFar  | 6.55e+04  |
+-------------------------------
+********** Iteration 16 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 166       |
+| EpLenMean       | 382       |
+| EpRewE          | -1.02e+03 |
+| EpRewMean       | -1.54e+03 |
+| EpRewOther      | -584      |
+| EpThisIter      | 10        |
+| ERewMean        | -4.1      |
+| ev_tdlam_before | 0.846     |
+| meankl          | 0.000487  |
+| optimgain       | 0.00245   |
+| surrgain        | 0.00245   |
+| TimeElapsed     | 142       |
+| TimestepsSoFar  | 6.94e+04  |
+-------------------------------
+********** Iteration 17 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 177       |
+| EpLenMean       | 385       |
+| EpRewE          | -1.01e+03 |
+| EpRewMean       | -1.48e+03 |
+| EpRewOther      | -464      |
+| EpThisIter      | 11        |
+| ERewMean        | -3.9      |
+| ev_tdlam_before | 0.897     |
+| meankl          | 0.000264  |
+| optimgain       | 0.00132   |
+| surrgain        | 0.00132   |
+| TimeElapsed     | 147       |
+| TimestepsSoFar  | 7.35e+04  |
+-------------------------------
+********** Iteration 18 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.51      |
+| EpisodesSoFar   | 188       |
+| EpLenMean       | 386       |
+| EpRewE          | -1.02e+03 |
+| EpRewMean       | -1.51e+03 |
+| EpRewOther      | -446      |
+| EpThisIter      | 11        |
+| ERewMean        | -3.91     |
+| ev_tdlam_before | 0.891     |
+| meankl          | 0.000508  |
+| optimgain       | 0.00233   |
+| surrgain        | 0.00233   |
+| TimeElapsed     | 152       |
+| TimestepsSoFar  | 7.77e+04  |
+-------------------------------
+********** Iteration 19 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.5       |
+| EpisodesSoFar   | 199       |
+| EpLenMean       | 380       |
+| EpRewE          | -1.04e+03 |
+| EpRewMean       | -1.39e+03 |
+| EpRewOther      | -413      |
+| EpThisIter      | 11        |
+| ERewMean        | -3.66     |
+| ev_tdlam_before | 0.907     |
+| meankl          | 0.000321  |
+| optimgain       | 0.0017    |
+| surrgain        | 0.0017    |
+| TimeElapsed     | 157       |
+| TimestepsSoFar  | 8.18e+04  |
+-------------------------------
+********** Iteration 20 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.5       |
+| EpisodesSoFar   | 210       |
+| EpLenMean       | 376       |
+| EpRewE          | -1.04e+03 |
+| EpRewMean       | -1.38e+03 |
+| EpRewOther      | -370      |
+| EpThisIter      | 11        |
+| ERewMean        | -3.66     |
+| ev_tdlam_before | 0.915     |
+| meankl          | 0.00035   |
+| optimgain       | 0.00178   |
+| surrgain        | 0.00178   |
+| TimeElapsed     | 162       |
+| TimestepsSoFar  | 8.59e+04  |
+-------------------------------
+********** Iteration 21 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.5       |
+| EpisodesSoFar   | 221       |
+| EpLenMean       | 377       |
+| EpRewE          | -1.05e+03 |
+| EpRewMean       | -1.37e+03 |
+| EpRewOther      | -292      |
+| EpThisIter      | 11        |
+| ERewMean        | -3.64     |
+| ev_tdlam_before | 0.892     |
+| meankl          | 0.000486  |
+| optimgain       | 0.00191   |
+| surrgain        | 0.00191   |
+| TimeElapsed     | 167       |
+| TimestepsSoFar  | 9.01e+04  |
+-------------------------------
+********** Iteration 22 ************
+Expected: 0.002 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.49      |
+| EpisodesSoFar   | 231       |
+| EpLenMean       | 376       |
+| EpRewE          | -1.04e+03 |
+| EpRewMean       | -1.28e+03 |
+| EpRewOther      | -225      |
+| EpThisIter      | 10        |
+| ERewMean        | -3.43     |
+| ev_tdlam_before | 0.917     |
+| meankl          | 0.000495  |
+| optimgain       | 0.00277   |
+| surrgain        | 0.00277   |
+| TimeElapsed     | 173       |
+| TimestepsSoFar  | 9.4e+04   |
+-------------------------------
+********** Iteration 23 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.49      |
+| EpisodesSoFar   | 243       |
+| EpLenMean       | 374       |
+| EpRewE          | -1.04e+03 |
+| EpRewMean       | -1.18e+03 |
+| EpRewOther      | -230      |
+| EpThisIter      | 12        |
+| ERewMean        | -3.18     |
+| ev_tdlam_before | 0.898     |
+| meankl          | 0.000296  |
+| optimgain       | 0.00262   |
+| surrgain        | 0.00262   |
+| TimeElapsed     | 178       |
+| TimestepsSoFar  | 9.82e+04  |
+-------------------------------
+********** Iteration 24 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.49      |
+| EpisodesSoFar   | 254       |
+| EpLenMean       | 372       |
+| EpRewE          | -1.03e+03 |
+| EpRewMean       | -1.15e+03 |
+| EpRewOther      | -163      |
+| EpThisIter      | 11        |
+| ERewMean        | -3.11     |
+| ev_tdlam_before | 0.918     |
+| meankl          | 0.000258  |
+| optimgain       | 0.00201   |
+| surrgain        | 0.00201   |
+| TimeElapsed     | 183       |
+| TimestepsSoFar  | 1.02e+05  |
+-------------------------------
+********** Iteration 25 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.48      |
+| EpisodesSoFar   | 265       |
+| EpLenMean       | 366       |
+| EpRewE          | -1.05e+03 |
+| EpRewMean       | -962      |
+| EpRewOther      | 36.4      |
+| EpThisIter      | 11        |
+| ERewMean        | -2.65     |
+| ev_tdlam_before | 0.919     |
+| meankl          | 0.000435  |
+| optimgain       | 0.00323   |
+| surrgain        | 0.00323   |
+| TimeElapsed     | 188       |
+| TimestepsSoFar  | 1.06e+05  |
+-------------------------------
+********** Iteration 26 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.48      |
+| EpisodesSoFar   | 276       |
+| EpLenMean       | 364       |
+| EpRewE          | -1.06e+03 |
+| EpRewMean       | -950      |
+| EpRewOther      | 84.9      |
+| EpThisIter      | 11        |
+| ERewMean        | -2.62     |
+| ev_tdlam_before | 0.88      |
+| meankl          | 0.000351  |
+| optimgain       | 0.00221   |
+| surrgain        | 0.00221   |
+| TimeElapsed     | 193       |
+| TimestepsSoFar  | 1.1e+05   |
+-------------------------------
+********** Iteration 27 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.47      |
+| EpisodesSoFar   | 288       |
+| EpLenMean       | 366       |
+| EpRewE          | -1.06e+03 |
+| EpRewMean       | -812      |
+| EpRewOther      | 169       |
+| EpThisIter      | 12        |
+| ERewMean        | -2.25     |
+| ev_tdlam_before | 0.913     |
+| meankl          | 0.000369  |
+| optimgain       | 0.00221   |
+| surrgain        | 0.00221   |
+| TimeElapsed     | 198       |
+| TimestepsSoFar  | 1.15e+05  |
+-------------------------------
+********** Iteration 28 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.46      |
+| EpisodesSoFar   | 299       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -694      |
+| EpRewOther      | 326       |
+| EpThisIter      | 11        |
+| ERewMean        | -1.91     |
+| ev_tdlam_before | 0.832     |
+| meankl          | 0.000408  |
+| optimgain       | 0.0021    |
+| surrgain        | 0.0021    |
+| TimeElapsed     | 203       |
+| TimestepsSoFar  | 1.19e+05  |
+-------------------------------
+********** Iteration 29 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.46     |
+| EpisodesSoFar   | 310      |
+| EpLenMean       | 370      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -738     |
+| EpRewOther      | 384      |
+| EpThisIter      | 11       |
+| ERewMean        | -2       |
+| ev_tdlam_before | 0.825    |
+| meankl          | 0.000376 |
+| optimgain       | 0.00237  |
+| surrgain        | 0.00237  |
+| TimeElapsed     | 208      |
+| TimestepsSoFar  | 1.23e+05 |
+------------------------------
+********** Iteration 30 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.45     |
+| EpisodesSoFar   | 320      |
+| EpLenMean       | 373      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -594     |
+| EpRewOther      | 424      |
+| EpThisIter      | 10       |
+| ERewMean        | -1.6     |
+| ev_tdlam_before | 0.894    |
+| meankl          | 0.000411 |
+| optimgain       | 0.00273  |
+| surrgain        | 0.00273  |
+| TimeElapsed     | 238      |
+| TimestepsSoFar  | 1.27e+05 |
+------------------------------
+********** Iteration 31 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.45     |
+| EpisodesSoFar   | 331      |
+| EpLenMean       | 375      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -506     |
+| EpRewOther      | 549      |
+| EpThisIter      | 11       |
+| ERewMean        | -1.34    |
+| ev_tdlam_before | 0.896    |
+| meankl          | 0.000482 |
+| optimgain       | 0.00383  |
+| surrgain        | 0.00383  |
+| TimeElapsed     | 243      |
+| TimestepsSoFar  | 1.31e+05 |
+------------------------------
+********** Iteration 32 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.45     |
+| EpisodesSoFar   | 343      |
+| EpLenMean       | 372      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -425     |
+| EpRewOther      | 625      |
+| EpThisIter      | 12       |
+| ERewMean        | -1.13    |
+| ev_tdlam_before | 0.881    |
+| meankl          | 0.000408 |
+| optimgain       | 0.00199  |
+| surrgain        | 0.00199  |
+| TimeElapsed     | 248      |
+| TimestepsSoFar  | 1.35e+05 |
+------------------------------
+********** Iteration 33 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.44      |
+| EpisodesSoFar   | 354       |
+| EpLenMean       | 370       |
+| EpRewE          | -1.08e+03 |
+| EpRewMean       | -344      |
+| EpRewOther      | 654       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.919    |
+| ev_tdlam_before | 0.867     |
+| meankl          | 0.000486  |
+| optimgain       | 0.0027    |
+| surrgain        | 0.0027    |
+| TimeElapsed     | 253       |
+| TimestepsSoFar  | 1.39e+05  |
+-------------------------------
+********** Iteration 34 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 365       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.08e+03 |
+| EpRewMean       | -362      |
+| EpRewOther      | 729       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.981    |
+| ev_tdlam_before | 0.842     |
+| meankl          | 0.000448  |
+| optimgain       | 0.00245   |
+| surrgain        | 0.00245   |
+| TimeElapsed     | 258       |
+| TimestepsSoFar  | 1.43e+05  |
+-------------------------------
+********** Iteration 35 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 376       |
+| EpLenMean       | 366       |
+| EpRewE          | -1.08e+03 |
+| EpRewMean       | -356      |
+| EpRewOther      | 720       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.969    |
+| ev_tdlam_before | 0.888     |
+| meankl          | 0.000395  |
+| optimgain       | 0.00273   |
+| surrgain        | 0.00273   |
+| TimeElapsed     | 263       |
+| TimestepsSoFar  | 1.47e+05  |
+-------------------------------
+********** Iteration 36 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 387       |
+| EpLenMean       | 366       |
+| EpRewE          | -1.06e+03 |
+| EpRewMean       | -325      |
+| EpRewOther      | 697       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.888    |
+| ev_tdlam_before | 0.905     |
+| meankl          | 0.000454  |
+| optimgain       | 0.00278   |
+| surrgain        | 0.00278   |
+| TimeElapsed     | 269       |
+| TimestepsSoFar  | 1.51e+05  |
+-------------------------------
+********** Iteration 37 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 399       |
+| EpLenMean       | 365       |
+| EpRewE          | -1.07e+03 |
+| EpRewMean       | -306      |
+| EpRewOther      | 767       |
+| EpThisIter      | 12        |
+| ERewMean        | -0.836    |
+| ev_tdlam_before | 0.923     |
+| meankl          | 0.000457  |
+| optimgain       | 0.00313   |
+| surrgain        | 0.00313   |
+| TimeElapsed     | 274       |
+| TimestepsSoFar  | 1.56e+05  |
+-------------------------------
+********** Iteration 38 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 410       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.07e+03 |
+| EpRewMean       | -288      |
+| EpRewOther      | 788       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.782    |
+| ev_tdlam_before | 0.888     |
+| meankl          | 0.000482  |
+| optimgain       | 0.00223   |
+| surrgain        | 0.00223   |
+| TimeElapsed     | 279       |
+| TimestepsSoFar  | 1.6e+05   |
+-------------------------------
+********** Iteration 39 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.43      |
+| EpisodesSoFar   | 421       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.08e+03 |
+| EpRewMean       | -200      |
+| EpRewOther      | 828       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.542    |
+| ev_tdlam_before | 0.934     |
+| meankl          | 0.000406  |
+| optimgain       | 0.00265   |
+| surrgain        | 0.00265   |
+| TimeElapsed     | 284       |
+| TimestepsSoFar  | 1.64e+05  |
+-------------------------------
+********** Iteration 40 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.42      |
+| EpisodesSoFar   | 432       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -156      |
+| EpRewOther      | 918       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.424    |
+| ev_tdlam_before | 0.963     |
+| meankl          | 0.000484  |
+| optimgain       | 0.00302   |
+| surrgain        | 0.00302   |
+| TimeElapsed     | 289       |
+| TimestepsSoFar  | 1.68e+05  |
+-------------------------------
+********** Iteration 41 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.42      |
+| EpisodesSoFar   | 443       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -87.5     |
+| EpRewOther      | 966       |
+| EpThisIter      | 11        |
+| ERewMean        | -0.241    |
+| ev_tdlam_before | 0.982     |
+| meankl          | 0.000445  |
+| optimgain       | 0.00298   |
+| surrgain        | 0.00298   |
+| TimeElapsed     | 294       |
+| TimestepsSoFar  | 1.72e+05  |
+-------------------------------
+********** Iteration 42 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.42      |
+| EpisodesSoFar   | 454       |
+| EpLenMean       | 367       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -68.8     |
+| EpRewOther      | 1e+03     |
+| EpThisIter      | 11        |
+| ERewMean        | -0.187    |
+| ev_tdlam_before | 0.949     |
+| meankl          | 0.00029   |
+| optimgain       | 0.00199   |
+| surrgain        | 0.00199   |
+| TimeElapsed     | 299       |
+| TimestepsSoFar  | 1.76e+05  |
+-------------------------------
+********** Iteration 43 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.42     |
+| EpisodesSoFar   | 465      |
+| EpLenMean       | 368      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -43.8    |
+| EpRewOther      | 1.03e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | -0.119   |
+| ev_tdlam_before | 0.979    |
+| meankl          | 0.00036  |
+| optimgain       | 0.00168  |
+| surrgain        | 0.00168  |
+| TimeElapsed     | 304      |
+| TimestepsSoFar  | 1.8e+05  |
+------------------------------
+********** Iteration 44 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.42     |
+| EpisodesSoFar   | 477      |
+| EpLenMean       | 368      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -62.5    |
+| EpRewOther      | 1.05e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | -0.169   |
+| ev_tdlam_before | 0.978    |
+| meankl          | 0.000274 |
+| optimgain       | 0.00214  |
+| surrgain        | 0.00214  |
+| TimeElapsed     | 310      |
+| TimestepsSoFar  | 1.84e+05 |
+------------------------------
+********** Iteration 45 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.41     |
+| EpisodesSoFar   | 488      |
+| EpLenMean       | 368      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -50      |
+| EpRewOther      | 1.04e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | -0.135   |
+| ev_tdlam_before | 0.975    |
+| meankl          | 0.000364 |
+| optimgain       | 0.00387  |
+| surrgain        | 0.00387  |
+| TimeElapsed     | 315      |
+| TimestepsSoFar  | 1.88e+05 |
+------------------------------
+********** Iteration 46 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.41      |
+| EpisodesSoFar   | 499       |
+| EpLenMean       | 368       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -56.2     |
+| EpRewOther      | 1.03e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | -0.154    |
+| ev_tdlam_before | 0.936     |
+| meankl          | 0.000368  |
+| optimgain       | 0.00219   |
+| surrgain        | 0.00219   |
+| TimeElapsed     | 320       |
+| TimestepsSoFar  | 1.92e+05  |
+-------------------------------
+********** Iteration 47 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.4       |
+| EpisodesSoFar   | 510       |
+| EpLenMean       | 368       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -68.8     |
+| EpRewOther      | 1.03e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | -0.187    |
+| ev_tdlam_before | 0.964     |
+| meankl          | 0.000502  |
+| optimgain       | 0.00163   |
+| surrgain        | 0.00163   |
+| TimeElapsed     | 325       |
+| TimestepsSoFar  | 1.96e+05  |
+-------------------------------
+********** Iteration 48 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.41      |
+| EpisodesSoFar   | 521       |
+| EpLenMean       | 366       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -37.5     |
+| EpRewOther      | 1.03e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | -0.103    |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000306  |
+| optimgain       | 0.000657  |
+| surrgain        | 0.000657  |
+| TimeElapsed     | 330       |
+| TimestepsSoFar  | 2e+05     |
+-------------------------------
+********** Iteration 49 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.41      |
+| EpisodesSoFar   | 533       |
+| EpLenMean       | 365       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -68.8     |
+| EpRewOther      | 1.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | -0.188    |
+| ev_tdlam_before | 0.888     |
+| meankl          | 0.000395  |
+| optimgain       | 0.0023    |
+| surrgain        | 0.0023    |
+| TimeElapsed     | 335       |
+| TimestepsSoFar  | 2.05e+05  |
+-------------------------------
+********** Iteration 50 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.4      |
+| EpisodesSoFar   | 544      |
+| EpLenMean       | 365      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -50      |
+| EpRewOther      | 1.04e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | -0.136   |
+| ev_tdlam_before | 0.975    |
+| meankl          | 0.000432 |
+| optimgain       | 0.00149  |
+| surrgain        | 0.00149  |
+| TimeElapsed     | 340      |
+| TimestepsSoFar  | 2.09e+05 |
+------------------------------
+********** Iteration 51 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.4      |
+| EpisodesSoFar   | 555      |
+| EpLenMean       | 366      |
+| EpRewE          | -1.1e+03 |
+| EpRewMean       | -50      |
+| EpRewOther      | 1.06e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | -0.137   |
+| ev_tdlam_before | 0.985    |
+| meankl          | 0.000461 |
+| optimgain       | 0.0018   |
+| surrgain        | 0.0018   |
+| TimeElapsed     | 345      |
+| TimestepsSoFar  | 2.13e+05 |
+------------------------------
+********** Iteration 52 ************
+Expected: 0.002 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.4       |
+| EpisodesSoFar   | 566       |
+| EpLenMean       | 368       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -62.5     |
+| EpRewOther      | 1.02e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | -0.169    |
+| ev_tdlam_before | 0.921     |
+| meankl          | 0.000415  |
+| optimgain       | 0.00253   |
+| surrgain        | 0.00253   |
+| TimeElapsed     | 351       |
+| TimestepsSoFar  | 2.17e+05  |
+-------------------------------
+********** Iteration 53 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.4       |
+| EpisodesSoFar   | 577       |
+| EpLenMean       | 368       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -50       |
+| EpRewOther      | 1.03e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | -0.133    |
+| ev_tdlam_before | 0.977     |
+| meankl          | 0.000418  |
+| optimgain       | 0.00264   |
+| surrgain        | 0.00264   |
+| TimeElapsed     | 356       |
+| TimestepsSoFar  | 2.21e+05  |
+-------------------------------
+********** Iteration 54 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.39      |
+| EpisodesSoFar   | 588       |
+| EpLenMean       | 368       |
+| EpRewE          | -1.09e+03 |
+| EpRewMean       | -50       |
+| EpRewOther      | 1.05e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | -0.133    |
+| ev_tdlam_before | 0.986     |
+| meankl          | 0.000392  |
+| optimgain       | 0.00111   |
+| surrgain        | 0.00111   |
+| TimeElapsed     | 361       |
+| TimestepsSoFar  | 2.25e+05  |
+-------------------------------
+********** Iteration 55 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.39      |
+| EpisodesSoFar   | 600       |
+| EpLenMean       | 364       |
+| EpRewE          | -1.11e+03 |
+| EpRewMean       | 6.25      |
+| EpRewOther      | 1.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.0233    |
+| ev_tdlam_before | 0.923     |
+| meankl          | 0.000337  |
+| optimgain       | 0.00191   |
+| surrgain        | 0.00191   |
+| TimeElapsed     | 366       |
+| TimestepsSoFar  | 2.29e+05  |
+-------------------------------
+********** Iteration 56 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 611       |
+| EpLenMean       | 362       |
+| EpRewE          | -1.12e+03 |
+| EpRewMean       | 25        |
+| EpRewOther      | 1.12e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 0.0716    |
+| ev_tdlam_before | 0.952     |
+| meankl          | 0.000436  |
+| optimgain       | 0.00147   |
+| surrgain        | 0.00147   |
+| TimeElapsed     | 371       |
+| TimestepsSoFar  | 2.33e+05  |
+-------------------------------
+********** Iteration 57 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.39      |
+| EpisodesSoFar   | 622       |
+| EpLenMean       | 362       |
+| EpRewE          | -1.12e+03 |
+| EpRewMean       | 37.5      |
+| EpRewOther      | 1.15e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 0.107     |
+| ev_tdlam_before | 0.973     |
+| meankl          | 0.000363  |
+| optimgain       | 0.00167   |
+| surrgain        | 0.00167   |
+| TimeElapsed     | 376       |
+| TimestepsSoFar  | 2.37e+05  |
+-------------------------------
+********** Iteration 58 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 634       |
+| EpLenMean       | 361       |
+| EpRewE          | -1.14e+03 |
+| EpRewMean       | 0         |
+| EpRewOther      | 1.16e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.0016    |
+| ev_tdlam_before | 0.936     |
+| meankl          | 0.000391  |
+| optimgain       | 0.00197   |
+| surrgain        | 0.00197   |
+| TimeElapsed     | 381       |
+| TimestepsSoFar  | 2.42e+05  |
+-------------------------------
+********** Iteration 59 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 645       |
+| EpLenMean       | 361       |
+| EpRewE          | -1.14e+03 |
+| EpRewMean       | 0         |
+| EpRewOther      | 1.15e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 0.00129   |
+| ev_tdlam_before | 0.976     |
+| meankl          | 0.000441  |
+| optimgain       | 0.00224   |
+| surrgain        | 0.00224   |
+| TimeElapsed     | 387       |
+| TimestepsSoFar  | 2.46e+05  |
+-------------------------------
+********** Iteration 60 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 656       |
+| EpLenMean       | 364       |
+| EpRewE          | -1.15e+03 |
+| EpRewMean       | 12.5      |
+| EpRewOther      | 1.15e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 0.0495    |
+| ev_tdlam_before | 0.932     |
+| meankl          | 0.000345  |
+| optimgain       | 0.00444   |
+| surrgain        | 0.00444   |
+| TimeElapsed     | 415       |
+| TimestepsSoFar  | 2.5e+05   |
+-------------------------------
+********** Iteration 61 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 668       |
+| EpLenMean       | 362       |
+| EpRewE          | -1.16e+03 |
+| EpRewMean       | 31.2      |
+| EpRewOther      | 1.21e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.103     |
+| ev_tdlam_before | 0.941     |
+| meankl          | 0.000482  |
+| optimgain       | 0.00294   |
+| surrgain        | 0.00294   |
+| TimeElapsed     | 420       |
+| TimestepsSoFar  | 2.54e+05  |
+-------------------------------
+********** Iteration 62 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.37     |
+| EpisodesSoFar   | 679      |
+| EpLenMean       | 360      |
+| EpRewE          | -1.2e+03 |
+| EpRewMean       | 119      |
+| EpRewOther      | 1.28e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | 0.352    |
+| ev_tdlam_before | 0.946    |
+| meankl          | 0.000312 |
+| optimgain       | 0.00231  |
+| surrgain        | 0.00231  |
+| TimeElapsed     | 425      |
+| TimestepsSoFar  | 2.58e+05 |
+------------------------------
+********** Iteration 63 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 691       |
+| EpLenMean       | 352       |
+| EpRewE          | -1.23e+03 |
+| EpRewMean       | 156       |
+| EpRewOther      | 1.37e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.445     |
+| ev_tdlam_before | 0.951     |
+| meankl          | 0.000449  |
+| optimgain       | 0.00435   |
+| surrgain        | 0.00435   |
+| TimeElapsed     | 430       |
+| TimestepsSoFar  | 2.62e+05  |
+-------------------------------
+********** Iteration 64 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 703       |
+| EpLenMean       | 351       |
+| EpRewE          | -1.26e+03 |
+| EpRewMean       | 169       |
+| EpRewOther      | 1.42e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.481     |
+| ev_tdlam_before | 0.933     |
+| meankl          | 0.000344  |
+| optimgain       | 0.00232   |
+| surrgain        | 0.00232   |
+| TimeElapsed     | 436       |
+| TimestepsSoFar  | 2.66e+05  |
+-------------------------------
+********** Iteration 65 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.37     |
+| EpisodesSoFar   | 714      |
+| EpLenMean       | 350      |
+| EpRewE          | -1.3e+03 |
+| EpRewMean       | 169      |
+| EpRewOther      | 1.47e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | 0.482    |
+| ev_tdlam_before | 0.95     |
+| meankl          | 0.000456 |
+| optimgain       | 0.00217  |
+| surrgain        | 0.00217  |
+| TimeElapsed     | 441      |
+| TimestepsSoFar  | 2.7e+05  |
+------------------------------
+********** Iteration 66 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 726       |
+| EpLenMean       | 351       |
+| EpRewE          | -1.31e+03 |
+| EpRewMean       | 188       |
+| EpRewOther      | 1.5e+03   |
+| EpThisIter      | 12        |
+| ERewMean        | 0.536     |
+| ev_tdlam_before | 0.953     |
+| meankl          | 0.000467  |
+| optimgain       | 0.00288   |
+| surrgain        | 0.00288   |
+| TimeElapsed     | 446       |
+| TimestepsSoFar  | 2.74e+05  |
+-------------------------------
+********** Iteration 67 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 738       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.33e+03 |
+| EpRewMean       | 250       |
+| EpRewOther      | 1.54e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.715     |
+| ev_tdlam_before | 0.94      |
+| meankl          | 0.000416  |
+| optimgain       | 0.00248   |
+| surrgain        | 0.00248   |
+| TimeElapsed     | 451       |
+| TimestepsSoFar  | 2.78e+05  |
+-------------------------------
+********** Iteration 68 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 750       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.35e+03 |
+| EpRewMean       | 306       |
+| EpRewOther      | 1.64e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.876     |
+| ev_tdlam_before | 0.974     |
+| meankl          | 0.000369  |
+| optimgain       | 0.00178   |
+| surrgain        | 0.00178   |
+| TimeElapsed     | 456       |
+| TimestepsSoFar  | 2.83e+05  |
+-------------------------------
+********** Iteration 69 ************
+Expected: 0.005 Actual: 0.005
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 761       |
+| EpLenMean       | 348       |
+| EpRewE          | -1.37e+03 |
+| EpRewMean       | 338       |
+| EpRewOther      | 1.67e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 0.968     |
+| ev_tdlam_before | 0.956     |
+| meankl          | 0.000356  |
+| optimgain       | 0.00466   |
+| surrgain        | 0.00466   |
+| TimeElapsed     | 461       |
+| TimestepsSoFar  | 2.86e+05  |
+-------------------------------
+********** Iteration 70 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 773       |
+| EpLenMean       | 348       |
+| EpRewE          | -1.39e+03 |
+| EpRewMean       | 312       |
+| EpRewOther      | 1.7e+03   |
+| EpThisIter      | 12        |
+| ERewMean        | 0.898     |
+| ev_tdlam_before | 0.904     |
+| meankl          | 0.000435  |
+| optimgain       | 0.0028    |
+| surrgain        | 0.0028    |
+| TimeElapsed     | 467       |
+| TimestepsSoFar  | 2.91e+05  |
+-------------------------------
+********** Iteration 71 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 785       |
+| EpLenMean       | 348       |
+| EpRewE          | -1.39e+03 |
+| EpRewMean       | 300       |
+| EpRewOther      | 1.71e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 0.863     |
+| ev_tdlam_before | 0.955     |
+| meankl          | 0.000464  |
+| optimgain       | 0.00353   |
+| surrgain        | 0.00353   |
+| TimeElapsed     | 472       |
+| TimestepsSoFar  | 2.95e+05  |
+-------------------------------
+********** Iteration 72 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.36     |
+| EpisodesSoFar   | 797      |
+| EpLenMean       | 348      |
+| EpRewE          | -1.4e+03 |
+| EpRewMean       | 300      |
+| EpRewOther      | 1.72e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 0.862    |
+| ev_tdlam_before | 0.967    |
+| meankl          | 0.000351 |
+| optimgain       | 0.00239  |
+| surrgain        | 0.00239  |
+| TimeElapsed     | 477      |
+| TimestepsSoFar  | 2.99e+05 |
+------------------------------
+********** Iteration 73 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.34     |
+| EpisodesSoFar   | 808      |
+| EpLenMean       | 348      |
+| EpRewE          | -1.4e+03 |
+| EpRewMean       | 338      |
+| EpRewOther      | 1.71e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | 0.969    |
+| ev_tdlam_before | 0.94     |
+| meankl          | 0.000398 |
+| optimgain       | 0.00237  |
+| surrgain        | 0.00237  |
+| TimeElapsed     | 482      |
+| TimestepsSoFar  | 3.03e+05 |
+------------------------------
+********** Iteration 74 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 820       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.41e+03 |
+| EpRewMean       | 375       |
+| EpRewOther      | 1.76e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.07      |
+| ev_tdlam_before | 0.934     |
+| meankl          | 0.000455  |
+| optimgain       | 0.0033    |
+| surrgain        | 0.0033    |
+| TimeElapsed     | 487       |
+| TimestepsSoFar  | 3.07e+05  |
+-------------------------------
+********** Iteration 75 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 832       |
+| EpLenMean       | 349       |
+| EpRewE          | -1.43e+03 |
+| EpRewMean       | 350       |
+| EpRewOther      | 1.81e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1         |
+| ev_tdlam_before | 0.95      |
+| meankl          | 0.000354  |
+| optimgain       | 0.00327   |
+| surrgain        | 0.00327   |
+| TimeElapsed     | 492       |
+| TimestepsSoFar  | 3.11e+05  |
+-------------------------------
+********** Iteration 76 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 844       |
+| EpLenMean       | 349       |
+| EpRewE          | -1.44e+03 |
+| EpRewMean       | 400       |
+| EpRewOther      | 1.84e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.15      |
+| ev_tdlam_before | 0.99      |
+| meankl          | 0.000383  |
+| optimgain       | 0.00125   |
+| surrgain        | 0.00125   |
+| TimeElapsed     | 498       |
+| TimestepsSoFar  | 3.15e+05  |
+-------------------------------
+********** Iteration 77 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 855       |
+| EpLenMean       | 349       |
+| EpRewE          | -1.43e+03 |
+| EpRewMean       | 450       |
+| EpRewOther      | 1.86e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.29      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000439  |
+| optimgain       | 0.00209   |
+| surrgain        | 0.00209   |
+| TimeElapsed     | 503       |
+| TimestepsSoFar  | 3.19e+05  |
+-------------------------------
+********** Iteration 78 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 867       |
+| EpLenMean       | 348       |
+| EpRewE          | -1.44e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.88e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.957     |
+| meankl          | 0.000422  |
+| optimgain       | 0.00158   |
+| surrgain        | 0.00158   |
+| TimeElapsed     | 508       |
+| TimestepsSoFar  | 3.23e+05  |
+-------------------------------
+********** Iteration 79 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 879       |
+| EpLenMean       | 347       |
+| EpRewE          | -1.44e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.9e+03   |
+| EpThisIter      | 12        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.946     |
+| meankl          | 0.000446  |
+| optimgain       | 0.00399   |
+| surrgain        | 0.00399   |
+| TimeElapsed     | 513       |
+| TimestepsSoFar  | 3.28e+05  |
+-------------------------------
+********** Iteration 80 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 891       |
+| EpLenMean       | 347       |
+| EpRewE          | -1.45e+03 |
+| EpRewMean       | 450       |
+| EpRewOther      | 1.91e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.29      |
+| ev_tdlam_before | 0.953     |
+| meankl          | 0.000439  |
+| optimgain       | 0.00142   |
+| surrgain        | 0.00142   |
+| TimeElapsed     | 518       |
+| TimestepsSoFar  | 3.32e+05  |
+-------------------------------
+********** Iteration 81 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 903       |
+| EpLenMean       | 347       |
+| EpRewE          | -1.46e+03 |
+| EpRewMean       | 450       |
+| EpRewOther      | 1.91e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.29      |
+| ev_tdlam_before | 0.976     |
+| meankl          | 0.000466  |
+| optimgain       | 0.00203   |
+| surrgain        | 0.00203   |
+| TimeElapsed     | 523       |
+| TimestepsSoFar  | 3.36e+05  |
+-------------------------------
+********** Iteration 82 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 914       |
+| EpLenMean       | 347       |
+| EpRewE          | -1.46e+03 |
+| EpRewMean       | 450       |
+| EpRewOther      | 1.91e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.3       |
+| ev_tdlam_before | 0.953     |
+| meankl          | 0.000435  |
+| optimgain       | 0.00291   |
+| surrgain        | 0.00291   |
+| TimeElapsed     | 528       |
+| TimestepsSoFar  | 3.4e+05   |
+-------------------------------
+********** Iteration 83 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 926       |
+| EpLenMean       | 348       |
+| EpRewE          | -1.46e+03 |
+| EpRewMean       | 388       |
+| EpRewOther      | 1.87e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.11      |
+| ev_tdlam_before | 0.9       |
+| meankl          | 0.000446  |
+| optimgain       | 0.00257   |
+| surrgain        | 0.00257   |
+| TimeElapsed     | 534       |
+| TimestepsSoFar  | 3.44e+05  |
+-------------------------------
+********** Iteration 84 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 938       |
+| EpLenMean       | 348       |
+| EpRewE          | -1.45e+03 |
+| EpRewMean       | 400       |
+| EpRewOther      | 1.85e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.15      |
+| ev_tdlam_before | 0.964     |
+| meankl          | 0.000478  |
+| optimgain       | 0.0028    |
+| surrgain        | 0.0028    |
+| TimeElapsed     | 539       |
+| TimestepsSoFar  | 3.48e+05  |
+-------------------------------
+********** Iteration 85 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 949       |
+| EpLenMean       | 349       |
+| EpRewE          | -1.45e+03 |
+| EpRewMean       | 412       |
+| EpRewOther      | 1.87e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.18      |
+| ev_tdlam_before | 0.991     |
+| meankl          | 0.000524  |
+| optimgain       | 0.00309   |
+| surrgain        | 0.00309   |
+| TimeElapsed     | 544       |
+| TimestepsSoFar  | 3.52e+05  |
+-------------------------------
+********** Iteration 86 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 961       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.45e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.87e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.972     |
+| meankl          | 0.000413  |
+| optimgain       | 0.00376   |
+| surrgain        | 0.00376   |
+| TimeElapsed     | 549       |
+| TimestepsSoFar  | 3.56e+05  |
+-------------------------------
+********** Iteration 87 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 973       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.46e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.93e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.969     |
+| meankl          | 0.00047   |
+| optimgain       | 0.00279   |
+| surrgain        | 0.00279   |
+| TimeElapsed     | 554       |
+| TimestepsSoFar  | 3.6e+05   |
+-------------------------------
+********** Iteration 88 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 985       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.47e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.00043   |
+| optimgain       | 0.00223   |
+| surrgain        | 0.00223   |
+| TimeElapsed     | 559       |
+| TimestepsSoFar  | 3.65e+05  |
+-------------------------------
+********** Iteration 89 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 996       |
+| EpLenMean       | 350       |
+| EpRewE          | -1.47e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.94e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.32      |
+| ev_tdlam_before | 0.97      |
+| meankl          | 0.000498  |
+| optimgain       | 0.002     |
+| surrgain        | 0.002     |
+| TimeElapsed     | 565       |
+| TimestepsSoFar  | 3.68e+05  |
+-------------------------------
+********** Iteration 90 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 1.01e+03  |
+| EpLenMean       | 355       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 444       |
+| EpRewOther      | 1.92e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.27      |
+| ev_tdlam_before | 0.931     |
+| meankl          | 0.000501  |
+| optimgain       | 0.00259   |
+| surrgain        | 0.00259   |
+| TimeElapsed     | 593       |
+| TimestepsSoFar  | 3.72e+05  |
+-------------------------------
+********** Iteration 91 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.35     |
+| EpisodesSoFar   | 1.02e+03 |
+| EpLenMean       | 355      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 444      |
+| EpRewOther      | 1.95e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.28     |
+| ev_tdlam_before | 0.986    |
+| meankl          | 0.000468 |
+| optimgain       | 0.00195  |
+| surrgain        | 0.00195  |
+| TimeElapsed     | 598      |
+| TimestepsSoFar  | 3.77e+05 |
+------------------------------
+********** Iteration 92 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 1.03e+03  |
+| EpLenMean       | 354       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 444       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.28      |
+| ev_tdlam_before | 0.972     |
+| meankl          | 0.000391  |
+| optimgain       | 0.00148   |
+| surrgain        | 0.00148   |
+| TimeElapsed     | 603       |
+| TimestepsSoFar  | 3.81e+05  |
+-------------------------------
+********** Iteration 93 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 1.04e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.96e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.977     |
+| meankl          | 0.000379  |
+| optimgain       | 0.00323   |
+| surrgain        | 0.00323   |
+| TimeElapsed     | 608       |
+| TimestepsSoFar  | 3.85e+05  |
+-------------------------------
+********** Iteration 94 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.35     |
+| EpisodesSoFar   | 1.05e+03 |
+| EpLenMean       | 349      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 475      |
+| EpRewOther      | 1.98e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | 1.36     |
+| ev_tdlam_before | 0.997    |
+| meankl          | 0.000461 |
+| optimgain       | 0.00119  |
+| surrgain        | 0.00119  |
+| TimeElapsed     | 613      |
+| TimestepsSoFar  | 3.89e+05 |
+------------------------------
+********** Iteration 95 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 1.07e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.981     |
+| meankl          | 0.000418  |
+| optimgain       | 0.00195   |
+| surrgain        | 0.00195   |
+| TimeElapsed     | 619       |
+| TimestepsSoFar  | 3.93e+05  |
+-------------------------------
+********** Iteration 96 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.36     |
+| EpisodesSoFar   | 1.08e+03 |
+| EpLenMean       | 348      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 488      |
+| EpRewOther      | 1.99e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.4      |
+| ev_tdlam_before | 0.991    |
+| meankl          | 0.000327 |
+| optimgain       | 0.00117  |
+| surrgain        | 0.00117  |
+| TimeElapsed     | 624      |
+| TimestepsSoFar  | 3.97e+05 |
+------------------------------
+********** Iteration 97 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.36     |
+| EpisodesSoFar   | 1.09e+03 |
+| EpLenMean       | 347      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 500      |
+| EpRewOther      | 1.99e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.44     |
+| ev_tdlam_before | 0.994    |
+| meankl          | 0.000395 |
+| optimgain       | 0.0013   |
+| surrgain        | 0.0013   |
+| TimeElapsed     | 629      |
+| TimestepsSoFar  | 4.01e+05 |
+------------------------------
+********** Iteration 98 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.1e+03   |
+| EpLenMean       | 347       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2e+03     |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.979     |
+| meankl          | 0.000466  |
+| optimgain       | 0.00105   |
+| surrgain        | 0.00105   |
+| TimeElapsed     | 634       |
+| TimestepsSoFar  | 4.05e+05  |
+-------------------------------
+********** Iteration 99 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.11e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000376  |
+| optimgain       | 0.000974  |
+| surrgain        | 0.000974  |
+| TimeElapsed     | 639       |
+| TimestepsSoFar  | 4.09e+05  |
+-------------------------------
+********** Iteration 100 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.12e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.35      |
+| ev_tdlam_before | 0.97      |
+| meankl          | 0.000486  |
+| optimgain       | 0.0032    |
+| surrgain        | 0.0032    |
+| TimeElapsed     | 644       |
+| TimestepsSoFar  | 4.13e+05  |
+-------------------------------
+********** Iteration 101 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.14e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 1.98e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000474  |
+| optimgain       | 0.00249   |
+| surrgain        | 0.00249   |
+| TimeElapsed     | 649       |
+| TimestepsSoFar  | 4.18e+05  |
+-------------------------------
+********** Iteration 102 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 1.15e+03 |
+| EpLenMean       | 346      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 462      |
+| EpRewOther      | 1.97e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.34     |
+| ev_tdlam_before | 0.948    |
+| meankl          | 0.00045  |
+| optimgain       | 0.00209  |
+| surrgain        | 0.00209  |
+| TimeElapsed     | 654      |
+| TimestepsSoFar  | 4.22e+05 |
+------------------------------
+********** Iteration 103 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.16e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 456       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.32      |
+| ev_tdlam_before | 0.968     |
+| meankl          | 0.000335  |
+| optimgain       | 0.00362   |
+| surrgain        | 0.00362   |
+| TimeElapsed     | 659       |
+| TimestepsSoFar  | 4.26e+05  |
+-------------------------------
+********** Iteration 104 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.17e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 456       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.31      |
+| ev_tdlam_before | 0.982     |
+| meankl          | 0.000247  |
+| optimgain       | 0.000886  |
+| surrgain        | 0.000886  |
+| TimeElapsed     | 665       |
+| TimestepsSoFar  | 4.3e+05   |
+-------------------------------
+********** Iteration 105 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.18e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.35      |
+| ev_tdlam_before | 0.966     |
+| meankl          | 0.000544  |
+| optimgain       | 0.0029    |
+| surrgain        | 0.0029    |
+| TimeElapsed     | 670       |
+| TimestepsSoFar  | 4.34e+05  |
+-------------------------------
+********** Iteration 106 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.2e+03   |
+| EpLenMean       | 348       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 450       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.3       |
+| ev_tdlam_before | 0.958     |
+| meankl          | 0.000455  |
+| optimgain       | 0.0015    |
+| surrgain        | 0.0015    |
+| TimeElapsed     | 675       |
+| TimestepsSoFar  | 4.38e+05  |
+-------------------------------
+********** Iteration 107 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.33     |
+| EpisodesSoFar   | 1.21e+03 |
+| EpLenMean       | 348      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 469      |
+| EpRewOther      | 1.98e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.35     |
+| ev_tdlam_before | 0.99     |
+| meankl          | 0.00028  |
+| optimgain       | 0.00133  |
+| surrgain        | 0.00133  |
+| TimeElapsed     | 680      |
+| TimestepsSoFar  | 4.42e+05 |
+------------------------------
+********** Iteration 108 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.22e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 1.98e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.38      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000436  |
+| optimgain       | 0.000765  |
+| surrgain        | 0.000765  |
+| TimeElapsed     | 685       |
+| TimestepsSoFar  | 4.46e+05  |
+-------------------------------
+********** Iteration 109 ************
+Expected: 0.001 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.23e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.38      |
+| ev_tdlam_before | 0.988     |
+| meankl          | 0.000147  |
+| optimgain       | 0.000506  |
+| surrgain        | 0.000506  |
+| TimeElapsed     | 690       |
+| TimestepsSoFar  | 4.5e+05   |
+-------------------------------
+********** Iteration 110 ************
+Expected: 0.000 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.24e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2e+03     |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000481  |
+| optimgain       | 0.000445  |
+| surrgain        | 0.000445  |
+| TimeElapsed     | 695       |
+| TimestepsSoFar  | 4.54e+05  |
+-------------------------------
+********** Iteration 111 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.26e+03  |
+| EpLenMean       | 349       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.43      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000596  |
+| optimgain       | 0.00248   |
+| surrgain        | 0.00248   |
+| TimeElapsed     | 701       |
+| TimestepsSoFar  | 4.59e+05  |
+-------------------------------
+********** Iteration 112 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.27e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.987     |
+| meankl          | 0.000475  |
+| optimgain       | 0.002     |
+| surrgain        | 0.002     |
+| TimeElapsed     | 706       |
+| TimestepsSoFar  | 4.63e+05  |
+-------------------------------
+********** Iteration 113 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.28e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000466  |
+| optimgain       | 0.00112   |
+| surrgain        | 0.00112   |
+| TimeElapsed     | 711       |
+| TimestepsSoFar  | 4.67e+05  |
+-------------------------------
+********** Iteration 114 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.29e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000412  |
+| optimgain       | 0.000786  |
+| surrgain        | 0.000786  |
+| TimeElapsed     | 716       |
+| TimestepsSoFar  | 4.71e+05  |
+-------------------------------
+********** Iteration 115 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.3e+03   |
+| EpLenMean       | 348       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.932     |
+| meankl          | 0.000335  |
+| optimgain       | 0.0019    |
+| surrgain        | 0.0019    |
+| TimeElapsed     | 721       |
+| TimestepsSoFar  | 4.75e+05  |
+-------------------------------
+********** Iteration 116 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.31e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.97e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000416  |
+| optimgain       | 0.00119   |
+| surrgain        | 0.00119   |
+| TimeElapsed     | 726       |
+| TimestepsSoFar  | 4.79e+05  |
+-------------------------------
+********** Iteration 117 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.32e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.96e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.975     |
+| meankl          | 0.000376  |
+| optimgain       | 0.00157   |
+| surrgain        | 0.00157   |
+| TimeElapsed     | 732       |
+| TimestepsSoFar  | 4.83e+05  |
+-------------------------------
+********** Iteration 118 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 1.34e+03 |
+| EpLenMean       | 349      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 475      |
+| EpRewOther      | 1.97e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.36     |
+| ev_tdlam_before | 0.993    |
+| meankl          | 0.000451 |
+| optimgain       | 0.00226  |
+| surrgain        | 0.00226  |
+| TimeElapsed     | 737      |
+| TimestepsSoFar  | 4.87e+05 |
+------------------------------
+********** Iteration 119 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.31     |
+| EpisodesSoFar   | 1.35e+03 |
+| EpLenMean       | 348      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 488      |
+| EpRewOther      | 1.99e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.4      |
+| ev_tdlam_before | 0.995    |
+| meankl          | 0.000346 |
+| optimgain       | 0.000772 |
+| surrgain        | 0.000772 |
+| TimeElapsed     | 742      |
+| TimestepsSoFar  | 4.91e+05 |
+------------------------------
+********** Iteration 120 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.36e+03  |
+| EpLenMean       | 352       |
+| EpRewE          | -1.52e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2e+03     |
+| EpThisIter      | 11        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.00055   |
+| optimgain       | 0.00141   |
+| surrgain        | 0.00141   |
+| TimeElapsed     | 770       |
+| TimestepsSoFar  | 4.95e+05  |
+-------------------------------
+********** Iteration 121 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.37e+03  |
+| EpLenMean       | 351       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.00069   |
+| optimgain       | 0.00239   |
+| surrgain        | 0.00239   |
+| TimeElapsed     | 775       |
+| TimestepsSoFar  | 4.99e+05  |
+-------------------------------
+********** Iteration 122 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 1.38e+03  |
+| EpLenMean       | 351       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000511  |
+| optimgain       | 0.00121   |
+| surrgain        | 0.00121   |
+| TimeElapsed     | 780       |
+| TimestepsSoFar  | 5.04e+05  |
+-------------------------------
+********** Iteration 123 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 1.4e+03   |
+| EpLenMean       | 346       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.953     |
+| meankl          | 0.000428  |
+| optimgain       | 0.00234   |
+| surrgain        | 0.00234   |
+| TimeElapsed     | 785       |
+| TimestepsSoFar  | 5.08e+05  |
+-------------------------------
+********** Iteration 124 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 1.41e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2e+03     |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000513  |
+| optimgain       | 0.00183   |
+| surrgain        | 0.00183   |
+| TimeElapsed     | 790       |
+| TimestepsSoFar  | 5.12e+05  |
+-------------------------------
+********** Iteration 125 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.28     |
+| EpisodesSoFar   | 1.42e+03 |
+| EpLenMean       | 346      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 481      |
+| EpRewOther      | 1.99e+03 |
+| EpThisIter      | 11       |
+| ERewMean        | 1.39     |
+| ev_tdlam_before | 0.991    |
+| meankl          | 0.000457 |
+| optimgain       | 0.00209  |
+| surrgain        | 0.00209  |
+| TimeElapsed     | 795      |
+| TimestepsSoFar  | 5.16e+05 |
+------------------------------
+********** Iteration 126 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.28     |
+| EpisodesSoFar   | 1.43e+03 |
+| EpLenMean       | 346      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 488      |
+| EpRewOther      | 1.98e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.41     |
+| ev_tdlam_before | 0.978    |
+| meankl          | 0.000425 |
+| optimgain       | 0.00177  |
+| surrgain        | 0.00177  |
+| TimeElapsed     | 800      |
+| TimestepsSoFar  | 5.2e+05  |
+------------------------------
+********** Iteration 127 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.28      |
+| EpisodesSoFar   | 1.44e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 1.98e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000456  |
+| optimgain       | 0.00174   |
+| surrgain        | 0.00174   |
+| TimeElapsed     | 805       |
+| TimestepsSoFar  | 5.24e+05  |
+-------------------------------
+********** Iteration 128 ************
+Expected: 0.004 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.28      |
+| EpisodesSoFar   | 1.46e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 1.97e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.99      |
+| meankl          | 0.000417  |
+| optimgain       | 0.00332   |
+| surrgain        | 0.00332   |
+| TimeElapsed     | 810       |
+| TimestepsSoFar  | 5.28e+05  |
+-------------------------------
+********** Iteration 129 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.28      |
+| EpisodesSoFar   | 1.47e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 1.97e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.997     |
+| meankl          | 0.000284  |
+| optimgain       | 0.000706  |
+| surrgain        | 0.000706  |
+| TimeElapsed     | 815       |
+| TimestepsSoFar  | 5.32e+05  |
+-------------------------------
+********** Iteration 130 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.48e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 1.98e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000445  |
+| optimgain       | 0.00121   |
+| surrgain        | 0.00121   |
+| TimeElapsed     | 821       |
+| TimestepsSoFar  | 5.37e+05  |
+-------------------------------
+********** Iteration 131 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 1.49e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.49e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 1.98e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.997     |
+| meankl          | 0.000326  |
+| optimgain       | 0.00131   |
+| surrgain        | 0.00131   |
+| TimeElapsed     | 826       |
+| TimestepsSoFar  | 5.4e+05   |
+-------------------------------
+********** Iteration 132 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 1.5e+03  |
+| EpLenMean       | 347      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 500      |
+| EpRewOther      | 1.99e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.44     |
+| ev_tdlam_before | 0.993    |
+| meankl          | 0.000455 |
+| optimgain       | 0.000876 |
+| surrgain        | 0.000876 |
+| TimeElapsed     | 831      |
+| TimestepsSoFar  | 5.45e+05 |
+------------------------------
+********** Iteration 133 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.29     |
+| EpisodesSoFar   | 1.51e+03 |
+| EpLenMean       | 346      |
+| EpRewE          | -1.5e+03 |
+| EpRewMean       | 438      |
+| EpRewOther      | 1.95e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.26     |
+| ev_tdlam_before | 0.886    |
+| meankl          | 0.000465 |
+| optimgain       | 0.00311  |
+| surrgain        | 0.00311  |
+| TimeElapsed     | 836      |
+| TimestepsSoFar  | 5.49e+05 |
+------------------------------
+********** Iteration 134 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.53e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.51e+03 |
+| EpRewMean       | 425       |
+| EpRewOther      | 1.95e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.23      |
+| ev_tdlam_before | 0.953     |
+| meankl          | 0.000439  |
+| optimgain       | 0.00231   |
+| surrgain        | 0.00231   |
+| TimeElapsed     | 841       |
+| TimestepsSoFar  | 5.53e+05  |
+-------------------------------
+********** Iteration 135 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.54e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.52e+03 |
+| EpRewMean       | 425       |
+| EpRewOther      | 1.96e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.23      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000421  |
+| optimgain       | 0.00296   |
+| surrgain        | 0.00296   |
+| TimeElapsed     | 846       |
+| TimestepsSoFar  | 5.57e+05  |
+-------------------------------
+********** Iteration 136 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.55e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.52e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.96e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.34      |
+| ev_tdlam_before | 0.98      |
+| meankl          | 0.000544  |
+| optimgain       | 0.000839  |
+| surrgain        | 0.000839  |
+| TimeElapsed     | 851       |
+| TimestepsSoFar  | 5.61e+05  |
+-------------------------------
+********** Iteration 137 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.56e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2e+03     |
+| EpThisIter      | 11        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000418  |
+| optimgain       | 0.00131   |
+| surrgain        | 0.00131   |
+| TimeElapsed     | 856       |
+| TimestepsSoFar  | 5.65e+05  |
+-------------------------------
+********** Iteration 138 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.57e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.997     |
+| meankl          | 0.000471  |
+| optimgain       | 0.00133   |
+| surrgain        | 0.00133   |
+| TimeElapsed     | 862       |
+| TimestepsSoFar  | 5.69e+05  |
+-------------------------------
+********** Iteration 139 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.58e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.973     |
+| meankl          | 0.000459  |
+| optimgain       | 0.00253   |
+| surrgain        | 0.00253   |
+| TimeElapsed     | 867       |
+| TimestepsSoFar  | 5.73e+05  |
+-------------------------------
+********** Iteration 140 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.6e+03   |
+| EpLenMean       | 348       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.997     |
+| meankl          | 0.000427  |
+| optimgain       | 0.000817  |
+| surrgain        | 0.000817  |
+| TimeElapsed     | 872       |
+| TimestepsSoFar  | 5.77e+05  |
+-------------------------------
+********** Iteration 141 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.61e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000484  |
+| optimgain       | 0.00249   |
+| surrgain        | 0.00249   |
+| TimeElapsed     | 877       |
+| TimestepsSoFar  | 5.82e+05  |
+-------------------------------
+********** Iteration 142 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 1.62e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000452  |
+| optimgain       | 0.000979  |
+| surrgain        | 0.000979  |
+| TimeElapsed     | 883       |
+| TimestepsSoFar  | 5.85e+05  |
+-------------------------------
+********** Iteration 143 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.3       |
+| EpisodesSoFar   | 1.63e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.97      |
+| meankl          | 0.000482  |
+| optimgain       | 0.00301   |
+| surrgain        | 0.00301   |
+| TimeElapsed     | 888       |
+| TimestepsSoFar  | 5.9e+05   |
+-------------------------------
+********** Iteration 144 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.64e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.967     |
+| meankl          | 0.000428  |
+| optimgain       | 0.00257   |
+| surrgain        | 0.00257   |
+| TimeElapsed     | 893       |
+| TimestepsSoFar  | 5.94e+05  |
+-------------------------------
+********** Iteration 145 ************
+Expected: 0.004 Actual: 0.004
+violated KL constraint. shrinking step.
+Expected: 0.004 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.66e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 456       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.32      |
+| ev_tdlam_before | 0.939     |
+| meankl          | 0.000162  |
+| optimgain       | 0.00204   |
+| surrgain        | 0.00204   |
+| TimeElapsed     | 898       |
+| TimestepsSoFar  | 5.98e+05  |
+-------------------------------
+********** Iteration 146 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.67e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 456       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.32      |
+| ev_tdlam_before | 0.98      |
+| meankl          | 0.000502  |
+| optimgain       | 0.0013    |
+| surrgain        | 0.0013    |
+| TimeElapsed     | 904       |
+| TimestepsSoFar  | 6.02e+05  |
+-------------------------------
+********** Iteration 147 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.68e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.55e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.35      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000481  |
+| optimgain       | 0.00236   |
+| surrgain        | 0.00236   |
+| TimeElapsed     | 909       |
+| TimestepsSoFar  | 6.06e+05  |
+-------------------------------
+********** Iteration 148 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.28      |
+| EpisodesSoFar   | 1.69e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.55e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.00047   |
+| optimgain       | 0.00111   |
+| surrgain        | 0.00111   |
+| TimeElapsed     | 914       |
+| TimestepsSoFar  | 6.1e+05   |
+-------------------------------
+********** Iteration 149 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.7e+03   |
+| EpLenMean       | 346       |
+| EpRewE          | -1.55e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.05e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000432  |
+| optimgain       | 0.000687  |
+| surrgain        | 0.000687  |
+| TimeElapsed     | 920       |
+| TimestepsSoFar  | 6.14e+05  |
+-------------------------------
+********** Iteration 150 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.71e+03  |
+| EpLenMean       | 352       |
+| EpRewE          | -1.55e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000486  |
+| optimgain       | 0.00191   |
+| surrgain        | 0.00191   |
+| TimeElapsed     | 948       |
+| TimestepsSoFar  | 6.18e+05  |
+-------------------------------
+********** Iteration 151 ************
+Expected: 0.000 Actual: 0.001
+violated KL constraint. shrinking step.
+Expected: 0.000 Actual: 0.000
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.29      |
+| EpisodesSoFar   | 1.73e+03  |
+| EpLenMean       | 352       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.05e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.991     |
+| meankl          | 0.00013   |
+| optimgain       | 0.000255  |
+| surrgain        | 0.000255  |
+| TimeElapsed     | 953       |
+| TimestepsSoFar  | 6.22e+05  |
+-------------------------------
+********** Iteration 152 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.74e+03  |
+| EpLenMean       | 353       |
+| EpRewE          | -1.57e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.06e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.998     |
+| meankl          | 0.000445  |
+| optimgain       | 0.000912  |
+| surrgain        | 0.000912  |
+| TimeElapsed     | 958       |
+| TimestepsSoFar  | 6.27e+05  |
+-------------------------------
+********** Iteration 153 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.75e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.38      |
+| ev_tdlam_before | 0.961     |
+| meankl          | 0.000491  |
+| optimgain       | 0.00215   |
+| surrgain        | 0.00215   |
+| TimeElapsed     | 963       |
+| TimestepsSoFar  | 6.31e+05  |
+-------------------------------
+********** Iteration 154 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.76e+03  |
+| EpLenMean       | 349       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.961     |
+| meankl          | 0.000423  |
+| optimgain       | 0.00204   |
+| surrgain        | 0.00204   |
+| TimeElapsed     | 969       |
+| TimestepsSoFar  | 6.35e+05  |
+-------------------------------
+********** Iteration 155 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.77e+03  |
+| EpLenMean       | 349       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.981     |
+| meankl          | 0.00033   |
+| optimgain       | 0.000982  |
+| surrgain        | 0.000982  |
+| TimeElapsed     | 974       |
+| TimestepsSoFar  | 6.39e+05  |
+-------------------------------
+********** Iteration 156 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.78e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 450       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.29      |
+| ev_tdlam_before | 0.944     |
+| meankl          | 0.000305  |
+| optimgain       | 0.00258   |
+| surrgain        | 0.00258   |
+| TimeElapsed     | 979       |
+| TimestepsSoFar  | 6.43e+05  |
+-------------------------------
+********** Iteration 157 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.8e+03   |
+| EpLenMean       | 348       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 431       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.24      |
+| ev_tdlam_before | 0.927     |
+| meankl          | 0.000488  |
+| optimgain       | 0.00216   |
+| surrgain        | 0.00216   |
+| TimeElapsed     | 984       |
+| TimestepsSoFar  | 6.47e+05  |
+-------------------------------
+********** Iteration 158 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.81e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.56e+03 |
+| EpRewMean       | 419       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.21      |
+| ev_tdlam_before | 0.973     |
+| meankl          | 0.000431  |
+| optimgain       | 0.00275   |
+| surrgain        | 0.00275   |
+| TimeElapsed     | 990       |
+| TimestepsSoFar  | 6.51e+05  |
+-------------------------------
+********** Iteration 159 ************
+Expected: 0.003 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.82e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.55e+03 |
+| EpRewMean       | 419       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.2       |
+| ev_tdlam_before | 0.972     |
+| meankl          | 0.000341  |
+| optimgain       | 0.00237   |
+| surrgain        | 0.00237   |
+| TimeElapsed     | 995       |
+| TimestepsSoFar  | 6.55e+05  |
+-------------------------------
+********** Iteration 160 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.83e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.98e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.981     |
+| meankl          | 0.000455  |
+| optimgain       | 0.00166   |
+| surrgain        | 0.00166   |
+| TimeElapsed     | 1e+03     |
+| TimestepsSoFar  | 6.59e+05  |
+-------------------------------
+********** Iteration 161 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.84e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.42      |
+| ev_tdlam_before | 0.988     |
+| meankl          | 0.000568  |
+| optimgain       | 0.00223   |
+| surrgain        | 0.00223   |
+| TimeElapsed     | 1.01e+03  |
+| TimestepsSoFar  | 6.63e+05  |
+-------------------------------
+********** Iteration 162 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.86e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.43      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000482  |
+| optimgain       | 0.00125   |
+| surrgain        | 0.00125   |
+| TimeElapsed     | 1.01e+03  |
+| TimestepsSoFar  | 6.68e+05  |
+-------------------------------
+********** Iteration 163 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.87e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.43      |
+| ev_tdlam_before | 0.997     |
+| meankl          | 0.00052   |
+| optimgain       | 0.00131   |
+| surrgain        | 0.00131   |
+| TimeElapsed     | 1.02e+03  |
+| TimestepsSoFar  | 6.72e+05  |
+-------------------------------
+********** Iteration 164 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.31      |
+| EpisodesSoFar   | 1.88e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.0004    |
+| optimgain       | 0.00077   |
+| surrgain        | 0.00077   |
+| TimeElapsed     | 1.02e+03  |
+| TimestepsSoFar  | 6.76e+05  |
+-------------------------------
+********** Iteration 165 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.32      |
+| EpisodesSoFar   | 1.89e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000488  |
+| optimgain       | 0.00208   |
+| surrgain        | 0.00208   |
+| TimeElapsed     | 1.03e+03  |
+| TimestepsSoFar  | 6.8e+05   |
+-------------------------------
+********** Iteration 166 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.33      |
+| EpisodesSoFar   | 1.9e+03   |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000475  |
+| optimgain       | 0.000794  |
+| surrgain        | 0.000794  |
+| TimeElapsed     | 1.03e+03  |
+| TimestepsSoFar  | 6.84e+05  |
+-------------------------------
+********** Iteration 167 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.92e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.997     |
+| meankl          | 0.00051   |
+| optimgain       | 0.00136   |
+| surrgain        | 0.00136   |
+| TimeElapsed     | 1.04e+03  |
+| TimestepsSoFar  | 6.88e+05  |
+-------------------------------
+********** Iteration 168 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.93e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.03e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000414  |
+| optimgain       | 0.000948  |
+| surrgain        | 0.000948  |
+| TimeElapsed     | 1.04e+03  |
+| TimestepsSoFar  | 6.92e+05  |
+-------------------------------
+********** Iteration 169 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.94e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.04e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000478  |
+| optimgain       | 0.00165   |
+| surrgain        | 0.00165   |
+| TimeElapsed     | 1.05e+03  |
+| TimestepsSoFar  | 6.96e+05  |
+-------------------------------
+********** Iteration 170 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.95e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.973     |
+| meankl          | 0.000414  |
+| optimgain       | 0.00213   |
+| surrgain        | 0.00213   |
+| TimeElapsed     | 1.05e+03  |
+| TimestepsSoFar  | 7e+05     |
+-------------------------------
+********** Iteration 171 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.96e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000407  |
+| optimgain       | 0.00213   |
+| surrgain        | 0.00213   |
+| TimeElapsed     | 1.06e+03  |
+| TimestepsSoFar  | 7.04e+05  |
+-------------------------------
+********** Iteration 172 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 1.97e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.53e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.971     |
+| meankl          | 0.000484  |
+| optimgain       | 0.00143   |
+| surrgain        | 0.00143   |
+| TimeElapsed     | 1.06e+03  |
+| TimestepsSoFar  | 7.08e+05  |
+-------------------------------
+********** Iteration 173 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 1.99e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.52e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2e+03     |
+| EpThisIter      | 12        |
+| ERewMean        | 1.38      |
+| ev_tdlam_before | 0.957     |
+| meankl          | 0.000476  |
+| optimgain       | 0.00322   |
+| surrgain        | 0.00322   |
+| TimeElapsed     | 1.07e+03  |
+| TimestepsSoFar  | 7.13e+05  |
+-------------------------------
+********** Iteration 174 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 2e+03     |
+| EpLenMean       | 349       |
+| EpRewE          | -1.52e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 1.99e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.968     |
+| meankl          | 0.000477  |
+| optimgain       | 0.00323   |
+| surrgain        | 0.00323   |
+| TimeElapsed     | 1.07e+03  |
+| TimestepsSoFar  | 7.16e+05  |
+-------------------------------
+********** Iteration 175 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 2.01e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.54e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 2.01e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.986     |
+| meankl          | 0.000421  |
+| optimgain       | 0.000904  |
+| surrgain        | 0.000904  |
+| TimeElapsed     | 1.08e+03  |
+| TimestepsSoFar  | 7.21e+05  |
+-------------------------------
+********** Iteration 176 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 2.02e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.55e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.02e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.998     |
+| meankl          | 0.000395  |
+| optimgain       | 0.000927  |
+| surrgain        | 0.000927  |
+| TimeElapsed     | 1.08e+03  |
+| TimestepsSoFar  | 7.25e+05  |
+-------------------------------
+********** Iteration 177 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.34      |
+| EpisodesSoFar   | 2.03e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.57e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.05e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.998     |
+| meankl          | 0.000557  |
+| optimgain       | 0.00166   |
+| surrgain        | 0.00166   |
+| TimeElapsed     | 1.09e+03  |
+| TimestepsSoFar  | 7.29e+05  |
+-------------------------------
+********** Iteration 178 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 2.04e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.57e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.07e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.43      |
+| ev_tdlam_before | 0.956     |
+| meankl          | 0.000509  |
+| optimgain       | 0.0023    |
+| surrgain        | 0.0023    |
+| TimeElapsed     | 1.09e+03  |
+| TimestepsSoFar  | 7.33e+05  |
+-------------------------------
+********** Iteration 179 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 2.06e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.58e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.08e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.43      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.00051   |
+| optimgain       | 0.00171   |
+| surrgain        | 0.00171   |
+| TimeElapsed     | 1.1e+03   |
+| TimestepsSoFar  | 7.37e+05  |
+-------------------------------
+********** Iteration 180 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.35      |
+| EpisodesSoFar   | 2.07e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.09e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.42      |
+| ev_tdlam_before | 0.998     |
+| meankl          | 0.000481  |
+| optimgain       | 0.00133   |
+| surrgain        | 0.00133   |
+| TimeElapsed     | 1.13e+03  |
+| TimestepsSoFar  | 7.41e+05  |
+-------------------------------
+********** Iteration 181 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.08e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.08e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.985     |
+| meankl          | 0.000369  |
+| optimgain       | 0.000766  |
+| surrgain        | 0.000766  |
+| TimeElapsed     | 1.13e+03  |
+| TimestepsSoFar  | 7.45e+05  |
+-------------------------------
+********** Iteration 182 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.09e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.08e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.991     |
+| meankl          | 0.000493  |
+| optimgain       | 0.00298   |
+| surrgain        | 0.00298   |
+| TimeElapsed     | 1.14e+03  |
+| TimestepsSoFar  | 7.49e+05  |
+-------------------------------
+********** Iteration 183 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.1e+03   |
+| EpLenMean       | 346       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.07e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000437  |
+| optimgain       | 0.00143   |
+| surrgain        | 0.00143   |
+| TimeElapsed     | 1.14e+03  |
+| TimestepsSoFar  | 7.54e+05  |
+-------------------------------
+********** Iteration 184 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.12e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.06e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.947     |
+| meankl          | 0.000458  |
+| optimgain       | 0.0023    |
+| surrgain        | 0.0023    |
+| TimeElapsed     | 1.15e+03  |
+| TimestepsSoFar  | 7.58e+05  |
+-------------------------------
+********** Iteration 185 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.13e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.07e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000473  |
+| optimgain       | 0.00171   |
+| surrgain        | 0.00171   |
+| TimeElapsed     | 1.15e+03  |
+| TimestepsSoFar  | 7.62e+05  |
+-------------------------------
+********** Iteration 186 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.14e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.07e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.983     |
+| meankl          | 0.000546  |
+| optimgain       | 0.000864  |
+| surrgain        | 0.000864  |
+| TimeElapsed     | 1.16e+03  |
+| TimestepsSoFar  | 7.66e+05  |
+-------------------------------
+********** Iteration 187 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.15e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.58e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.06e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.991     |
+| meankl          | 0.00051   |
+| optimgain       | 0.00196   |
+| surrgain        | 0.00196   |
+| TimeElapsed     | 1.16e+03  |
+| TimestepsSoFar  | 7.7e+05   |
+-------------------------------
+********** Iteration 188 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.16e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.07e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.42      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000393  |
+| optimgain       | 0.00082   |
+| surrgain        | 0.00082   |
+| TimeElapsed     | 1.17e+03  |
+| TimestepsSoFar  | 7.74e+05  |
+-------------------------------
+********** Iteration 189 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.18e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.59e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.08e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.957     |
+| meankl          | 0.000562  |
+| optimgain       | 0.00334   |
+| surrgain        | 0.00334   |
+| TimeElapsed     | 1.17e+03  |
+| TimestepsSoFar  | 7.78e+05  |
+-------------------------------
+********** Iteration 190 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+------------------------------
+| entloss         | 0        |
+| entropy         | 1.37     |
+| EpisodesSoFar   | 2.19e+03 |
+| EpLenMean       | 347      |
+| EpRewE          | -1.6e+03 |
+| EpRewMean       | 475      |
+| EpRewOther      | 2.07e+03 |
+| EpThisIter      | 12       |
+| ERewMean        | 1.37     |
+| ev_tdlam_before | 0.997    |
+| meankl          | 0.000449 |
+| optimgain       | 0.000811 |
+| surrgain        | 0.000811 |
+| TimeElapsed     | 1.18e+03 |
+| TimestepsSoFar  | 7.82e+05 |
+------------------------------
+********** Iteration 191 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.2e+03   |
+| EpLenMean       | 347       |
+| EpRewE          | -1.62e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.1e+03   |
+| EpThisIter      | 11        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000529  |
+| optimgain       | 0.00219   |
+| surrgain        | 0.00219   |
+| TimeElapsed     | 1.18e+03  |
+| TimestepsSoFar  | 7.86e+05  |
+-------------------------------
+********** Iteration 192 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.21e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000655  |
+| optimgain       | 0.00123   |
+| surrgain        | 0.00123   |
+| TimeElapsed     | 1.19e+03  |
+| TimestepsSoFar  | 7.9e+05   |
+-------------------------------
+********** Iteration 193 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.22e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000334  |
+| optimgain       | 0.000901  |
+| surrgain        | 0.000901  |
+| TimeElapsed     | 1.19e+03  |
+| TimestepsSoFar  | 7.94e+05  |
+-------------------------------
+********** Iteration 194 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.23e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.988     |
+| meankl          | 0.000291  |
+| optimgain       | 0.00122   |
+| surrgain        | 0.00122   |
+| TimeElapsed     | 1.2e+03   |
+| TimestepsSoFar  | 7.99e+05  |
+-------------------------------
+********** Iteration 195 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.25e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.998     |
+| meankl          | 0.000453  |
+| optimgain       | 0.00156   |
+| surrgain        | 0.00156   |
+| TimeElapsed     | 1.2e+03   |
+| TimestepsSoFar  | 8.03e+05  |
+-------------------------------
+********** Iteration 196 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.26e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.62e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.00039   |
+| optimgain       | 0.00114   |
+| surrgain        | 0.00114   |
+| TimeElapsed     | 1.21e+03  |
+| TimestepsSoFar  | 8.07e+05  |
+-------------------------------
+********** Iteration 197 ************
+Expected: 0.001 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.27e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.62e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.98      |
+| meankl          | 0.000588  |
+| optimgain       | 0.00159   |
+| surrgain        | 0.00159   |
+| TimeElapsed     | 1.21e+03  |
+| TimestepsSoFar  | 8.11e+05  |
+-------------------------------
+********** Iteration 198 ************
+Expected: 0.004 Actual: 0.005
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.28e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.97      |
+| meankl          | 0.00057   |
+| optimgain       | 0.00457   |
+| surrgain        | 0.00457   |
+| TimeElapsed     | 1.22e+03  |
+| TimestepsSoFar  | 8.15e+05  |
+-------------------------------
+********** Iteration 199 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.29e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.962     |
+| meankl          | 0.000473  |
+| optimgain       | 0.00198   |
+| surrgain        | 0.00198   |
+| TimeElapsed     | 1.22e+03  |
+| TimestepsSoFar  | 8.19e+05  |
+-------------------------------
+********** Iteration 200 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.3e+03   |
+| EpLenMean       | 348       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.981     |
+| meankl          | 0.000504  |
+| optimgain       | 0.00313   |
+| surrgain        | 0.00313   |
+| TimeElapsed     | 1.23e+03  |
+| TimestepsSoFar  | 8.23e+05  |
+-------------------------------
+********** Iteration 201 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.32e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.991     |
+| meankl          | 0.000477  |
+| optimgain       | 0.00106   |
+| surrgain        | 0.00106   |
+| TimeElapsed     | 1.24e+03  |
+| TimestepsSoFar  | 8.27e+05  |
+-------------------------------
+********** Iteration 202 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.33e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.991     |
+| meankl          | 0.000366  |
+| optimgain       | 0.000592  |
+| surrgain        | 0.000592  |
+| TimeElapsed     | 1.24e+03  |
+| TimestepsSoFar  | 8.31e+05  |
+-------------------------------
+********** Iteration 203 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.34e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.982     |
+| meankl          | 0.000514  |
+| optimgain       | 0.00176   |
+| surrgain        | 0.00176   |
+| TimeElapsed     | 1.25e+03  |
+| TimestepsSoFar  | 8.35e+05  |
+-------------------------------
+********** Iteration 204 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.35e+03  |
+| EpLenMean       | 346       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000466  |
+| optimgain       | 0.00108   |
+| surrgain        | 0.00108   |
+| TimeElapsed     | 1.25e+03  |
+| TimestepsSoFar  | 8.4e+05   |
+-------------------------------
+********** Iteration 205 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.36e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.98      |
+| meankl          | 0.000333  |
+| optimgain       | 0.00113   |
+| surrgain        | 0.00113   |
+| TimeElapsed     | 1.26e+03  |
+| TimestepsSoFar  | 8.44e+05  |
+-------------------------------
+********** Iteration 206 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.38e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.41      |
+| ev_tdlam_before | 0.996     |
+| meankl          | 0.000386  |
+| optimgain       | 0.00134   |
+| surrgain        | 0.00134   |
+| TimeElapsed     | 1.26e+03  |
+| TimestepsSoFar  | 8.48e+05  |
+-------------------------------
+********** Iteration 207 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.39e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.43      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000441  |
+| optimgain       | 0.00109   |
+| surrgain        | 0.00109   |
+| TimeElapsed     | 1.27e+03  |
+| TimestepsSoFar  | 8.52e+05  |
+-------------------------------
+********** Iteration 208 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.4e+03   |
+| EpLenMean       | 345       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000223  |
+| optimgain       | 0.00117   |
+| surrgain        | 0.00117   |
+| TimeElapsed     | 1.27e+03  |
+| TimestepsSoFar  | 8.56e+05  |
+-------------------------------
+********** Iteration 209 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.41e+03  |
+| EpLenMean       | 345       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.45      |
+| ev_tdlam_before | 0.984     |
+| meankl          | 0.000666  |
+| optimgain       | 0.0015    |
+| surrgain        | 0.0015    |
+| TimeElapsed     | 1.28e+03  |
+| TimestepsSoFar  | 8.6e+05   |
+-------------------------------
+********** Iteration 210 ************
+Expected: 0.003 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.42e+03  |
+| EpLenMean       | 350       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.962     |
+| meankl          | 0.000495  |
+| optimgain       | 0.00304   |
+| surrgain        | 0.00304   |
+| TimeElapsed     | 1.3e+03   |
+| TimestepsSoFar  | 8.64e+05  |
+-------------------------------
+********** Iteration 211 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.43e+03  |
+| EpLenMean       | 351       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.36      |
+| ev_tdlam_before | 0.995     |
+| meankl          | 0.000419  |
+| optimgain       | 0.0023    |
+| surrgain        | 0.0023    |
+| TimeElapsed     | 1.31e+03  |
+| TimestepsSoFar  | 8.68e+05  |
+-------------------------------
+********** Iteration 212 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.45e+03  |
+| EpLenMean       | 351       |
+| EpRewE          | -1.65e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 2.12e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.35      |
+| ev_tdlam_before | 0.989     |
+| meankl          | 0.000409  |
+| optimgain       | 0.00184   |
+| surrgain        | 0.00184   |
+| TimeElapsed     | 1.31e+03  |
+| TimestepsSoFar  | 8.72e+05  |
+-------------------------------
+********** Iteration 213 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.46e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.66e+03 |
+| EpRewMean       | 481       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.39      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000491  |
+| optimgain       | 0.00165   |
+| surrgain        | 0.00165   |
+| TimeElapsed     | 1.32e+03  |
+| TimestepsSoFar  | 8.76e+05  |
+-------------------------------
+********** Iteration 214 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.47e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.65e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.14e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.00043   |
+| optimgain       | 0.00204   |
+| surrgain        | 0.00204   |
+| TimeElapsed     | 1.32e+03  |
+| TimestepsSoFar  | 8.81e+05  |
+-------------------------------
+********** Iteration 215 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.38      |
+| EpisodesSoFar   | 2.48e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 488       |
+| EpRewOther      | 2.13e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.4       |
+| ev_tdlam_before | 0.99      |
+| meankl          | 0.00064   |
+| optimgain       | 0.00209   |
+| surrgain        | 0.00209   |
+| TimeElapsed     | 1.33e+03  |
+| TimestepsSoFar  | 8.84e+05  |
+-------------------------------
+********** Iteration 216 ************
+Expected: 0.004 Actual: 0.004
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.49e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 462       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.33      |
+| ev_tdlam_before | 0.947     |
+| meankl          | 0.000357  |
+| optimgain       | 0.00353   |
+| surrgain        | 0.00353   |
+| TimeElapsed     | 1.33e+03  |
+| TimestepsSoFar  | 8.89e+05  |
+-------------------------------
+********** Iteration 217 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.50e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 469       |
+| EpRewOther      | 2.1e+03   |
+| EpThisIter      | 12        |
+| ERewMean        | 1.35      |
+| ev_tdlam_before | 0.992     |
+| meankl          | 0.000458  |
+| optimgain       | 0.00192   |
+| surrgain        | 0.00192   |
+| TimeElapsed     | 1.34e+03  |
+| TimestepsSoFar  | 8.93e+05  |
+-------------------------------
+********** Iteration 218 ************
+Expected: 0.002 Actual: 0.003
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.37      |
+| EpisodesSoFar   | 2.52e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 475       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.37      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000663  |
+| optimgain       | 0.00263   |
+| surrgain        | 0.00263   |
+| TimeElapsed     | 1.35e+03  |
+| TimestepsSoFar  | 8.97e+05  |
+-------------------------------
+********** Iteration 219 ************
+Expected: 0.002 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.53e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.63e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.11e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.994     |
+| meankl          | 0.000348  |
+| optimgain       | 0.00145   |
+| surrgain        | 0.00145   |
+| TimeElapsed     | 1.35e+03  |
+| TimestepsSoFar  | 9.01e+05  |
+-------------------------------
+********** Iteration 220 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.54e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.14e+03  |
+| EpThisIter      | 11        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000516  |
+| optimgain       | 0.00114   |
+| surrgain        | 0.00114   |
+| TimeElapsed     | 1.36e+03  |
+| TimestepsSoFar  | 9.05e+05  |
+-------------------------------
+********** Iteration 221 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.55e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 500       |
+| EpRewOther      | 2.14e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.44      |
+| ev_tdlam_before | 0.974     |
+| meankl          | 0.000413  |
+| optimgain       | 0.00109   |
+| surrgain        | 0.00109   |
+| TimeElapsed     | 1.36e+03  |
+| TimestepsSoFar  | 9.09e+05  |
+-------------------------------
+********** Iteration 222 ************
+Expected: 0.002 Actual: 0.002
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.56e+03  |
+| EpLenMean       | 347       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.14e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.42      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000381  |
+| optimgain       | 0.00169   |
+| surrgain        | 0.00169   |
+| TimeElapsed     | 1.37e+03  |
+| TimestepsSoFar  | 9.13e+05  |
+-------------------------------
+********** Iteration 223 ************
+Expected: 0.001 Actual: 0.001
+Stepsize OK!
+-------------------------------
+| entloss         | 0         |
+| entropy         | 1.36      |
+| EpisodesSoFar   | 2.58e+03  |
+| EpLenMean       | 348       |
+| EpRewE          | -1.64e+03 |
+| EpRewMean       | 494       |
+| EpRewOther      | 2.14e+03  |
+| EpThisIter      | 12        |
+| ERewMean        | 1.42      |
+| ev_tdlam_before | 0.993     |
+| meankl          | 0.000521  |
+| optimgain       | 0.000846  |
+| surrgain        | 0.000846  |
+| TimeElapsed     | 1.37e+03  |
+| TimestepsSoFar  | 9.17e+05  |
+-------------------------------
+********** Iteration 224 ************
